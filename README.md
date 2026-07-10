@@ -44,7 +44,7 @@ Make sure you have opened the app at least once with an internet connection so q
 
 ## Contact
 
-For support, bug reports, or feedback, please open an issue on this page or email us at **satprepbytes@gmail.com**.
+For support, bug reports, or feedback, please open an issue on this page or email us at **care@thewishboard.com**.
 
 ---
 
