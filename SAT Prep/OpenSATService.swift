@@ -48,6 +48,11 @@ final class OpenSATService {
     private init() {}
 
     func fetchQuestions() async -> [Question] {
+        // 1. Try bundled pre-cleaned questions first (instant, validated, offline)
+        if let localCleaned = loadLocalPreCleanedQuestions(), !localCleaned.isEmpty {
+            return localCleaned
+        }
+
         if let cached = loadCache() { return cached }
 
         guard let url = URL(string: url),
@@ -161,6 +166,14 @@ final class OpenSATService {
 
     private func loadCache() -> [Question]? {
         guard let data = try? Data(contentsOf: cacheURL) else { return nil }
+        return try? JSONDecoder().decode([Question].self, from: data)
+    }
+
+    private func loadLocalPreCleanedQuestions() -> [Question]? {
+        guard let url = Bundle.main.url(forResource: "opensat_cleaned", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else {
+            return nil
+        }
         return try? JSONDecoder().decode([Question].self, from: data)
     }
 
