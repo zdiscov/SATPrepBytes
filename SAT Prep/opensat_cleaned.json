@@ -1754,7 +1754,7 @@
       "25",
       "35"
     ],
-    "correctIndex": 2,
+    "correctIndex": 1,
     "explanation": "We can use a Venn diagram to solve this problem. Let B represent the set of students who play basketball, and let S represent the set of students who play soccer. The number of students who play both sports is 15, so we put 15 in the intersection of the two circles. Since 60 students play basketball, and 15 of them also play soccer, 60 - 15 = 45 students play only basketball. Similarly, 40 - 15 = 25 students play only soccer. The total number of students who play either basketball or soccer is 45 + 25 + 15 = 85. This means that 100 - 85 = 15 students play neither basketball nor soccer.",
     "subject": "Math",
     "topic": "Problem Solving & Data Analysis",
