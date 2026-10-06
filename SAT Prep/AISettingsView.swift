@@ -146,15 +146,59 @@ struct DevTestingMenu: View {
     @Environment(\.dismiss) private var dismiss
     @State private var useDevMock = false
     @State private var selectedDifficulty = Difficulty.medium
+    @State private var searchQuery = ""
+    @State private var inspectedQuestion: Question?
 
     private var allTopics: [(String, Subject)] {
         MathTopic.allCases.map { ($0.rawValue, Subject.math) } +
         EBRWTopic.allCases.map { ($0.rawValue, Subject.ebrw) }
     }
 
+    private var matchingQuestions: [Question] {
+        guard !searchQuery.trimmingCharacters(in: .whitespaces).isEmpty else { return [] }
+        let query = searchQuery.lowercased()
+        return appState.allQuestions.filter {
+            $0.id.uuidString.lowercased().contains(query) ||
+            $0.text.lowercased().contains(query) ||
+            $0.topic.lowercased().contains(query)
+        }
+    }
+
     var body: some View {
         NavigationStack {
             Form {
+                Section("Search Question Bank / Inspector") {
+                    TextField("Search text, topic, or ID (e.g. basketball)...", text: $searchQuery)
+                    if !searchQuery.isEmpty {
+                        let matches = matchingQuestions
+                        if matches.isEmpty {
+                            Text("No questions found matching '\(searchQuery)'").font(.caption).foregroundStyle(.secondary)
+                        } else {
+                            ForEach(matches.prefix(5)) { q in
+                                Button {
+                                    inspectedQuestion = q
+                                } label: {
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        Text(q.text)
+                                            .lineLimit(2)
+                                            .font(.subheadline)
+                                            .foregroundStyle(.primary)
+                                        HStack {
+                                            Text(q.topic)
+                                                .font(.caption2)
+                                                .foregroundStyle(.secondary)
+                                            Spacer()
+                                            Text("Ans: \(q.correctAnswer)")
+                                                .font(.caption2.bold())
+                                                .foregroundStyle(.green)
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
                 Section("Generate Test Question") {
                     Picker("Topic", selection: $topic) {
                         ForEach(allTopics, id: \.0) { t in
@@ -267,6 +311,9 @@ struct DevTestingMenu: View {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") { dismiss() }
                 }
+            }
+            .sheet(item: $inspectedQuestion) { q in
+                QuestionInspectorView(question: q)
             }
         }
     }
