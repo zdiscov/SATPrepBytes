@@ -4,8 +4,6 @@ import Foundation
 
 struct QuestionBank {
     static let all: [Question] = math + ebrw
-        + algebraExtra + advancedMathExtra + dataAnalysisExtra + geometryExtra
-        + craftStructureExtra + expressionIdeasExtra + standardEnglishExtra + informationIdeasExtra
 
     // MARK: - Math Questions
 

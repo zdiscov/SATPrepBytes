@@ -190,6 +190,13 @@ final class AppState: ObservableObject {
         return scores.prefix(limit).map { (subject: $0.subject, topic: $0.topic) }
     }
 
+    func questionsStats(for topic: String) -> (correct: Int, attempted: Int) {
+        let topicSessions = sessions.filter { $0.topic == topic }
+        let attempts = topicSessions.flatMap(\.attempts)
+        let correct = attempts.filter(\.isCorrect).count
+        return (correct: correct, attempted: attempts.count)
+    }
+
     func proficiency(for topic: String) -> Double {
         let records = performanceRecords.filter { $0.topic == topic }
         guard !records.isEmpty else { return 0 }
@@ -200,40 +207,38 @@ final class AppState: ObservableObject {
         sessions.sorted { $0.date > $1.date }.prefix(limit).map { $0 }
     }
 
-    var estimatedScore: Int {
-        // Find all attempts across all sessions mapped to their subject
+    var mathEstimatedScore: Int {
         let mathQuestionsIds = Set(QuestionBank.math.map(\.id))
-        let ebrwQuestionsIds = Set(QuestionBank.ebrw.map(\.id))
-
         var mathCorrect = 0
         var mathTotal = 0
-        var ebrwCorrect = 0
-        var ebrwTotal = 0
-
         for session in sessions {
             for attempt in session.attempts {
-                if mathQuestionsIds.contains(attempt.questionId) {
+                if mathQuestionsIds.contains(attempt.questionId) || session.subject == .math {
                     mathTotal += 1
                     if attempt.isCorrect { mathCorrect += 1 }
-                } else if ebrwQuestionsIds.contains(attempt.questionId) {
-                    ebrwTotal += 1
-                    if attempt.isCorrect { ebrwCorrect += 1 }
-                } else {
-                    // Fallback to checking session subject if question ID isn't found in hardcoded bank
-                    if session.subject == .math {
-                        mathTotal += 1
-                        if attempt.isCorrect { mathCorrect += 1 }
-                    } else {
-                        ebrwTotal += 1
-                        if attempt.isCorrect { ebrwCorrect += 1 }
-                    }
                 }
             }
         }
+        return AppState.scaleScore(correct: mathCorrect, total: mathTotal)
+    }
 
-        let mathScore = AppState.scaleScore(correct: mathCorrect, total: mathTotal)
-        let ebrwScore = AppState.scaleScore(correct: ebrwCorrect, total: ebrwTotal)
-        return mathScore + ebrwScore
+    var ebrwEstimatedScore: Int {
+        let ebrwQuestionsIds = Set(QuestionBank.ebrw.map(\.id))
+        var ebrwCorrect = 0
+        var ebrwTotal = 0
+        for session in sessions {
+            for attempt in session.attempts {
+                if ebrwQuestionsIds.contains(attempt.questionId) || session.subject == .ebrw {
+                    ebrwTotal += 1
+                    if attempt.isCorrect { ebrwCorrect += 1 }
+                }
+            }
+        }
+        return AppState.scaleScore(correct: ebrwCorrect, total: ebrwTotal)
+    }
+
+    var estimatedScore: Int {
+        mathEstimatedScore + ebrwEstimatedScore
     }
 
     // MARK: - Persistence
@@ -277,17 +282,67 @@ final class AppState: ObservableObject {
         isOnboarded = false
         aiFeedbackRecords = []
         bookmarkedQuestionIds = []
-        [userKey, sessionsKey, recordsKey, planKey, aiFeedbackKey, bookmarksKey].forEach {
+        [userKey, sessionsKey, recordsKey, planKey, aiFeedbackKey, bookmarksKey, reviewPromptDatesKey].forEach {
             UserDefaults.standard.removeObject(forKey: $0)
         }
     }
 
+    // MARK: - Review Prompt Logic
+
+    private let reviewPromptDatesKey = "sat_review_prompt_dates"
+
+    var reviewPromptDates: [Date] {
+        get {
+            guard let dates = UserDefaults.standard.array(forKey: reviewPromptDatesKey) as? [Date] else { return [] }
+            return dates
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: reviewPromptDatesKey)
+        }
+    }
+
+    var shouldPromptForReview: Bool {
+        guard sessions.count >= 3 else { return false }
+        let now = Date()
+        let oneYearAgo = Calendar.current.date(byAdding: .year, value: -1, to: now) ?? now
+        let recentPrompts = reviewPromptDates.filter { $0 > oneYearAgo }
+        guard recentPrompts.count < 3 else { return false }
+        if let lastPrompt = reviewPromptDates.last {
+            let daysSince = Calendar.current.dateComponents([.day], from: lastPrompt, to: now).day ?? 0
+            guard daysSince >= 60 else { return false }
+        }
+        return true
+    }
+
+    func recordReviewPromptShown() {
+        var dates = reviewPromptDates
+        dates.append(Date())
+        reviewPromptDates = dates
+    }
+
+    func debugForceReviewEligible() {
+        UserDefaults.standard.removeObject(forKey: reviewPromptDatesKey)
+    }
+
     @Published var openSATQuestions: [Question] = []
     @Published var openSATLoaded: Bool = false
+    @Published var vocabQuestions: [Question] = []
+    @Published var vocabLoaded: Bool = false
 
-    /// All available questions: hardcoded + OpenSAT (deduped)
+    /// All available questions: hardcoded + OpenSAT (deduped) + Vocab
     var allQuestions: [Question] {
-        QuestionBank.all + openSATQuestions
+        QuestionBank.all + openSATQuestions + vocabQuestions
+    }
+
+    func loadVocabQuestions() {
+        guard let url = Bundle.main.url(forResource: "vocab_questions", withExtension: "json") else {
+            return
+        }
+        if let data = try? Data(contentsOf: url),
+           let decoded = try? JSONDecoder().decode([Question].self, from: data) {
+            self.vocabQuestions = decoded
+            self.vocabLoaded = true
+        }
     }
 
     func loadOpenSATQuestions() async {

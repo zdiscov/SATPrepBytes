@@ -2,6 +2,12 @@
 
 import Foundation
 
+// MARK: - Feature Flags
+
+enum FeatureFlags {
+    static let paywallEnabled: Bool = false
+}
+
 // MARK: - Enums
 
 enum Subject: String, Codable, CaseIterable {

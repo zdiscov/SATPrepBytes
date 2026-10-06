@@ -148,8 +148,7 @@ struct DiagnosticScreen: View {
                 DiagnosticResultsView(attempts: attempts, questions: questions) {
                     let session = PracticeSession(
                         id: UUID(), userId: appState.currentUser.id, date: Date(),
-                        topic: "Diagnostic", subject: .math,
-                        attempts: attempts, isFullTest: false
+                        attempts: attempts, sessionType: .practice(topic: "Diagnostic", subject: .math)
                     )
                     onComplete([session])
                 }
