@@ -46,6 +46,12 @@ Make sure you have opened the app at least once with an internet connection so q
 
 For support, bug reports, or feedback, please open an issue on this page or email us at **care@thewishboard.com**.
 
+## Developer & Release Documentation
+
+For details on archiving, icon asset catalogs, build settings, Transporter error resolution (90022, 90023, 90062, 90186, 90713), and developer testing tools, see:
+- [App Store Release Guide](APP_STORE_RELEASE.md)
+
+
 ---
 
 ## Privacy Policy
