@@ -56,12 +56,13 @@ struct BookmarkReviewView: View {
 struct BookmarkedQuestionsTab: View {
     @EnvironmentObject var appState: AppState
     @State private var selectedQuestion: Question?
-    @State private var showQuiz = false
     
     var bookmarkedQuestions: [Question] {
-        let allFiltered = appState.allQuestions.filter { appState.bookmarkedQuestionIds.contains($0.id) }
         var seen = Set<UUID>()
-        return allFiltered.filter { seen.insert($0.id).inserted }
+        return appState.bookmarkedQuestionIds.compactMap { id in
+            guard seen.insert(id).inserted else { return nil }
+            return appState.questionsById[id]
+        }
     }
     
     var groupedByTopic: [String: [Question]] {
@@ -101,18 +102,15 @@ struct BookmarkedQuestionsTab: View {
                             .contentShape(Rectangle())
                             .onTapGesture {
                                 selectedQuestion = question
-                                showQuiz = true
                             }
                         }
                     }
                 }
             }
-            .sheet(isPresented: $showQuiz) {
-                if let question = selectedQuestion {
-                    NavigationStack {
-                        BookmarkQuizView(question: question)
-                            .environmentObject(appState)
-                    }
+            .sheet(item: $selectedQuestion) { question in
+                NavigationStack {
+                    BookmarkQuizView(question: question)
+                        .environmentObject(appState)
                 }
             }
         }
@@ -123,12 +121,13 @@ struct BookmarkedQuestionsTab: View {
 struct BookmarksByTopicTab: View {
     @EnvironmentObject var appState: AppState
     @State private var selectedTopic: String?
-    @State private var showQuiz = false
     
     var uniqueBookmarkedQuestions: [Question] {
-        let allFiltered = appState.allQuestions.filter { appState.bookmarkedQuestionIds.contains($0.id) }
         var seen = Set<UUID>()
-        return allFiltered.filter { seen.insert($0.id).inserted }
+        return appState.bookmarkedQuestionIds.compactMap { id in
+            guard seen.insert(id).inserted else { return nil }
+            return appState.questionsById[id]
+        }
     }
     
     var bookmarksByTopic: [(topic: String, count: Int)] {
@@ -146,9 +145,9 @@ struct BookmarksByTopicTab: View {
             )
         } else {
             List(bookmarksByTopic, id: \.topic) { item in
-                Button {
-                    selectedTopic = item.topic
-                    showQuiz = true
+                NavigationLink {
+                    TopicBookmarkListView(topic: item.topic)
+                        .environmentObject(appState)
                 } label: {
                     HStack {
                         VStack(alignment: .leading) {
@@ -159,30 +158,47 @@ struct BookmarksByTopicTab: View {
                         Badge(item.count)
                     }
                 }
-                .buttonStyle(.plain)
             }
-            .sheet(isPresented: $showQuiz) {
-                if let topic = selectedTopic {
-                    NavigationStack {
-                        List {
-                            ForEach(uniqueBookmarkedQuestions.filter { $0.topic == topic }) { question in
-                                NavigationLink(destination: LazyView(BookmarkQuizView(question: question).environmentObject(appState))) {
-                                    VStack(alignment: .leading, spacing: 4) {
-                                        Text("\(question.text.prefix(60))...")
-                                            .font(.subheadline)
-                                            .lineLimit(2)
-                                    }
-                                }
-                            }
-                        }
-                        .navigationTitle(topic)
-                        .toolbar {
-                            ToolbarItem(placement: .cancellationAction) {
-                                Button("Done") { showQuiz = false }
-                            }
-                        }
+        }
+    }
+}
+
+struct TopicBookmarkListView: View {
+    let topic: String
+    @EnvironmentObject var appState: AppState
+    @State private var selectedQuestion: Question?
+    
+    var questionsInTopic: [Question] {
+        var seen = Set<UUID>()
+        return appState.bookmarkedQuestionIds.compactMap { id -> Question? in
+            guard seen.insert(id).inserted,
+                  let q = appState.questionsById[id],
+                  q.topic == topic else { return nil }
+            return q
+        }
+    }
+    
+    var body: some View {
+        List {
+            ForEach(questionsInTopic) { question in
+                Button {
+                    selectedQuestion = question
+                } label: {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("\(question.text.prefix(60))...")
+                            .font(.subheadline)
+                            .lineLimit(2)
+                            .foregroundStyle(.primary)
                     }
                 }
+            }
+        }
+        .navigationTitle(topic)
+        .navigationBarTitleDisplayMode(.inline)
+        .sheet(item: $selectedQuestion) { question in
+            NavigationStack {
+                BookmarkQuizView(question: question)
+                    .environmentObject(appState)
             }
         }
     }
@@ -243,6 +259,8 @@ struct BookmarkQuizView: View {
     
     @State private var selectedOption: Int?
     @State private var showExplanation = false
+    @State private var showReportSheet = false
+    @State private var showShareSheet = false
     
     var body: some View {
         VStack(spacing: 16) {
@@ -280,6 +298,51 @@ struct BookmarkQuizView: View {
         }
         .navigationTitle("Review Question")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItemGroup(placement: .primaryAction) {
+                // Share question
+                Button {
+                    showShareSheet = true
+                } label: {
+                    Image(systemName: "square.and.arrow.up")
+                }
+                // Report question
+                Button {
+                    showReportSheet = true
+                } label: {
+                    Image(systemName: "exclamationmark.bubble")
+                }
+                // Bookmark toggle
+                Button {
+                    appState.toggleBookmark(for: question.id)
+                } label: {
+                    Image(systemName: appState.isBookmarked(question.id) ? "star.fill" : "star")
+                        .foregroundStyle(.yellow)
+                }
+            }
+        }
+        .sheet(isPresented: $showReportSheet) {
+            QuestionReportView(question: question)
+        }
+        .sheet(isPresented: $showShareSheet) {
+            let letters = ["A","B","C","D"]
+            let optionsText = question.options.enumerated()
+                .map { i -> String in
+                    let letter = i.offset < letters.count ? letters[i.offset] : "?"
+                    return "\(letter). \(i.element)"
+                }
+                .joined(separator: "\n")
+            let shareText = """
+            SAT Prep Question (\(question.topic)):
+
+            \(question.text)
+
+            \(optionsText)
+
+            Practice with SAT Prep Bytes – free on the App Store!
+            """
+            ShareSheet(activityItems: [shareText])
+        }
     }
 }
 
@@ -288,8 +351,7 @@ struct TestDetailView: View {
     @EnvironmentObject var appState: AppState
     
     var questions: [Question] {
-        let ids = Set(session.attempts.map { $0.questionId })
-        return appState.allQuestions.filter { ids.contains($0.id) }
+        session.attempts.compactMap { appState.questionsById[$0.questionId] }
     }
     
     var body: some View {
@@ -314,7 +376,10 @@ struct TestDetailView: View {
             Section("Questions") {
                 ForEach(questions) { question in
                     if let attempt = session.attempts.first(where: { $0.questionId == question.id }) {
-                        NavigationLink(destination: LazyView(BookmarkQuizView(question: question).environmentObject(appState))) {
+                        NavigationLink {
+                            BookmarkQuizView(question: question)
+                                        .environmentObject(appState)
+                        } label: {
                             VStack(alignment: .leading, spacing: 4) {
                                 Text("\(question.text.prefix(60))...")
                                     .font(.subheadline)

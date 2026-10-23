@@ -37,7 +37,19 @@ final class AppState: ObservableObject {
     // MARK: - Init
 
     init() {
+        loadVocabQuestions()
+        loadLocalOpenSATQuestions()
+        rebuildQuestionCache()
         load()
+    }
+
+    private func loadLocalOpenSATQuestions() {
+        guard let url = Bundle.main.url(forResource: "opensat_cleaned", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let decoded = try? JSONDecoder().decode([Question].self, from: data) else { return }
+        let deduped = OpenSATService.shared.deduplicated(decoded, against: QuestionBank.all)
+        self.openSATQuestions = deduped
+        self.openSATLoaded = true
     }
 
     // MARK: - User Management
@@ -338,14 +350,31 @@ final class AppState: ObservableObject {
         UserDefaults.standard.removeObject(forKey: reviewPromptDatesKey)
     }
 
-    @Published var openSATQuestions: [Question] = []
+    @Published var openSATQuestions: [Question] = [] {
+        didSet { rebuildQuestionCache() }
+    }
     @Published var openSATLoaded: Bool = false
-    @Published var vocabQuestions: [Question] = []
+    @Published var vocabQuestions: [Question] = [] {
+        didSet { rebuildQuestionCache() }
+    }
     @Published var vocabLoaded: Bool = false
 
-    /// All available questions: hardcoded + OpenSAT (deduped) + Vocab
-    var allQuestions: [Question] {
-        QuestionBank.all + openSATQuestions + vocabQuestions
+    /// Fast lookup and cached lists for all questions
+    @Published private(set) var allQuestions: [Question] = QuestionBank.all
+    private(set) var questionsById: [UUID: Question] = [:]
+    private(set) var questionsByTopic: [String: [Question]] = [:]
+
+    private func rebuildQuestionCache() {
+        let combined = QuestionBank.all + openSATQuestions + vocabQuestions
+        allQuestions = combined
+        
+        var idDict: [UUID: Question] = [:]
+        idDict.reserveCapacity(combined.count)
+        for q in combined {
+            idDict[q.id] = q
+        }
+        questionsById = idDict
+        questionsByTopic = Dictionary(grouping: combined) { $0.topic }
     }
 
     func loadVocabQuestions() {

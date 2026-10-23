@@ -23,7 +23,7 @@ struct PracticeView: View {
                             .font(.caption)
                             .foregroundStyle(.secondary)
                     } else {
-                        NavigationLink(destination: BookmarkReviewView()) {
+                        NavigationLink(destination: LazyView(BookmarkReviewView())) {
                             HStack {
                                 VStack(alignment: .leading, spacing: 4) {
                                     Text("Review Bookmarks & Session History")
@@ -162,15 +162,14 @@ struct QuizView: View {
     private static func generatePracticeQuestions(topic: String, subject: Subject, appState: AppState) -> [Question] {
         if topic == "Review Session" {
             let ids = appState.bookmarkedQuestionIds
-            return appState.allQuestions.filter { ids.contains($0.id) }.shuffled()
+            return ids.compactMap { appState.questionsById[$0] }.shuffled()
         }
 
         let attemptedIds = Set(appState.sessions.flatMap { $0.attempts.map(\.questionId) })
 
-        // Filter out test-only questions for practice
-        let hardcodedPool = QuestionBank.all.filter { $0.topic == topic && !$0.isTestOnly }
-        let openSATPool = appState.openSATQuestions.filter { $0.topic == topic && !$0.isTestOnly }
-        let combinedPool = hardcodedPool + openSATPool
+        // Retrieve pre-grouped questions for this topic in O(1)
+        let topicQuestions = appState.questionsByTopic[topic] ?? []
+        let combinedPool = topicQuestions.filter { !$0.isTestOnly }
 
         // Filter for unattempted questions first
         let unattempted = combinedPool.filter { !attemptedIds.contains($0.id) }
