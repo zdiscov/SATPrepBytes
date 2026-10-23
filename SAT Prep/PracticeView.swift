@@ -147,6 +147,8 @@ struct QuizView: View {
     @State private var showExplanation = false
     @State private var isComplete = false
     @State private var startTime = Date()
+    @State private var showReportSheet = false
+    @State private var showShareSheet = false
 
     init(topic: String, subject: Subject, appState: AppState, onComplete: @escaping (PracticeSession) -> Void) {
         self.topic = topic
@@ -280,7 +282,20 @@ struct QuizView: View {
                         Button("Exit") { dismiss() }
                     }
                     if !questions.isEmpty && currentIndex < questions.count {
-                        ToolbarItem(placement: .primaryAction) {
+                        ToolbarItemGroup(placement: .primaryAction) {
+                            // Share question
+                            Button {
+                                showShareSheet = true
+                            } label: {
+                                Image(systemName: "square.and.arrow.up")
+                            }
+                            // Report question
+                            Button {
+                                showReportSheet = true
+                            } label: {
+                                Image(systemName: "exclamationmark.bubble")
+                            }
+                            // Bookmark
                             Button {
                                 appState.toggleBookmark(for: current.id)
                             } label: {
@@ -289,6 +304,28 @@ struct QuizView: View {
                             }
                         }
                     }
+                }
+                .sheet(isPresented: $showReportSheet) {
+                    QuestionReportView(question: current)
+                }
+                .sheet(isPresented: $showShareSheet) {
+                    let letters = ["A","B","C","D"]
+                    let optionsText = current.options.enumerated()
+                        .map { i -> String in
+                            let letter = i.offset < letters.count ? letters[i.offset] : "?"
+                            return "\(letter). \(i.element)"
+                        }
+                        .joined(separator: "\n")
+                    let shareText = """
+                    SAT Prep Question (\(current.topic)):
+
+                    \(current.text)
+
+                    \(optionsText)
+
+                    Practice with SAT Prep Bytes – free on the App Store!
+                    """
+                    ShareSheet(activityItems: [shareText])
                 }
                 .onChange(of: currentIndex) { _, _ in logCurrent() }
                 .onAppear {
@@ -409,3 +446,17 @@ struct CircularProgress: View {
     }
 }
 
+
+// MARK: - ShareSheet (UIActivityViewController wrapper)
+
+import UIKit
+
+struct ShareSheet: UIViewControllerRepresentable {
+    let activityItems: [Any]
+
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        UIActivityViewController(activityItems: activityItems, applicationActivities: nil)
+    }
+
+    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
+}

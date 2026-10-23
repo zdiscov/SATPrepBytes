@@ -1,0 +1,1619 @@
+{
+  "whatisthevalueofxintheequationfrac2x1x1frac3x1x2": {
+    "text": "What is the value of x in the equation (x+5)/(x-1) = (x+1)/(x-2)?",
+    "options": [
+      "\u22123",
+      "\u22121",
+      "1",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cross-multiplying gives (x+5)(x-2)=(x+1)(x-1), simplifying to 3x=9, so x=3."
+  },
+  "if3x2y17andxy1whatisthevalueofx": {
+    "text": "If 3x + 2y = 23 and x \u2212 y = 1, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiplying second by 2 gives 2x\u22122y=2; adding to first yields 5x=25, so x=5."
+  },
+  "if2x3y17andxy2whatisthevalueofx": {
+    "text": "If 2x + 3y = 19 and x \u2212 y = 2, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substituting y=x\u22122 into first: 2x+3(x\u22122)=19 \u2192 5x=25, so x=5."
+  },
+  "ifx2y3andyx1whatisthevalueofy": {
+    "text": "If x = 2y + 3 and y = \u2212x + 6, what is the value of y?",
+    "options": [
+      "\u22121",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substituting x=2y+3 into second: y=\u2212(2y+3)+6 \u2192 3y=3, so y=1."
+  },
+  "whatisthemedianofthesevendatavaluesshown2234411": {
+    "text": "What is the median of the seven data values? 1, 2, 2, 3, 4, 4, 11",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "11"
+    ],
+    "correctIndex": 1,
+    "explanation": "The seven values in order are 1,2,2,3,4,4,11; the middle (4th) value is 3."
+  },
+  "if3x2y10andxy1whatisthevalueofx": {
+    "text": "If 4x + y = 9 and x \u2212 y = 1, what is the value of x?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adding both equations: 5x=10, so x=2."
+  },
+  "ifx1isafactorofthepolynomial2x35x24x3whatisthevalueoftheconstantterminthepolynom": {
+    "text": "If x + 1 is a factor of the polynomial 2x\u00b3 + 4x\u00b2 \u2212 x + k, what is the value of k?",
+    "options": [
+      "\u22123",
+      "\u22121",
+      "1",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "By the Factor Theorem, f(\u22121)=0: 2(\u22121)+4(1)\u2212(\u22121)+k=0 \u2192 k=\u22123."
+  },
+  "ifx3y2and2x5y16whatisthevalueofy": {
+    "text": "If x = 3y \u2212 2 and 2x + 5y = 18, what is the value of y?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substituting: 2(3y\u22122)+5y=18 \u2192 11y=22, so y=2."
+  },
+  "iffrac2x3x74whatisthevalueofx": {
+    "text": "If (x + 5) / (x \u2212 7) = 4, what is the value of x?",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "11"
+    ],
+    "correctIndex": 3,
+    "explanation": "x+5=4(x\u22127) \u2192 x+5=4x\u221228 \u2192 3x=33, so x=11."
+  },
+  "ifthefunctionfxfrac2x25x3x3isdefinedforallrealnumbersexceptforx3whatisthevalueof": {
+    "text": "If f(x) = (2x\u00b2 + 9x + 9) / (x + 3) for x \u2260 \u22123, what is the value of f(\u22122)?",
+    "options": [
+      "\u22121",
+      "1",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(x) simplifies to 2x+3 for x\u2260\u22123, so f(\u22122)=2(\u22122)+3=\u22121."
+  },
+  "thefunctionfisdefinedbyfxfrac12x3whatisthevalueoff15": {
+    "text": "The function f is defined by f(x) = (1/2)x \u2212 3. What is the value of f\u207b\u00b9(4)?",
+    "options": [
+      "\u22124",
+      "\u22121",
+      "4",
+      "14"
+    ],
+    "correctIndex": 3,
+    "explanation": "Solve 4=(1/2)x\u22123 \u2192 x=14."
+  },
+  "if2x3y10andxy2whatisthevalueofxy": {
+    "text": "If 2x + 3y = 14 and x \u2212 y = 2, what is the value of x + y?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "x=4, y=2 (from system), so x+y=6."
+  },
+  "thefunctionfx2x23x1isdefinedforallrealnumberswhatisthevalueoff2": {
+    "text": "The function f(x) = 2x\u00b2 \u2212 6x + 1 is defined for all real numbers. What is f(\u22122)?",
+    "options": [
+      "\u221217",
+      "\u221211",
+      "9",
+      "21"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22122)=2(4)\u22126(\u22122)+1=8+12+1=21."
+  },
+  "acircleinthexyplanehasadiameterwithendpoints24and214whatisthelengthoftheradiusof": {
+    "text": "A circle in the xy-plane has a diameter with endpoints (2, \u22124) and (2, 6). What is the radius?",
+    "options": [
+      "5",
+      "10",
+      "18",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "Diameter = |6\u2212(\u22124)| = 10, so radius = 5."
+  },
+  "thefunctionfisdefinedbyfx2x23x1iffa10whatisthevalueofa": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 \u2212 3x + 1. If f(a) = 3 and a > 0, what is a?",
+    "options": [
+      "\u22122",
+      "\u22121",
+      "1",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "2a\u00b2\u22123a+1=3 \u2192 (2a+1)(a\u22122)=0 \u2192 a=2 (positive solution)."
+  },
+  "astoresellspackagesof6cookiesfor350ifthepriceofeachcookieisthesamehowmuchdoes1co": {
+    "text": "A store sells packages of 6 cookies for $3.60. How much does 1 cookie cost?",
+    "options": [
+      "$0.40",
+      "$0.50",
+      "$0.58",
+      "$0.60"
+    ],
+    "correctIndex": 3,
+    "explanation": "$3.60 \u00f7 6 = $0.60 per cookie."
+  },
+  "ifx22x90whichofthefollowingisapossiblevalueofx": {
+    "text": "If x\u00b2 \u2212 x \u2212 6 = 0, which of the following is a possible value of x?",
+    "options": [
+      "\u22124",
+      "1",
+      "3",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "(x\u22123)(x+2)=0, so x=3 or x=\u22122; x=3 is among the options."
+  },
+  "thefunctionfisdefinedbyfx2x25whatisthevalueoff3": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 + 5. What is the value of f(\u22123)?",
+    "options": [
+      "\u221223",
+      "\u221219",
+      "19",
+      "23"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22123)=2(9)+5=23."
+  },
+  "theequationx24x90canbesolvedbyusingthequadraticformulawhatisthevalueofthediscrim": {
+    "text": "The equation x\u00b2 + 4x \u2212 6 = 0 can be solved with the quadratic formula. What is the discriminant?",
+    "options": [
+      "\u221240",
+      "16",
+      "40",
+      "64"
+    ],
+    "correctIndex": 2,
+    "explanation": "b\u00b2\u22124ac = 16\u22124(1)(\u22126) = 16+24 = 40."
+  },
+  "thefunctionfxfracx22x3x2x6isundefinedforwhichvalueofx": {
+    "text": "The function f(x) = (x\u00b2+2x\u22123) / (x\u00b2\u22127x+12) is undefined for which value of x?",
+    "options": [
+      "\u22122",
+      "\u22121",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "Denominator (x+2)(x-3)=0 at x=3 (one of the given choices)."
+  },
+  "thefunctionfxisdefinedbyfx2x25x3whatisthevalueoff2": {
+    "text": "The function f(x) is defined by f(x) = 2x\u00b2 \u2212 5x + 3. What is the value of f(2)?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(2) = 2(4) \u2212 5(2) + 3 = 8 \u2212 10 + 3 = 1."
+  },
+  "inacirclewithcenteropointsabandclieonthecircleandoverlineacisadiameterofthecircl": {
+    "text": "In a circle with center O, points A, B, and C lie on the circle. If the measure of central angle \u2220AOB is 60\u00b0, what is the measure of inscribed angle \u2220ACB?",
+    "options": [
+      "15\u00b0",
+      "30\u00b0",
+      "60\u00b0",
+      "120\u00b0"
+    ],
+    "correctIndex": 1,
+    "explanation": "The inscribed angle is half the central angle subtending the same arc: 60\u00b0/2 = 30\u00b0."
+  },
+  "thefunctionfxisdefinedbyfx2x23x5whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 + 3x \u2212 5. What is the value of f(\u22122)?",
+    "options": [
+      "\u22129",
+      "\u22123",
+      "3",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(\u22122) = 2(4) + 3(\u22122) \u2212 5 = 8 \u2212 6 \u2212 5 = \u22123."
+  },
+  "ifx22x150whatisthevalueofx": {
+    "text": "If x\u00b2 \u2212 2x \u2212 8 = 0 and x > 0, what is the value of x?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Factoring: (x\u22124)(x+2)=0; the positive solution is x=4."
+  },
+  "acirclewithcenter23passesthroughthepoint50whatistheradiusofthecircle": {
+    "text": "A circle with center (2, \u22123) passes through the point (5, 1). What is the radius of the circle?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "r = \u221a((5\u22122)\u00b2 + (1\u2212(\u22123))\u00b2) = \u221a(9+16) = 5."
+  },
+  "whatisthevalueoftheexpressionfrac312cdot94273": {
+    "text": "What is the value of (3\u00b9\u00b2 \u00b7 9\u2074) / 27\u00b3?",
+    "options": [
+      "3\u2079",
+      "3\u00b9\u00b9",
+      "3\u00b9\u2075",
+      "3\u00b9\u2078"
+    ],
+    "correctIndex": 1,
+    "explanation": "3\u00b9\u00b2 \u00b7 (3\u00b2)\u2074 / (3\u00b3)\u00b3 = 3\u00b9\u00b2 \u00b7 3\u2078 / 3\u2079 = 3\u00b9\u00b9."
+  },
+  "whatisthevalueoftheexpressionfrac52322212": {
+    "text": "What is the value of (5\u00b2 \u2212 1\u00b2) / (2\u00b2 \u2212 1\u00b2)?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "(25\u22121)/(4\u22121) = 24/3 = 8."
+  },
+  "theequationx22x1kwherekisaconstanthasexactlyonesolutionwhatisthevalueofk": {
+    "text": "The equation x\u00b2 \u2212 2x + 1 = k, where k is a constant, has exactly one solution. What is the value of k?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x\u22121)\u00b2 = k has exactly one solution when k = 0."
+  },
+  "acirclewithcenter00andradius5intersectstheliney4xbatexactlyonepointwhatisthevalu": {
+    "text": "A circle with center (0, 0) and radius 5 is tangent to the line 3x + 4y = k in the first quadrant. What is the value of k?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tangent distance = |k|/\u221a(9+16) = |k|/5 = 5, so k = 25."
+  },
+  "inthexyplaneacirclehasadiameterwithendpointsat14and52whatisthelengthoftheradiuso": {
+    "text": "In the xy-plane, a circle has a diameter with endpoints at (0, 0) and (6, 8). What is the length of the radius?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "Diameter = \u221a(36+64) = 10, so radius = 5."
+  },
+  "thefunctionfxfrac1x2isdefinedforallrealnumbersexceptx2whatisthevalueofff3": {
+    "text": "The function f is defined by f(x) = 1/(x\u22122) for all x \u2260 2. What is the value of f(f(3))?",
+    "options": [
+      "\u22121",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(3) = 1/(3\u22122) = 1; f(1) = 1/(1\u22122) = \u22121."
+  },
+  "whatisthevalueofxintheequationx216": {
+    "text": "If x\u00b2 = 16 and x < 0, what is the value of x?",
+    "options": [
+      "\u22128",
+      "\u22124",
+      "4",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "x\u00b2 = 16 gives x = \u00b14; since x < 0, x = \u22124."
+  },
+  "whatisthevalueofxifx24x30": {
+    "text": "If x\u00b2 \u2212 4x + 3 = 0 and x > 2, what is the value of x?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "(x\u22121)(x\u22123) = 0; since x > 2, x = 3."
+  },
+  "thefunctionfxisdefinedbyfx2x23x1whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 \u2212 3x + 1. What is the value of f(\u22122)?",
+    "options": [
+      "3",
+      "9",
+      "11",
+      "15"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22122) = 2(4) \u2212 3(\u22122) + 1 = 8 + 6 + 1 = 15."
+  },
+  "abakeryoffers3differenttypesofcupcakeschocolatevanillaandstrawberrythebakerysell": {
+    "text": "A bakery sells chocolate, vanilla, and strawberry cupcakes. It sells twice as many chocolate as vanilla, and 30 strawberry. If total cupcakes sold is 150, how many chocolate cupcakes were sold?",
+    "options": [
+      "40",
+      "60",
+      "80",
+      "120"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let v = vanilla: 2v + v + 30 = 150 \u2192 v = 40, chocolate = 80."
+  },
+  "ifx2y225andxy3whatisthevalueofx2y2": {
+    "text": "If x + y = 6 and x \u2212 y = 4, what is the value of x\u00b2 \u2212 y\u00b2?",
+    "options": [
+      "10",
+      "20",
+      "24",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "x\u00b2 \u2212 y\u00b2 = (x+y)(x\u2212y) = 6 \u00d7 4 = 24."
+  },
+  "thefunctionfisdefinedbyfxx23x2whatisthevalueofffrac12": {
+    "text": "The function f is defined by f(x) = x\u00b2 \u2212 3x + 2. What is the value of f(1/2)?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(1/2) = 1/4 \u2212 3/2 + 2 = 1/4 \u2212 6/4 + 8/4 = 3/4."
+  },
+  "iffxsqrtx3andgxx21whatisthevalueoffg2": {
+    "text": "If f(x) = \u221a(x\u22123) and g(x) = x\u00b2 + 3, what is the value of f(g(2))?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "g(2) = 4+3 = 7; f(7) = \u221a(7\u22123) = \u221a4 = 2."
+  },
+  "thefunctionfisdefinedbyfx2xsup2sup3x1whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 + 3x \u2212 1. What is the value of f(\u22122)?",
+    "options": [
+      "\u22123",
+      "1",
+      "3",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(\u22122) = 2(4) + 3(\u22122) \u2212 1 = 8 \u2212 6 \u2212 1 = 1."
+  },
+  "if3x2y10and2xy7whatisthevalueofx": {
+    "text": "If x + y = 5 and 2x \u2212 y = 4, what is the value of x?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adding equations: 3x = 9, so x = 3."
+  },
+  "iffx2x23x1whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 + 3x \u2212 1. What is the value of f(\u22122)?",
+    "options": [
+      "\u22123",
+      "1",
+      "3",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(\u22122) = 2(4) + 3(\u22122) \u2212 1 = 8 \u2212 6 \u2212 1 = 1."
+  },
+  "ifx24x21whatisthevalueofx": {
+    "text": "If x\u00b2 + 4x = 21 and x > 0, what is the value of x?",
+    "options": [
+      "3",
+      "7",
+      "12",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+7)(x\u22123) = 0; since x > 0, x = 3."
+  },
+  "iffrac2x3x15whatisthevalueofx": {
+    "text": "If (2x + 3)/(x \u2212 1) = 3, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "2x+3 = 3(x\u22121) \u2192 2x+3 = 3x\u22123 \u2192 x = 6."
+  },
+  "inthexyplaneacirclewithcenter45passesthroughthepoint72whatistheradiusofthecircle": {
+    "text": "In the xy-plane, a circle with center (4, \u22125) passes through the point (7, \u22121). What is the radius?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "r = \u221a((7\u22124)\u00b2 + (\u22121\u2212(\u22125))\u00b2) = \u221a(9+16) = 5."
+  },
+  "thefunctionfx2x23x5isdefinedforallrealnumbersxwhatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 + 3x \u2212 5. What is the value of f(\u22122)?",
+    "options": [
+      "\u221217",
+      "\u22123",
+      "3",
+      "11"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(\u22122) = 2(4) + 3(\u22122) \u2212 5 = 8 \u2212 6 \u2212 5 = \u22123."
+  },
+  "theexpressionx2x3x4x1isequivalenttowhichofthefollowing": {
+    "text": "The expression (x + 2)(x \u2212 3) \u2212 (x \u2212 4)(x + 1) is equivalent to which of the following?",
+    "options": [
+      "2x \u2212 10",
+      "2x \u2212 2",
+      "2x + 2",
+      "2x + 10"
+    ],
+    "correctIndex": 1,
+    "explanation": "(x\u00b2\u2212x\u22126) \u2212 (x\u00b2\u22123x\u22124) = 2x \u2212 2."
+  },
+  "thesystemofequationsbegincases2x3y12xy3endcaseshasthesolutionxywhatisthevalueofx": {
+    "text": "The system {2x + y = 7, x \u2212 y = 2} has solution (x, y). What is the value of x + y?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adding: 3x = 9 \u2192 x = 3; y = 1; x+y = 4."
+  },
+  "whatisthevalueofxthatsatisfiestheequationx1216": {
+    "text": "What is the value of x that satisfies (x + 1)\u00b2 = 16 and x > 0?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "x+1 = \u00b14; since x > 0, x+1 = 4, so x = 3."
+  },
+  "inthexyplaneacirclewithcenter23passesthroughthepoint50whatistheradiusofthecircle": {
+    "text": "In the xy-plane, a circle with center (2, \u22123) passes through the point (5, 1). What is the radius?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "r = \u221a((5\u22122)\u00b2 + (1\u2212(\u22123))\u00b2) = \u221a(9+16) = 5."
+  },
+  "thefunctionfisdefinedbyfxx2x4whatisthevalueoff3": {
+    "text": "The function f is defined by f(x) = (x + 2)(x \u2212 4). What is the value of f(3)?",
+    "options": [
+      "\u22127",
+      "\u22125",
+      "\u22121",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(3) = (5)(\u22121) = \u22125."
+  },
+  "thefunctionfisdefinedbyfx3x25x2whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 3x\u00b2 + 5x \u2212 2. What is the value of f(2)?",
+    "options": [
+      "14",
+      "20",
+      "28",
+      "36"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(2) = 3(4) + 5(2) \u2212 2 = 12 + 10 \u2212 2 = 20."
+  },
+  "asurveyasked100peoplewhethertheylikedapplesbananasorboth75peoplelikedapples60peo": {
+    "text": "A survey asked 100 people whether they liked apples, bananas, or both. 60 people liked apples, 50 people liked bananas, and 20 people liked both. How many people liked neither apples nor bananas?",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "At least one = 60+50\u221220=90, so 100\u221290=10 liked neither."
+  },
+  "acircleisinscribedinanequilateraltriangleifthesidelengthofthetriangleis6whatisth": {
+    "text": "A circle is inscribed in an equilateral triangle. If the side length of the triangle is 6, what is the area of the circle?",
+    "options": [
+      "\u03c0",
+      "2\u03c0",
+      "3\u03c0",
+      "4\u03c0"
+    ],
+    "correctIndex": 2,
+    "explanation": "Inradius = 6/(2\u221a3) = \u221a3, so area = \u03c0(\u221a3)\u00b2 = 3\u03c0."
+  },
+  "theexpression90y254y2isequivalenttory15y9whererisaconstantwhatisthevalueofr": {
+    "text": "The expression 90y\u00b2 \u2212 54y is equivalent to ry(15y \u2212 9), where r is a constant. What is the value of r?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Factoring: 6y(15y \u2212 9) = ry(15y \u2212 9), so r = 6."
+  },
+  "thefunctionfisdefinedbyfx2x23x1whatisthevalueoff2f3": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 \u2212 3x + 1. What is the value of f(2) + f(3)?",
+    "options": [
+      "11",
+      "13",
+      "17",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(2) = 3 and f(3) = 10, so f(2) + f(3) = 13."
+  },
+  "thefunctionfx3x25x2isdefinedforallrealnumberswhatisthevalueoff2": {
+    "text": "The function f(x) = 3x\u00b2 + 5x \u2212 2 is defined for all real numbers. What is the value of f(\u22122)?",
+    "options": [
+      "\u221212",
+      "\u22124",
+      "0",
+      "16"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(\u22122) = 3(4) + 5(\u22122) \u2212 2 = 12 \u2212 10 \u2212 2 = 0."
+  },
+  "acirclewithcenter12passesthroughthepoint41whatistheradiusofthecircle": {
+    "text": "A circle with center (1, \u22122) passes through the point (4, 2). What is the radius of the circle?",
+    "options": [
+      "3",
+      "5",
+      "9",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "r = \u221a((4\u22121)\u00b2 + (2\u2212(\u22122))\u00b2) = \u221a(9+16) = 5."
+  },
+  "iffracx2x13whatisthevalueofx": {
+    "text": "If (x + 2)/(x \u2212 1) = 2, what is the value of x?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "x + 2 = 2(x \u2212 1) \u2192 x = 4."
+  },
+  "iflog3x2log3x12whatisthevalueofx": {
+    "text": "If log\u2083(x) + log\u2083(x + 2) = 1, what is the value of x?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "x(x+2) = 3 \u2192 x\u00b2+2x\u22123=0 \u2192 x=1 (positive solution)."
+  },
+  "if2x3y12andxy4whatisthevalueofx": {
+    "text": "If 2x + y = 11 and x \u2212 y = 4, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adding: 3x = 15, so x = 5."
+  },
+  "inacirclewitharadiusof5acentralangleinterceptsanarcoflength10whatisthemeasureoft": {
+    "text": "In a circle with radius 5, a central angle intercepts an arc of length 5\u03c0/2. What is the measure of the central angle in degrees?",
+    "options": [
+      "45",
+      "90",
+      "135",
+      "180"
+    ],
+    "correctIndex": 1,
+    "explanation": "\u03b8 = arc/r = (5\u03c0/2)/5 = \u03c0/2 radians = 90\u00b0."
+  },
+  "thefunctionfxisdefinedbyfxx23x4forwhatvalueofxdoesfx10": {
+    "text": "The function f(x) = x\u00b2 + 3x \u2212 4 is defined for all real numbers. For what value of x does f(x) = 6?",
+    "options": [
+      "\u22125",
+      "\u22123",
+      "1",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "x\u00b2+3x\u221210=0 \u2192 (x+5)(x\u22122)=0; x=\u22125 is a solution."
+  },
+  "thegraphoftheequationyx221intersectsthexaxisattwopointswhatisthesumofthexcoordin": {
+    "text": "The graph of y = (x \u2212 2)\u00b2 \u2212 1 intersects the x-axis at two points. What is the sum of the x-coordinates of these two points?",
+    "options": [
+      "\u22124",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "(x\u22122)\u00b2=1 \u2192 x=3 or x=1; sum=4."
+  },
+  "if2x3y12andx2y1whatisthevalueofx": {
+    "text": "If 2x \u2212 y = 7 and x + y = 5, what is the value of x?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adding: 3x = 12, so x = 4."
+  },
+  "if3x7y14and2x5y1whatisthevalueofxy": {
+    "text": "If x + 2y = 7 and x + y = 4, what is the value of x + y?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtracting: y = 3, x = 1; x+y = 4."
+  },
+  "ify3x5andx2y1whatisthevalueofx": {
+    "text": "If y = 2x \u2212 3 and x = y + 1, what is the value of x?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "x = (2x\u22123)+1 \u2192 x = 2."
+  },
+  "ifthefunctionfisdefinedbyfx2x23x1whatisthevalueoff2": {
+    "text": "If the function f is defined by f(x) = 2x\u00b2 + 3x \u2212 1, what is the value of f(2)?",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "21"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(2) = 2(4) + 3(2) \u2212 1 = 13."
+  },
+  "astoresellsapplesfor150eachandorangesfor075eachifacustomerbuys3applesand5oranges": {
+    "text": "A store sells apples for $1.50 each and oranges for $0.75 each. If a customer buys 3 apples and 5 oranges, how much will the customer spend?",
+    "options": [
+      "$7.50",
+      "$8.25",
+      "$9.75",
+      "$11.25"
+    ],
+    "correctIndex": 1,
+    "explanation": "3\u00d7$1.50 + 5\u00d7$0.75 = $4.50 + $3.75 = $8.25."
+  },
+  "if3x2y11and5xy2whatisthevalueofx": {
+    "text": "If 3x + 2y = 11 and x \u2212 y = 2, what is the value of x?",
+    "options": [
+      "\u22121",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "y = x\u22122; 3x+2(x\u22122)=11 \u2192 5x=15 \u2192 x=3."
+  },
+  "acirclewithcenterattheoriginandradius5intersectsthelinexy7attwopointswhatisthedi": {
+    "text": "A circle with center at the origin and radius 5 intersects the line y = 0 at two points. What is the distance between these two points?",
+    "options": [
+      "5\u221a2",
+      "10",
+      "5\u221a3",
+      "7\u221a2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Intersects x-axis at (\u22125,0) and (5,0); distance = 10."
+  },
+  "agroupoffriendsareplanningatriptheyhaveabudgetof1200fortransportationarentalcarc": {
+    "text": "A group of friends are planning a trip with a budget of $1,200 for transportation. A rental car costs $40 per day, and a train ticket costs $60. If they spend 3 days traveling by car, what is the maximum number of train tickets they can purchase?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "Car cost = 3\u00d7$40 = $120. Remaining = $1,200\u2212$120 = $1,080. Tickets = $1,080\u00f7$60 = 18."
+  },
+  "thenumberofemployeesatacompanyincreasedby10in2018anddecreasedby5in2019iftherewer": {
+    "text": "The number of employees at a company increased by 10% in 2018 and decreased by 5% in 2019. If there were 1,000 employees at the end of 2017, how many were there at the end of 2019?",
+    "options": [
+      "950",
+      "1,000",
+      "1,045",
+      "1,100"
+    ],
+    "correctIndex": 2,
+    "explanation": "1,000 \u00d7 1.10 \u00d7 0.95 = 1,045."
+  },
+  "if3x2y10andxy1whatisthevalueofxy": {
+    "text": "If 2x + y = 7 and x \u2212 y = 2, what is the value of x + y?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adding: 3x = 9 \u2192 x = 3; y = 1; x+y = 4."
+  },
+  "theequation2x25x30hastwosolutionsx1andx2whatisthevalueofx12x22": {
+    "text": "The equation 2x\u00b2 + 5x \u2212 3 = 0 has two solutions x\u2081 and x\u2082. What is the value of x\u2081\u00b2 + x\u2082\u00b2?",
+    "options": [
+      "13/4",
+      "25/4",
+      "37/4",
+      "65/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "x\u2081+x\u2082 = \u22125/2, x\u2081x\u2082 = \u22123/2; x\u2081\u00b2+x\u2082\u00b2 = (5/2)\u00b2\u22122(\u22123/2) = 37/4."
+  },
+  "iffxfracx23xx4forallpositivevaluesofxwhatisthevalueoff2": {
+    "text": "If f(x) = (x\u00b2 + 3x)/(x + 4) for all positive x, what is the value of f(2)?",
+    "options": [
+      "3/4",
+      "5/3",
+      "7/3",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(2) = (4+6)/(2+4) = 10/6 = 5/3."
+  },
+  "thefunctionfisdefinedbyfxfrac2xx1whatisthevalueofffrac12": {
+    "text": "The function f is defined by f(x) = 2x/(x + 1). What is the value of f(1/2)?",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/3",
+      "3/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(1/2) = 2(1/2)/((1/2)+1) = 1/(3/2) = 2/3."
+  },
+  "asurveyasked100peopleiftheyprefertoeatpizzaortacosofthepeoplesurveyed60preferred": {
+    "text": "A survey asked 100 people if they prefer to eat pizza or tacos. Of the people surveyed, 55% preferred pizza. How many people preferred pizza?",
+    "options": [
+      "45",
+      "50",
+      "55",
+      "60"
+    ],
+    "correctIndex": 2,
+    "explanation": "55% of 100 = 55 people."
+  },
+  "if3x2y17andxy2whatisthevalueofx": {
+    "text": "If 3x + 2y = 19 and x \u2212 y = 3, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "x = y+3; 3(y+3)+2y=19 \u2192 5y=10 \u2192 y=2, x=5."
+  },
+  "asurveyof100peoplefoundthat60peoplelikedapples50peoplelikedbananasand20peoplelik": {
+    "text": "A survey of 100 people found that 60 liked apples, 50 liked bananas, and 20 liked both. What is the probability that a randomly selected person liked apples, given that they liked bananas?",
+    "options": [
+      "1/5",
+      "2/5",
+      "3/5",
+      "3/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "P(apples|bananas) = 20/50 = 2/5."
+  },
+  "if2x3y7andxy2whatisthevalueofxy": {
+    "text": "If x + 2y = 5 and x \u2212 y = 2, what is the value of x + y?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "3y = 3 \u2192 y=1, x=3; x+y=4."
+  },
+  "theequation2x23x10hastwosolutionsx1andx2whatisthevalueofx12x22": {
+    "text": "The equation 2x\u00b2 \u2212 3x + 1 = 0 has two solutions x\u2081 and x\u2082. What is the value of x\u2081\u00b2 + x\u2082\u00b2?",
+    "options": [
+      "1/4",
+      "5/4",
+      "7/4",
+      "9/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "x\u2081+x\u2082 = 3/2, x\u2081x\u2082 = 1/2; x\u2081\u00b2+x\u2082\u00b2 = (3/2)\u00b2\u22122(1/2) = 5/4."
+  },
+  "thefunctionfisdefinedbyfx2x35x3whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b3 \u2212 5x + 3. What is the value of f(\u22122)?",
+    "options": [
+      "\u22123",
+      "\u22125",
+      "13",
+      "19"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(\u22122) = 2(\u22128) \u2212 5(\u22122) + 3 = \u221216 + 10 + 3 = \u22123."
+  },
+  "if3x4y10and2xy5whatisthevalueofx": {
+    "text": "If x + 2y = 7 and 3x \u2212 y = 7, what is the value of x?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "y = 3x\u22127; x+2(3x\u22127)=7 \u2192 7x=21 \u2192 x=3."
+  },
+  "acirclehasaradiusof6unitsachordofthecircleis8unitslongwhatisthedistancefromthece": {
+    "text": "A circle has a radius of 5 units. A chord of the circle is 8 units long. What is the distance from the center of the circle to the chord?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "\u221a41"
+    ],
+    "correctIndex": 1,
+    "explanation": "Half-chord = 4; distance = \u221a(5\u00b2\u22124\u00b2) = \u221a9 = 3."
+  },
+  "arectangulargardenisfeetlongandfeetwidethegardenissurroundedbyapaththatisfeetwid": {
+    "text": "A rectangular garden is 20 feet long and 10 feet wide. It is surrounded by a path 2 feet wide. What is the area of the path in square feet?",
+    "options": [
+      "96",
+      "120",
+      "136",
+      "192"
+    ],
+    "correctIndex": 2,
+    "explanation": "Outer rectangle = 24\u00d714 = 336; garden = 200; path = 136."
+  },
+  "iffrac2x3x71whatisthevalueofx": {
+    "text": "If (2x + 3)/(x \u2212 2) = 3, what is the value of x?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "2x+3 = 3(x\u22122) \u2192 2x+3 = 3x\u22126 \u2192 x = 9."
+  },
+  "thefunctionfxisdefinedbyfx3x22x1whatisthevalueoff2": {
+    "text": "The function f(x) is defined by f(x) = 3x\u00b2 \u2212 2x + 1. What is the value of f(\u22122)?",
+    "options": [
+      "\u221211",
+      "\u22127",
+      "11",
+      "17"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22122) = 3(4) \u2212 2(\u22122) + 1 = 12 + 4 + 1 = 17."
+  },
+  "if3x2y17andxy2whatisthevalueofxy": {
+    "text": "If 3x + 2y = 13 and x \u2212 y = 1, what is the value of x + y?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "x=3, y=2; x+y=5."
+  },
+  "intriangleabcangleaisarightangleandthelengthsofsidesacandbcare6and8respectivelyw": {
+    "text": "In triangle ABC, angle A is a right angle, and the lengths of sides AC and BC are 6 and 8, respectively. What is the length of side AB?",
+    "options": [
+      "2",
+      "10",
+      "2\u221a7",
+      "\u221a100"
+    ],
+    "correctIndex": 2,
+    "explanation": "AB = \u221a(8\u00b2\u22126\u00b2) = \u221a28 = 2\u221a7."
+  },
+  "thefunctionfxisdefinedbytheequationfxx23x4x1forwhatvaluesofxdoesthefunctionfxhav": {
+    "text": "The function f(x) = (x\u00b2 + 3x \u2212 4)/(x \u2212 2). For what value of x does f(x) have a vertical asymptote?",
+    "options": [
+      "x = \u22124",
+      "x = \u22121",
+      "x = 1",
+      "x = 2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Denominator = 0 at x=2; numerator \u2260 0 there \u2192 vertical asymptote."
+  },
+  "ifthesystemofequationsbegincases2x3y7x2y1endcaseshassolutionxywhatisthevalueofxy": {
+    "text": "The system {2x + 3y = 9, x \u2212 2y = 1} has solution (x, y). What is the value of x \u2212 y?",
+    "options": [
+      "\u22122",
+      "\u22121",
+      "1",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "x=3, y=1; x\u2212y=2."
+  },
+  "thefunctionfisdefinedbyfx5xsup2sup3x2whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 5x\u00b2 \u2212 3x + 2. What is the value of f(\u22122)?",
+    "options": [
+      "\u221226",
+      "16",
+      "26",
+      "28"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22122) = 5(4) \u2212 3(\u22122) + 2 = 28."
+  },
+  "abakerysellstwotypesofcookieschocolatechipandoatmealraisinthebakerymakes120cooki": {
+    "text": "A bakery sells chocolate chip and oatmeal raisin cookies. It makes 120 cookies per day in a 5:3 ratio. How many oatmeal raisin cookies does it make per day?",
+    "options": [
+      "36",
+      "45",
+      "48",
+      "60"
+    ],
+    "correctIndex": 1,
+    "explanation": "3/8 \u00d7 120 = 45."
+  },
+  "iffrac2x3x75whatisthevalueofx": {
+    "text": "If (2x + 3)/(x \u2212 3) = 5, what is the value of x?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "2x+3=5x\u221215 \u2192 3x=18 \u2192 x=6."
+  },
+  "afunctionisdefinedbyfx2x23x1whatisthevalueoff2": {
+    "text": "A function is defined by f(x) = 2x\u00b2 \u2212 3x + 1. What is the value of f(\u22122)?",
+    "options": [
+      "\u221217",
+      "\u221211",
+      "11",
+      "15"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22122) = 2(4) \u2212 3(\u22122) + 1 = 15."
+  },
+  "thefunctionfisdefinedbyfx2x23x5whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 + 3x \u2212 5. What is the value of f(2)?",
+    "options": [
+      "9",
+      "15",
+      "19",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(2) = 2(4) + 3(2) \u2212 5 = 9."
+  },
+  "agroupoffriendsareplanningatriptheywanttorentacarthatcosts40perdayplus025permile": {
+    "text": "A group of friends rent a car for $40 per day plus $0.25 per mile. If they drive 200 miles and rent for 3 days, what is the total cost?",
+    "options": [
+      "$140",
+      "$160",
+      "$170",
+      "$180"
+    ],
+    "correctIndex": 2,
+    "explanation": "3\u00d7$40 + 200\u00d7$0.25 = $120 + $50 = $170."
+  },
+  "thefunctionfxisdefinedasfx2x25whatisthevalueoff3": {
+    "text": "The function f(x) is defined as f(x) = 2x\u00b2 + 5. What is the value of f(3)?",
+    "options": [
+      "11",
+      "21",
+      "23",
+      "41"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(3) = 2(9) + 5 = 23."
+  },
+  "agroupof10studentstookatestandtheaveragescoreonthetestwas70ifonestudentscored100": {
+    "text": "A group of 10 students took a test with average score 70. If one student scored 88, what was the average score of the other 9?",
+    "options": [
+      "65",
+      "68",
+      "70",
+      "72"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total=700; remaining=700\u221288=612; avg=612/9=68."
+  },
+  "thesumoftwonumbersis10onenumberis4lessthantwicetheothernumberwhatisthevalueofthe": {
+    "text": "The sum of two numbers is 11. One number is 1 less than twice the other. What is the larger number?",
+    "options": [
+      "4",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "x=2y\u22121, x+y=11 \u2192 y=4, x=7."
+  },
+  "if3x4y17and2x3y9whatisthevalueofxy": {
+    "text": "If 3x + 4y = 16 and 2x \u2212 3y = 5, what is the value of x + y?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "x=4, y=1; x+y=5."
+  },
+  "thefunctionfxisdefinedbyfxfrac1x4whatisthevalueofffrac14": {
+    "text": "The function f(x) is defined by f(x) = 1/x + 4. What is the value of f(1/4)?",
+    "options": [
+      "4",
+      "5",
+      "8",
+      "17"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(1/4) = 1/(1/4) + 4 = 4 + 4 = 8."
+  },
+  "acirclewithcenter21andradius5intersectsthexaxisattwopointswhatisthedistanceinuni": {
+    "text": "A circle with center (2, 3) and radius 5 intersects the x-axis at two points. What is the distance between these two points?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "y=0: (x\u22122)\u00b2+9=25 \u2192 x=6 or x=\u22122; dist=8."
+  },
+  "if2x3y17andx2y1whatisthevalueofx": {
+    "text": "If 2x + y = 12 and x \u2212 y = 3, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adding: 3x=15 \u2192 x=5."
+  },
+  "iflog2x3log2x13whatisthevalueofx": {
+    "text": "If log\u2082(x\u22122) + log\u2082(x+2) = 5, what is the value of x?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "x\u00b2\u22124=32 \u2192 x=6."
+  },
+  "ifx2y10andxy2whatisthevalueofy": {
+    "text": "If x + 2y = 8 and x \u2212 y = 2, what is the value of y?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "3y=6 \u2192 y=2."
+  },
+  "acirclewithcenter25passesthroughthepoint41whatistheradiusofthecircle": {
+    "text": "A circle with center (\u22122, 5) passes through the point (2, 2). What is the radius?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "r=\u221a(4\u00b2+(\u22123)\u00b2)=5."
+  },
+  "thetableshowsthenumberofstudentsenrolledineachoffourclubsatahighschoolbegintabul": {
+    "text": "A high school has four clubs each with 50 students: Math, Science, History, and Art. What percentage of all club students are in the Math Club?",
+    "options": [
+      "20%",
+      "25%",
+      "33.3%",
+      "40%"
+    ],
+    "correctIndex": 1,
+    "explanation": "50/200=25%."
+  },
+  "afunctionfxisdefinedasfx2x23x1whatisthevalueoff2": {
+    "text": "A function f(x) is defined as f(x) = 2x\u00b2 \u2212 3x + 1. What is the value of f(\u22122)?",
+    "options": [
+      "3",
+      "7",
+      "11",
+      "15"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22122)=2(4)\u22123(\u22122)+1=15."
+  },
+  "theexpressionisequivalenttofracabwhereaandbareintegerswithnocommonfactorswhatist": {
+    "text": "Which of the following is equivalent to 2/x + 3/(2x)?",
+    "options": [
+      "5/(3x)",
+      "7/(2x)",
+      "5/(2x)",
+      "7/(3x)"
+    ],
+    "correctIndex": 1,
+    "explanation": "4/(2x)+3/(2x)=7/(2x)."
+  },
+  "acirclehasaradiusof5cmwhatistheareainsquarecentimetersofasectorofthiscirclewitha": {
+    "text": "A circle has radius 5 cm. What is the area of a sector with central angle 72\u00b0?",
+    "options": [
+      "2\u03c0",
+      "5\u03c0",
+      "10\u03c0",
+      "25\u03c0"
+    ],
+    "correctIndex": 1,
+    "explanation": "(72/360)\u00d7\u03c0\u00d725=5\u03c0."
+  },
+  "agroupof100studentstookatesttheaveragescoreonthetestwas75asecondgroupof50student": {
+    "text": "A group of 100 students averaged 75 on a test; a second group of 50 students averaged 90. What is the combined average?",
+    "options": [
+      "78",
+      "80",
+      "82",
+      "85"
+    ],
+    "correctIndex": 1,
+    "explanation": "(7500+4500)/150=12000/150=80."
+  },
+  "agroupoffriendsareplanningatriptheydecidetorentacarfor45perdayplusaonetimeinsura": {
+    "text": "Friends rent a car for $45/day plus a one-time $20 fee. If total cost is $110, how many days?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "45d=90 \u2192 d=2."
+  },
+  "thefunctionfisdefinedbyfx2x23x1whatisthevalueoff2": {
+    "text": "The function f is defined by f(x) = 2x\u00b2 + 3x \u2212 1. What is the value of f(2)?",
+    "options": [
+      "11",
+      "13",
+      "15",
+      "19"
+    ],
+    "correctIndex": 1,
+    "explanation": "f(2)=8+6\u22121=13."
+  },
+  "alinepassesthroughthepoints25and43whatistheslopeofthisline": {
+    "text": "A line passes through (\u22122, 5) and (1, \u22121). What is the slope?",
+    "options": [
+      "\u22122",
+      "\u22121",
+      "1",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "slope=(\u22121\u22125)/(1\u2212(\u22122))=\u22126/3=\u22122."
+  },
+  "astoresellsapplesandorangesthepriceofanappleis075andthepriceofanorangeis125ifacu": {
+    "text": "A store sells apples for $0.75 and oranges for $1.25. A customer buys 3 apples and 5 oranges. What is the total cost?",
+    "options": [
+      "$7.50",
+      "$8.00",
+      "$8.50",
+      "$9.00"
+    ],
+    "correctIndex": 2,
+    "explanation": "3(0.75)+5(1.25)=$8.50."
+  },
+  "ifx22x14whatisthevalueofx": {
+    "text": "If x\u00b2 + 2x + 1 = 4, what is one possible value of x?",
+    "options": [
+      "\u22123",
+      "\u22121",
+      "0",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+1)\u00b2=4 \u2192 x=1 or x=\u22123; \u22123 is one solution."
+  },
+  "thefunctionfx2x23x5isdefinedforallrealnumberswhatisthevalueoff2": {
+    "text": "The function f(x) = 2x\u00b2 + 3x \u2212 5. What is the value of f(\u22122)?",
+    "options": [
+      "\u221215",
+      "\u22129",
+      "\u22123",
+      "13"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(\u22122)=8\u22126\u22125=\u22123."
+  },
+  "theexpressionfrac3x26xx24isequivalenttofracax2wherexneq2andxneq2whatisthevalueof": {
+    "text": "The expression (3x\u22126)/(x\u00b2\u22124) is equivalent to a/(x+2). What is a?",
+    "options": [
+      "\u22123",
+      "3",
+      "6",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "3(x\u22122)/((x\u22122)(x+2))=3/(x+2), so a=3."
+  },
+  "if3x2y10andxy2whatisthevalueofxy": {
+    "text": "If 2x + y = 7 and x \u2212 y = 2, what is the value of x + y?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "x=3, y=1; x+y=4."
+  },
+  "thefunctionfisdefinedbyfx2x25x3whatisthevalueoff2": {
+    "text": "The function f(x) = 2x\u00b2 \u2212 5x + 3. What is the value of f(\u22122)?",
+    "options": [
+      "\u221219",
+      "11",
+      "19",
+      "21"
+    ],
+    "correctIndex": 3,
+    "explanation": "f(\u22122)=8+10+3=21."
+  },
+  "iffracx3x21whatisthevalueofx": {
+    "text": "If (x\u22123)/(x+2) = 1/2, what is the value of x?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "2(x\u22123)=x+2 \u2192 x=8."
+  },
+  "thefunctionfxisdefinedbyfxx32x25x6whatisthevalueoff2": {
+    "text": "The function f(x) = x\u00b3 + 2x\u00b2 \u2212 5x \u2212 6. What is the value of f(\u22122)?",
+    "options": [
+      "\u221210",
+      "0",
+      "4",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(\u22122)=\u22128+8+10\u22126=4."
+  },
+  "asystemoflinearequationsisgraphedinthexyplanetheequationsarex2y1andx2y1whichofth": {
+    "text": "The equations x+2y=1 and x\u22122y=\u22123 are graphed. Which point is a solution?",
+    "options": [
+      "(\u22121, 1)",
+      "(0, 1)",
+      "(1, \u22121)",
+      "(1, 0)"
+    ],
+    "correctIndex": 0,
+    "explanation": "2x=\u22122 \u2192 x=\u22121, y=1."
+  },
+  "astoresellsapplesfor125eachandorangesfor075eachacustomerbuys5applesand3orangesho": {
+    "text": "A store sells apples for $1.25 each and oranges for $0.75 each. A customer buys 4 apples and 4 oranges. How much did the customer spend?",
+    "options": [
+      "$7.50",
+      "$8.00",
+      "$8.50",
+      "$9.00"
+    ],
+    "correctIndex": 1,
+    "explanation": "4(1.25)+4(0.75)=$5.00+$3.00=$8.00."
+  },
+  "abakeryhas120cakesondisplayofthosecakes25arechocolate30arevanillaandtherestarest": {
+    "text": "A bakery has 120 cakes: 25% chocolate, 25% vanilla, and the rest strawberry. How many are strawberry?",
+    "options": [
+      "36",
+      "48",
+      "60",
+      "72"
+    ],
+    "correctIndex": 2,
+    "explanation": "50% are strawberry: 0.50\u00d7120=60."
+  },
+  "afunctionisdefinedbytheequationfx2x23x5whatisthevalueoff2": {
+    "text": "A function is defined by f(x) = 2x\u00b2 + 3x \u2212 5. What is the value of f(\u22122)?",
+    "options": [
+      "\u221217",
+      "\u22129",
+      "\u22123",
+      "13"
+    ],
+    "correctIndex": 2,
+    "explanation": "f(\u22122)=2(4)+3(\u22122)\u22125=\u22123."
+  },
+  "if2x3y12andx2y4whatisthevalueofxy": {
+    "text": "If 2x + y = 7 and x \u2212 y = 2, what is the value of x + y?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "3x=9 \u2192 x=3, y=1; x+y=4."
+  },
+  "inthexyplaneacirclewithcenter32passesthroughthepoint76whatistheradiusofthecircle": {
+    "text": "In the xy-plane, a circle with center (3, 2) passes through the point (7, 5). What is the radius?",
+    "options": [
+      "4",
+      "5",
+      "8",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "r=\u221a((7\u22123)\u00b2+(5\u22122)\u00b2)=\u221a25=5."
+  },
+  "agroupoffriendsisplanningatriptheydecidetorentacarfor40perdayplusaonetimeinsuran": {
+    "text": "Friends rent a car for $40/day plus a one-time $15 fee. If total cost is $255, how many days?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "40d=240 \u2192 d=6."
+  },
+  "whichchoicebestcombinesthesentencesattheunderlinedportionsothatitconformstotheco": {
+    "text": "Which choice best completes the sentence so that it conforms to the conventions of Standard English?\nThe novel explored the experience of Black men in the South ___",
+    "options": [
+      "their lives, and the ways in which they were forced to navigate a society",
+      "their lives; and the ways in which they were forced to navigate a society",
+      "their lives: the ways in which they were forced to navigate a society",
+      "their lives and the ways in which they were forced to navigate a society"
+    ],
+    "correctIndex": 3,
+    "explanation": "No punctuation needed between 'lives' and 'and the ways' in a parallel list."
+  },
+  "whichchoicemosteffectivelycombinesthesentencesattheunderlinedportion": {
+    "text": "Which choice most effectively combines the underlined portion into a single sentence?\nThe axolotl looks like a little dinosaur ___",
+    "options": [
+      "except for the fact that it is much smaller, cuter, and toothless",
+      "except it is much smaller, cuter, and it doesn't have teeth",
+      "except it is smaller and cuter and also toothless",
+      "except that it's much smaller, cuter, and toothless"
+    ],
+    "correctIndex": 3,
+    "explanation": "Option D is concise, parallel, and grammatically correct."
+  },
+  "whichchoicebestrevisestheunderlinedportionofthesentencetomaintaintheformalstyleo": {
+    "text": "Which choice best revises the sentence to correct the grammatical error and maintain a formal style?",
+    "options": [
+      "The scientists knew the data would not be clear for years, but they remained confident in the overall methodology.",
+      "The scientists knew the data would not be clear for years they remained confident in the overall methodology.",
+      "The scientists knew the data would not be clear for years, however they remained confident in the overall methodology.",
+      "The scientists knew the data would not be clear for years, therefore they remained confident in the overall methodology."
+    ],
+    "correctIndex": 0,
+    "explanation": "Comma + coordinating conjunction 'but' correctly joins two independent clauses."
+  },
+  "whichchoicecorrectsthegrammaticalerrorinthesentenceabove": {
+    "text": "Which choice corrects the grammatical error in the sentence?",
+    "options": [
+      "Directors are those who, when they have a vision for a project, know how to inspire the actors to embody it.",
+      "A director is someone who, when they have a vision for a project, know how to inspire the actors to embody it.",
+      "Directors are those who, when having a vision for a project, knows how to inspire the actors to embody it.",
+      "A director is one whom, when they have a vision for a project, knows how to inspire the actors to embody it."
+    ],
+    "correctIndex": 0,
+    "explanation": "Plural 'Directors/they/know' maintains subject-verb and pronoun-antecedent agreement."
+  },
+  "whichofthefollowingrevisionsisneededtocorrectthepunctuationerrorinthepassage": {
+    "text": "Which of the following choices corrects the punctuation error in the sentence?",
+    "options": [
+      "However, I was able to get a glimpse of the famous painting \"The Starry Night.\"",
+      "However, I was able to get a glimpse of the famous painting, \"The Starry Night.\"",
+      "However, I was able to get a glimpse of the famous painting; \"The Starry Night.\"",
+      "However, I was able to get a glimpse of the famous painting: \"The Starry Night\"."
+    ],
+    "correctIndex": 0,
+    "explanation": "No comma before a restrictive appositive title."
+  },
+  "whichchoicebestcorrectstheerrorintheunderlinedportionofthepassage": {
+    "text": "Which choice best corrects the punctuation error in the sentence?",
+    "options": [
+      "The artwork is both striking and memorable; the hues are bold and vibrant.",
+      "The artwork is both striking and memorable, the hues are bold and vibrant.",
+      "The artwork is both striking and memorable the hues are bold and vibrant.",
+      "The artwork is both striking and memorable, therefore, the hues are bold and vibrant."
+    ],
+    "correctIndex": 0,
+    "explanation": "Semicolon separates two closely related independent clauses."
+  },
+  "whichchoicebestcompletesthesentencewiththecorrectpunctuation": {
+    "text": "Which choice best completes the sentence with the correct punctuation?",
+    "options": [
+      "Plath's work is considered to be both deeply personal and universally relatable, as readers find resonance with her themes.",
+      "Plath's work is considered to be both deeply personal, and universally relatable, as readers find resonance with her themes.",
+      "Plath's work is considered to be both deeply personal and universally relatable; as readers find resonance with her themes.",
+      "Plath's work is considered to be both deeply personal and universally relatable as, readers find resonance with her themes."
+    ],
+    "correctIndex": 0,
+    "explanation": "No comma between 'both X and Y'; comma before dependent 'as' clause."
+  },
+  "whichchoicecorrectlycombinesthetwosentencesbelowintoasinglesentencewithaparticip": {
+    "text": "Which choice correctly combines the two sentences into a single sentence using a participial phrase?",
+    "options": [
+      "The artist is known for his intricate drawings of animals, often found in museums and galleries.",
+      "The artist is known for his intricate drawings of animals, they are often found in museums and galleries.",
+      "Often found in museums and galleries, the artist is known for his intricate drawings of animals.",
+      "The artist is known for his intricate drawings of animals often found them in museums and galleries."
+    ],
+    "correctIndex": 0,
+    "explanation": "Participial phrase placed immediately after the noun it modifies."
+  },
+  "whichchoicebestcombinestheunderlinedportionsofthepassageintoasinglecorrectlypunc": {
+    "text": "Which choice best combines the clauses into a single, correctly punctuated sentence?",
+    "options": [
+      "The effects of climate change are already being felt around the world, and if not addressed, they will continue to grow more severe.",
+      "The effects of climate change are already being felt around the world, if not addressed, they will continue to grow more severe.",
+      "The effects of climate change are already being felt around the world and if not addressed; they will continue to grow more severe.",
+      "The effects of climate change are already being felt around the world, and that if not addressed, they will continue to grow more severe."
+    ],
+    "correctIndex": 0,
+    "explanation": "Comma + 'and' links main clauses; conditional phrase correctly embedded."
+  },
+  "whichchoicecorrectstheerrorintheunderlinedportionofthesentence": {
+    "text": "Which choice corrects the fragment error in the sentence?",
+    "options": [
+      "Although the movement was short-lived, it has had a lasting impact on the world of art.",
+      "Although the movement was short-lived; it has had a lasting impact on the world of art.",
+      "Although the movement was short-lived. It has had a lasting impact on the world of art.",
+      "Although, the movement was short-lived, it has had a lasting impact on the world of art."
+    ],
+    "correctIndex": 0,
+    "explanation": "Dependent 'Although' clause attached to independent clause with a comma."
+  },
+  "whichofthefollowingchoicescorrectlyusesacommatoseparateanonessentialclausefromth": {
+    "text": "Which of the following choices correctly punctuates the sentence?",
+    "options": [
+      "The team's research found that people who regularly engage in physical activity report a greater sense of well-being than people who don't.",
+      "The team's research found that people, who regularly engage in physical activity, report a greater sense of well-being than people who don't.",
+      "The team's research found that people who regularly engage in physical activity, report a greater sense of well-being than people who don't.",
+      "The team's research found that people who regularly engage in physical activity report a greater sense of well-being, than people who don't."
+    ],
+    "correctIndex": 0,
+    "explanation": "Essential relative clause needs no commas."
+  },
+  "whichofthefollowingrevisionstothesentenceaboveismosteffectiveatcorrectingagramma": {
+    "text": "Which of the following revisions is most effective at correcting the grammatical error in the sentence?",
+    "options": [
+      "The study found that the new drug was effective in treating a range of diseases; the researchers also noted that it had a low rate of side effects.",
+      "The study found that the new drug was effective in treating a range of diseases, the researchers also noted that it had a low rate of side effects.",
+      "The study found that the new drug was effective in treating a range of diseases the researchers also noted that it had a low rate of side effects.",
+      "The study found that the new drug was effective in treating a range of diseases, and noting that it had a low rate of side effects."
+    ],
+    "correctIndex": 0,
+    "explanation": "Semicolon correctly joins two independent clauses without a comma splice."
+  },
+  "whichchoicecompletesthetextsothatitconformstotheconventionsofstandardenglish": {
+    "text": "Which choice completes the text so that it conforms to the conventions of Standard English?\nThe African American novelist ___ tells the story of an enslaved woman.",
+    "options": [
+      "Ernest Gaines, tells",
+      "Ernest Gaines tells",
+      "Ernest Gaines, who tells",
+      "Ernest Gaines; tells"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Ernest Gaines' is a restrictive appositive identifying which novelist \u2014 no commas needed."
+  },
+  "whichchoicebestcorrectsthegrammaticalerrorinthesentence": {
+    "text": "Which choice best corrects the grammatical error in the sentence?\nIt was built over centuries by different dynasties, each with ___ own purposes and styles.",
+    "options": [
+      "their \u2014 built over centuries, each with their own purposes and styles.",
+      "their \u2014 each having their own purposes and styles.",
+      "their \u2014 each with their own purposes and styles.",
+      "its \u2014 each with its own purposes and styles."
+    ],
+    "correctIndex": 3,
+    "explanation": "'Each' is a singular indefinite pronoun; it requires the singular pronoun 'its', not 'their'."
+  },
+  "whichchoicebestcorrectsthepunctuationerrorinthepassage": {
+    "text": "Which choice best corrects the punctuation error in the passage?",
+    "options": [
+      "The study, which was conducted by a team of researchers from the University of California, Berkeley found that people who are regularly exposed to nature are more likely to be happier and healthier. The researchers suggested that spending time in nature can help reduce stress, improve concentration, and boost creativity.",
+      "The study which was conducted by a team of researchers from the University of California, Berkeley, found that people who are regularly exposed to nature are more likely to be happier and healthier; the researchers suggested that spending time in nature can help reduce stress, improve concentration, and boost creativity.",
+      "The study, which was conducted by a team of researchers from the University of California, Berkeley, found that people who are regularly exposed to nature are more likely to be happier and healthier. The researchers, suggested that spending time in nature can help reduce stress, improve concentration, and boost creativity.",
+      "The study, which was conducted by a team of researchers from the University of California, Berkeley, found that people who are regularly exposed to nature are more likely to be happier and healthier; the researchers suggested that spending time in nature can help reduce stress, improve concentration, and boost creativity."
+    ],
+    "correctIndex": 3,
+    "explanation": "D correctly encloses the nonrestrictive 'which' clause with commas and uses a semicolon to join the two independent sentences."
+  },
+  "whichchoiceprovidesthebestwaytocombinethesentencesintheunderlinedportionwithoutc": {
+    "text": "Which choice provides the best way to combine the sentences in the underlined portion without changing the meaning?",
+    "options": [
+      "The process of Earth\u2019s shifting from warmer to colder climates, and back again, is known as the Quaternary Ice Age\u2014during an ice age, glaciers grow and expand, covering large areas of the planet.",
+      "The process of Earth\u2019s shifting from warmer to colder climates, and back again, is known as the Quaternary Ice Age; during an ice age, glaciers grow and expand, covering large areas of the planet.",
+      "The process of Earth\u2019s shifting from warmer to colder climates, and back again, is known as the Quaternary Ice Age; glaciers grow and expand, covering large areas of the planet, during an ice age.",
+      "The process of Earth\u2019s shifting from warmer to colder climates, and back again, is known as the Quaternary Ice Age, during an ice age, glaciers grow and expand, covering large areas of the planet."
+    ],
+    "correctIndex": 1,
+    "explanation": "A semicolon correctly separates the two independent clauses without creating a comma splice."
+  },
+  "whichchoicebestcombinesthesentencesattheunderlinedportiontocreateagrammaticallyc": {
+    "text": "Which choice best combines the sentences at the underlined portion to create a grammatically correct and stylistically effective sentence?",
+    "options": [
+      "Tubman\u2019s courage and determination are an inspiration to us all: she demonstrated that with hard work and dedication, we can overcome any obstacle.",
+      "Tubman\u2019s courage and determination are an inspiration to us all; she demonstrated that with hard work and dedication, we can overcome any obstacle.",
+      "Tubman\u2019s courage and determination are an inspiration to us all; she demonstrated that with hard work and dedication, we can overcome any obstacle.",
+      "Tubman\u2019s courage and determination are an inspiration to us all, she demonstrated that with hard work and dedication, we can overcome any obstacle."
+    ],
+    "correctIndex": 1,
+    "explanation": "A semicolon correctly joins two independent clauses of equal weight without a comma splice."
+  }
+}

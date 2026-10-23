@@ -1,0 +1,167 @@
+2026-10-07 02:24:14 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0xcc00ecc00; archive(resolved)="<IDEArchive: 0xcbd84bcd0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team(resolved)="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0xcc00ecc00; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0xcc00ecf00; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc8ad00; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc8a800; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc8a580; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc8a300; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc8a080; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc89e00; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc89b80; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc88c80; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc88a00; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc88780; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="<IDEProvisioningBasicTeam: 0xcc004cae0; teamID='58VGY2SQ3N', teamName='(null)'>">
+	<IDEDistributionContext: 0xcbdc88500; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="(null)">
+	<IDEDistributionContext: 0x101486eb0; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="<IDEDistributionMethodiOSAppStoreDistribution: 0xcbf50b8f0>", team="(null)">
+	<IDEDistributionContext: 0x1014a0620; archive = "<IDEArchive: 0xcbd84bcd0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0xcc00ecc00>
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-10-07 02:24:14 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app' '/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root/Payload/SAT Prep.app'
+2026-10-07 02:24:14 +0000  >>> Copying /Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app 
+2026-10-07 02:24:14 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-10-07 02:24:14 +0000  4345 bytes for ./_CodeSignature/CodeResources
+2026-10-07 02:24:14 +0000  copying file ./AppIcon60x60@2x.png ... 
+2026-10-07 02:24:14 +0000  9690 bytes for ./AppIcon60x60@2x.png
+2026-10-07 02:24:14 +0000  copying file ./SAT Prep ... 
+2026-10-07 02:24:14 +0000  983264 bytes for ./SAT Prep
+2026-10-07 02:24:14 +0000  copying file ./vocab_questions.json ... 
+2026-10-07 02:24:14 +0000  1331776 bytes for ./vocab_questions.json
+2026-10-07 02:24:14 +0000  copying file ./katex.min.css ... 
+2026-10-07 02:24:14 +0000  23335 bytes for ./katex.min.css
+2026-10-07 02:24:14 +0000  copying file ./opensat_rewrites.json ... 
+2026-10-07 02:24:14 +0000  59544 bytes for ./opensat_rewrites.json
+2026-10-07 02:24:14 +0000  copying file ./opensat_cleaned.json ... 
+2026-10-07 02:24:14 +0000  838621 bytes for ./opensat_cleaned.json
+2026-10-07 02:24:14 +0000  copying file ./Assets.car ... 
+2026-10-07 02:24:14 +0000  1077368 bytes for ./Assets.car
+2026-10-07 02:24:14 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2026-10-07 02:24:14 +0000  13862 bytes for ./AppIcon76x76@2x~ipad.png
+2026-10-07 02:24:14 +0000  copying file ./opensat_corrections.json ... 
+2026-10-07 02:24:14 +0000  27011 bytes for ./opensat_corrections.json
+2026-10-07 02:24:14 +0000  copying file ./katex.min.js ... 
+2026-10-07 02:24:14 +0000  275414 bytes for ./katex.min.js
+2026-10-07 02:24:14 +0000  copying file ./katex-auto-render.min.js ... 
+2026-10-07 02:24:14 +0000  3481 bytes for ./katex-auto-render.min.js
+2026-10-07 02:24:14 +0000  copying file ./embedded.mobileprovision ... 
+2026-10-07 02:24:14 +0000  12669 bytes for ./embedded.mobileprovision
+2026-10-07 02:24:14 +0000  copying file ./Info.plist ... 
+2026-10-07 02:24:14 +0000  1571 bytes for ./Info.plist
+2026-10-07 02:24:14 +0000  copying file ./PkgInfo ... 
+2026-10-07 02:24:14 +0000  8 bytes for ./PkgInfo
+2026-10-07 02:24:14 +0000 [MT] /usr/bin/ditto exited with 0
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-10-07 02:24:14 +0000 [MT] Skipping setting DTXcodeBuildDistribution because toolsBuildVersionName was nil.
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionItemRemovalStep
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-10-07 02:24:14 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-10-07 02:24:14 +0000 [MT] Writing /var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Symbols/DF4D546A-7731-3A34-B487-FE906B58E8D2.symbols
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionCopyAppleProvidedContentStep
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-10-07 02:24:14 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-10-07 02:24:14 +0000 [MT] Archs to thin for item /Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app are []
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-10-07 02:24:14 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-10-07 02:24:14 +0000 [MT] Entitlements for <IDEDistributionItem: 0xcbfe8fa80; bundleID='com.icediscovery.satprepbytes', path='<DVTFilePath:0xcbd84bd40:'/Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xcbfe8fa20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xcbdab8f00; name='Apple Development: prad_balu@yahoo.com (3A92W6UCQ4)', hash='33F7F45977A8C556E1F05BEC13588D9680E1674A', serialNumber='5FBD8685FF1B8C007F2B68090ED15189', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-12-31 01:02:51 +0000''>', entitlements='{
+    "application-identifier" = "58VGY2SQ3N.com.icediscovery.satprepbytes";
+    "com.apple.developer.team-identifier" = 58VGY2SQ3N;
+    "get-task-allow" = 1;
+}', teamID='58VGY2SQ3N', identifier='com.icediscovery.satprepbytes', executablePath='<DVTFilePath:0xcbdb2c4d0:'/Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app/SAT Prep'>', hardenedRuntime='1'>'>: {
+    "application-identifier" = "58VGY2SQ3N.com.icediscovery.satprepbytes";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 58VGY2SQ3N;
+    "get-task-allow" = 0;
+}
+2026-10-07 02:24:14 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-10-07 02:24:14 +0000 [MT] Entitlements for <IDEDistributionItem: 0xcbfe8fa80; bundleID='com.icediscovery.satprepbytes', path='<DVTFilePath:0xcbd84bd40:'/Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xcbfe8fa20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xcbdab92c0; name='Apple Development: prad_balu@yahoo.com (3A92W6UCQ4)', hash='33F7F45977A8C556E1F05BEC13588D9680E1674A', serialNumber='5FBD8685FF1B8C007F2B68090ED15189', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-12-31 01:02:51 +0000''>', entitlements='{
+    "application-identifier" = "58VGY2SQ3N.com.icediscovery.satprepbytes";
+    "com.apple.developer.team-identifier" = 58VGY2SQ3N;
+    "get-task-allow" = 1;
+}', teamID='58VGY2SQ3N', identifier='com.icediscovery.satprepbytes', executablePath='<DVTFilePath:0xcbdb2c4d0:'/Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app/SAT Prep'>', hardenedRuntime='1'>'> are: {
+    "application-identifier" = "58VGY2SQ3N.com.icediscovery.satprepbytes";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 58VGY2SQ3N;
+    "get-task-allow" = 0;
+}
+2026-10-07 02:24:14 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0xcbfe8fa80; bundleID='com.icediscovery.satprepbytes', path='<DVTFilePath:0xcbd84bd40:'/Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0xcbfe8fa20; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0xcbdab92c0; name='Apple Development: prad_balu@yahoo.com (3A92W6UCQ4)', hash='33F7F45977A8C556E1F05BEC13588D9680E1674A', serialNumber='5FBD8685FF1B8C007F2B68090ED15189', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2025-12-31 01:02:51 +0000''>', entitlements='{
+    "application-identifier" = "58VGY2SQ3N.com.icediscovery.satprepbytes";
+    "com.apple.developer.team-identifier" = 58VGY2SQ3N;
+    "get-task-allow" = 1;
+}', teamID='58VGY2SQ3N', identifier='com.icediscovery.satprepbytes', executablePath='<DVTFilePath:0xcbdb2c4d0:'/Users/pradeepbala/Development/iOS/SATPrepBytes/build/SATPrep.xcarchive/Products/Applications/SAT Prep.app/SAT Prep'>', hardenedRuntime='1'>'> to: /var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/entitlements~~~q9ZfrE
+2026-10-07 02:24:14 +0000 [MT] invoking codesign: <NSConcreteTask: 0xcbd1e2fd0; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    A42004C3D93946870A1AC72FA1B4073E54EEFC19,
+    "--entitlements",
+    "/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/entitlements~~~q9ZfrE",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root/Payload/SAT Prep.app"
+)'>
+2026-10-07 02:24:14 +0000 [MT] codesign output: /var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root/Payload/SAT Prep.app: replacing existing signature
+/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root/Payload/SAT Prep.app: signed app bundle with Mach-O thin (arm64) [com.icediscovery.satprepbytes]
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-10-07 02:24:14 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-10-07 02:24:14 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2026-10-07 02:24:14 +0000 [MT] Running /usr/bin/rsync '-8aPhhE' '/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Symbols' '--link-dest' '/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm' '/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root'
+2026-10-07 02:24:14 +0000  Symbols/
+Symbols/DF4D546A-7731-3A34-B487-FE906B58E8D2.symbols
+2026-10-07 02:24:14 +0000 [MT] /usr/bin/rsync exited with 0
+2026-10-07 02:24:14 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root' '/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Packages/SAT Prep.ipa'
+2026-10-07 02:24:14 +0000  >>> Copying /var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root 
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/_CodeSignature/CodeResources ... 
+2026-10-07 02:24:14 +0000  4345 bytes for ./Payload/SAT Prep.app/_CodeSignature/CodeResources
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/AppIcon60x60@2x.png ... 
+2026-10-07 02:24:14 +0000  9690 bytes for ./Payload/SAT Prep.app/AppIcon60x60@2x.png
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/SAT Prep ... 
+2026-10-07 02:24:14 +0000  983344 bytes for ./Payload/SAT Prep.app/SAT Prep
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/vocab_questions.json ... 
+2026-10-07 02:24:14 +0000  1331776 bytes for ./Payload/SAT Prep.app/vocab_questions.json
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/katex.min.css ... 
+2026-10-07 02:24:14 +0000  23335 bytes for ./Payload/SAT Prep.app/katex.min.css
+copying file ./Payload/SAT Prep.app/opensat_rewrites.json ... 
+2026-10-07 02:24:14 +0000  59544 bytes for ./Payload/SAT Prep.app/opensat_rewrites.json
+copying file ./Payload/SAT Prep.app/opensat_cleaned.json ... 
+2026-10-07 02:24:14 +0000  838621 bytes for ./Payload/SAT Prep.app/opensat_cleaned.json
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/Assets.car ... 
+2026-10-07 02:24:14 +0000  1077368 bytes for ./Payload/SAT Prep.app/Assets.car
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/AppIcon76x76@2x~ipad.png ... 
+2026-10-07 02:24:14 +0000  13862 bytes for ./Payload/SAT Prep.app/AppIcon76x76@2x~ipad.png
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/opensat_corrections.json ... 
+2026-10-07 02:24:14 +0000  27011 bytes for ./Payload/SAT Prep.app/opensat_corrections.json
+copying file ./Payload/SAT Prep.app/katex.min.js ... 
+2026-10-07 02:24:14 +0000  275414 bytes for ./Payload/SAT Prep.app/katex.min.js
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/katex-auto-render.min.js ... 
+2026-10-07 02:24:14 +0000  3481 bytes for ./Payload/SAT Prep.app/katex-auto-render.min.js
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/embedded.mobileprovision ... 
+2026-10-07 02:24:14 +0000  14506 bytes for ./Payload/SAT Prep.app/embedded.mobileprovision
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/Info.plist ... 
+2026-10-07 02:24:14 +0000  1571 bytes for ./Payload/SAT Prep.app/Info.plist
+2026-10-07 02:24:14 +0000  copying file ./Payload/SAT Prep.app/PkgInfo ... 
+2026-10-07 02:24:14 +0000  8 bytes for ./Payload/SAT Prep.app/PkgInfo
+2026-10-07 02:24:14 +0000  copying file ./Symbols/DF4D546A-7731-3A34-B487-FE906B58E8D2.symbols ... 
+2026-10-07 02:24:15 +0000  2774068 bytes for ./Symbols/DF4D546A-7731-3A34-B487-FE906B58E8D2.symbols
+2026-10-07 02:24:15 +0000 [MT] /usr/bin/ditto exited with 0
+2026-10-07 02:24:15 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-10-07 02:24:15 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-10-07 02:24:15 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-10-07 02:24:15 +0000 [MT] IDEDistributionItem init <DVTFilePath:0xcbd24c700:'/var/folders/j4/hcmd0qjj58bdzvr0rzn7g3nh0000gn/T/XcodeDistPipeline.~~~GDUfhm/Root/Payload/SAT Prep.app'>
+2026-10-07 02:24:15 +0000 [MT] Processing step: IDEDistributionCreateManifestStep
+2026-10-07 02:24:15 +0000 [MT] Skipping step: IDEDistributionCreateManifestStep because it said so
