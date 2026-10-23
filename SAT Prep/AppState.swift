@@ -2,6 +2,8 @@
 
 import Foundation
 import Combine
+import UIKit
+import StoreKit
 
 final class AppState: ObservableObject {
 
@@ -302,7 +304,7 @@ final class AppState: ObservableObject {
     }
 
     var shouldPromptForReview: Bool {
-        guard sessions.count >= 3 else { return false }
+        guard sessions.count >= 2 else { return false }
         let now = Date()
         let oneYearAgo = Calendar.current.date(byAdding: .year, value: -1, to: now) ?? now
         let recentPrompts = reviewPromptDates.filter { $0 > oneYearAgo }
@@ -318,6 +320,18 @@ final class AppState: ObservableObject {
         var dates = reviewPromptDates
         dates.append(Date())
         reviewPromptDates = dates
+    }
+
+    /// Triggers the system App Store review prompt when eligible
+    func promptForReviewIfEligible() {
+        guard shouldPromptForReview else { return }
+        recordReviewPromptShown()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+            if let scene = UIApplication.shared.connectedScenes
+                .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                SKStoreReviewController.requestReview(in: scene)
+            }
+        }
     }
 
     func debugForceReviewEligible() {

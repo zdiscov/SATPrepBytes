@@ -53,6 +53,7 @@ struct ProgressTabView: View {
                 .padding(.vertical)
             }
             .navigationTitle("Progress")
+#if DEBUG
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: AISettingsView()) {
@@ -60,6 +61,7 @@ struct ProgressTabView: View {
                     }
                 }
             }
+#endif
             .safeAreaInset(edge: .bottom) {
                 if appState.openSATLoaded {
                     HStack {

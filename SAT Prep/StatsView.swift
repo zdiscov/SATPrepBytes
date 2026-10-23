@@ -52,6 +52,7 @@ struct StatsView: View {
                 .padding(.vertical)
             }
             .navigationTitle("Progress")
+#if DEBUG
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: AISettingsView()) {
@@ -59,6 +60,7 @@ struct StatsView: View {
                     }
                 }
             }
+#endif
             .safeAreaInset(edge: .bottom) {
                 if appState.openSATLoaded {
                     HStack {

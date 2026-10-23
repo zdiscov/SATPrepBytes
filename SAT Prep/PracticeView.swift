@@ -5,24 +5,12 @@ import SwiftUI
 struct PracticeView: View {
     @EnvironmentObject var appState: AppState
     @State private var activeQuiz: QuizConfig? = nil
-    @State private var showPaywall = false
     @State private var showReviewView = false
 
     struct QuizConfig: Identifiable {
         let id = UUID()
         let topic: String
         let subject: Subject
-    }
-
-    private func isLocked(_ topic: String) -> Bool {
-        if appState.currentUser.isPremium { return false }
-        let premiumTopics = [
-            MathTopic.advancedMath.rawValue,
-            MathTopic.geometry.rawValue,
-            EBRWTopic.craftStructure.rawValue,
-            EBRWTopic.expressionIdeas.rawValue
-        ]
-        return premiumTopics.contains(topic)
     }
 
     var body: some View {
@@ -55,33 +43,23 @@ struct PracticeView: View {
 
                 Section("Math") {
                     ForEach(MathTopic.allCases, id: \.self) { topic in
-                        let locked = isLocked(topic.rawValue)
                         let stats = appState.questionsStats(for: topic.rawValue)
                         TopicRow(topic: topic.rawValue, subject: .math,
                                  proficiency: appState.proficiency(for: topic.rawValue),
                                  correctCount: stats.correct, attemptedCount: stats.attempted,
-                                 isLocked: locked) {
-                            if locked {
-                                showPaywall = true
-                            } else {
-                                activeQuiz = QuizConfig(topic: topic.rawValue, subject: .math)
-                            }
+                                 isLocked: false) {
+                            activeQuiz = QuizConfig(topic: topic.rawValue, subject: .math)
                         }
                     }
                 }
                 Section("Reading & Writing") {
                     ForEach(EBRWTopic.allCases, id: \.self) { topic in
-                        let locked = isLocked(topic.rawValue)
                         let stats = appState.questionsStats(for: topic.rawValue)
                         TopicRow(topic: topic.rawValue, subject: .ebrw,
                                  proficiency: appState.proficiency(for: topic.rawValue),
                                  correctCount: stats.correct, attemptedCount: stats.attempted,
-                                 isLocked: locked) {
-                            if locked {
-                                showPaywall = true
-                            } else {
-                                activeQuiz = QuizConfig(topic: topic.rawValue, subject: .ebrw)
-                            }
+                                 isLocked: false) {
+                            activeQuiz = QuizConfig(topic: topic.rawValue, subject: .ebrw)
                         }
                     }
                 }
@@ -92,10 +70,6 @@ struct PracticeView: View {
                     appState.recordSession(session)
                 }
                 .environmentObject(appState)
-            }
-            .sheet(isPresented: $showPaywall) {
-                PaywallView()
-                    .environmentObject(appState)
             }
         }
     }
@@ -109,7 +83,7 @@ private struct TopicRow: View {
     let proficiency: Double
     let correctCount: Int
     let attemptedCount: Int
-    let isLocked: Bool
+    var isLocked: Bool = false
     let action: () -> Void
 
     private var proficiencyLabel: String {
@@ -135,11 +109,6 @@ private struct TopicRow: View {
                 VStack(alignment: .leading, spacing: 4) {
                     HStack(spacing: 6) {
                         Text(topic).font(.subheadline.bold()).foregroundStyle(.primary)
-                        if isLocked {
-                            Image(systemName: "lock.fill")
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                        }
                     }
                     HStack(spacing: 8) {
                         Text(proficiencyLabel).font(.caption).foregroundStyle(proficiencyColor)
@@ -151,7 +120,7 @@ private struct TopicRow: View {
                     }
                 }
                 Spacer()
-                if proficiency > 0 && !isLocked {
+                if proficiency > 0 {
                     CircularProgress(progress: proficiency, color: proficiencyColor)
                         .frame(width: 36, height: 36)
                 }
@@ -375,6 +344,7 @@ struct QuizView: View {
 // MARK: - Quiz Results
 
 private struct QuizResultsView: View {
+    @EnvironmentObject var appState: AppState
     let attempts: [QuestionAttempt]
     let topic: String
     let onDone: () -> Void
@@ -399,6 +369,12 @@ private struct QuizResultsView: View {
             Button("Done", action: onDone)
                 .buttonStyle(.borderedProminent).controlSize(.large).padding(.horizontal, 32)
             Spacer(minLength: 20)
+        }
+        .onAppear {
+            // Trigger review prompt when student achieves a positive score (>= 60%) and is eligible
+            if pct >= 0.6 {
+                appState.promptForReviewIfEligible()
+            }
         }
     }
 }

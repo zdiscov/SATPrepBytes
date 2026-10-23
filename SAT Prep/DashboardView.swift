@@ -1,6 +1,7 @@
 // DashboardView.swift
 
 import SwiftUI
+import StoreKit
 
 struct DashboardView: View {
     @EnvironmentObject var appState: AppState
@@ -10,7 +11,6 @@ struct DashboardView: View {
     @State private var showStreakSheet = false
     @State private var showScoreSheet = false
     @State private var showTargetSheet = false
-    @State private var showPaywall = false
 
     private var motivationalMessage: (title: String, subtitle: String) {
         let streak = appState.currentUser.streakDays
@@ -104,35 +104,6 @@ struct DashboardView: View {
                         }
                     }
 
-                    // Premium Upgrade Card
-                    if !appState.currentUser.isPremium {
-                        Button {
-                            showPaywall = true
-                        } label: {
-                            HStack {
-                                VStack(alignment: .leading, spacing: 6) {
-                                    Text("Upgrade to SAT Prep Max 🚀")
-                                        .font(.subheadline.bold())
-                                        .foregroundStyle(.white)
-                                    Text("Unlock 1,200+ mock questions, unlimited timed practice tests, and weak-topic study plans.")
-                                        .font(.caption)
-                                        .foregroundStyle(.white.opacity(0.85))
-                                        .multilineTextAlignment(.leading)
-                                }
-                                Spacer()
-                                Image(systemName: "chevron.right")
-                                    .foregroundStyle(.white)
-                            }
-                            .padding()
-                            .background(
-                                LinearGradient(colors: [.blue, .purple], startPoint: .leading, endPoint: .trailing)
-                            )
-                            .clipShape(RoundedRectangle(cornerRadius: 14))
-                        }
-                        .buttonStyle(.plain)
-                        .padding(.horizontal)
-                    }
-
                     // Stat Cards Row
                     HStack(spacing: 12) {
                         Button {
@@ -209,6 +180,36 @@ struct DashboardView: View {
                                        subtitle: "Head to Practice to start your first quiz!")
                             .padding(.horizontal)
                     }
+
+                    // Rate App Card
+                    Button {
+                        if let scene = UIApplication.shared.connectedScenes
+                            .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                            SKStoreReviewController.requestReview(in: scene)
+                        }
+                    } label: {
+                        HStack(spacing: 12) {
+                            Image(systemName: "star.fill")
+                                .font(.title3)
+                                .foregroundStyle(.yellow)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Enjoying SAT Prep?")
+                                    .font(.subheadline.bold())
+                                    .foregroundStyle(.primary)
+                                Text("Leave a 5-star review on the App Store ★★★★★")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 14).fill(Color.cardBackground))
+                        .padding(.horizontal)
+                    }
+                    .buttonStyle(.plain)
                 }
                 .padding(.vertical)
             }
@@ -233,10 +234,6 @@ struct DashboardView: View {
                 TargetPickerSheet(initialScore: appState.currentUser.targetScore, initialDate: appState.currentUser.testDate)
                     .environmentObject(appState)
                     .presentationDetents([.medium, .large])
-            }
-            .sheet(isPresented: $showPaywall) {
-                PaywallView()
-                    .environmentObject(appState)
             }
         }
     }

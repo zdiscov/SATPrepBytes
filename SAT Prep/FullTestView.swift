@@ -8,7 +8,6 @@ struct FullTestView: View {
     @EnvironmentObject var appState: AppState
     @State private var isTestActive = false
     @State private var completedSession: PracticeSession? = nil
-    @State private var showPaywall = false
 
     var body: some View {
         NavigationStack {
@@ -35,12 +34,7 @@ struct FullTestView: View {
                     Spacer()
                     
                     Button("Start Test") {
-                        let testCount = appState.sessions.filter(\.isFullTest).count
-                        if testCount >= 1 && !appState.currentUser.isPremium {
-                            showPaywall = true
-                        } else {
-                            isTestActive = true
-                        }
+                        isTestActive = true
                     }
                     .buttonStyle(.borderedProminent)
                     .controlSize(.large)
@@ -61,10 +55,6 @@ struct FullTestView: View {
                         isTestActive = false
                     }
                     .environmentObject(appState)
-                }
-                .sheet(isPresented: $showPaywall) {
-                    PaywallView()
-                        .environmentObject(appState)
                 }
             }
         }
@@ -188,16 +178,11 @@ private struct TimedTestSession: View {
         let mathPool: [Question]
         let ebrwPool: [Question]
         
-        if appState.currentUser.isPremium {
-            let allMath = appState.allQuestions.filter { $0.subject == .math }
-            let allEbrw = appState.allQuestions.filter { $0.subject == .ebrw }
-            
-            mathPool = allMath.filter { !attemptedSet.contains($0.id) }
-            ebrwPool = allEbrw.filter { !attemptedSet.contains($0.id) }
-        } else {
-            mathPool = QuestionBank.math.filter { !attemptedSet.contains($0.id) }
-            ebrwPool = QuestionBank.ebrw.filter { !attemptedSet.contains($0.id) }
-        }
+        let allMath = appState.allQuestions.filter { $0.subject == .math }
+        let allEbrw = appState.allQuestions.filter { $0.subject == .ebrw }
+        
+        mathPool = allMath.filter { !attemptedSet.contains($0.id) }
+        ebrwPool = allEbrw.filter { !attemptedSet.contains($0.id) }
         
         let selectedMath = Array(mathPool.shuffled().prefix(10))
         let selectedEbrw = Array(ebrwPool.shuffled().prefix(10))
@@ -346,6 +331,7 @@ private struct TimedTestSession: View {
 // MARK: - Test Score View
 
 private struct TestScoreView: View {
+    @EnvironmentObject var appState: AppState
     let session: PracticeSession
     let onDone: () -> Void
 
@@ -389,6 +375,12 @@ private struct TestScoreView: View {
                     .controlSize(.large)
                     .padding(.horizontal, 32)
                     .padding(.bottom, 32)
+            }
+        }
+        .onAppear {
+            let totalScaled = scaledScore(mathAttempts) + scaledScore(ebrwAttempts)
+            if totalScaled >= 900 {
+                appState.promptForReviewIfEligible()
             }
         }
     }

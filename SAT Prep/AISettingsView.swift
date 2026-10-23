@@ -1,6 +1,7 @@
 // AISettingsView.swift – AI feature settings + developer testing menu
 
 import SwiftUI
+import StoreKit
 
 struct AISettingsView: View {
     @EnvironmentObject var appState: AppState
@@ -39,6 +40,25 @@ struct AISettingsView: View {
                     }
                 }
 
+                // MARK: - Feedback & Review
+                Section("Feedback & Support") {
+                    Button {
+                        if let scene = UIApplication.shared.connectedScenes
+                            .first(where: { $0.activationState == .foregroundActive }) as? UIWindowScene {
+                            SKStoreReviewController.requestReview(in: scene)
+                        }
+                    } label: {
+                        HStack {
+                            Label("Rate SAT Prep ★★★★★", systemImage: "star.fill")
+                                .foregroundStyle(.primary)
+                            Spacer()
+                            Image(systemName: "arrow.up.right")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
+                    }
+                }
+
                 // MARK: - Accuracy Tracking
                 if !appState.aiAccuracyByTopic.isEmpty {
                     Section("AI Accuracy by Topic") {
@@ -60,25 +80,6 @@ struct AISettingsView: View {
                 }
 
 #if DEBUG
-                // MARK: - Premium Status (Developer Testing)
-                Section("Premium Subscription Status") {
-                    HStack {
-                        Text("Current Tier")
-                        Spacer()
-                        Text(appState.currentUser.isPremium ? "Max Premium 👑" : "Free Tier")
-                            .foregroundStyle(appState.currentUser.isPremium ? .purple : .secondary)
-                            .bold()
-                    }
-                    Button(appState.currentUser.isPremium ? "Simulate Free Tier (dev only)" : "Simulate Premium Tier (dev only)") {
-                        var user = appState.currentUser
-                        user.isPremium.toggle()
-                        appState.saveUser(user)
-                    }
-                    .foregroundStyle(.orange)
-                    Text("Paywall is currently \(FeatureFlags.paywallEnabled ? "ENABLED" : "DISABLED") globally via FeatureFlags.")
-                        .font(.caption).foregroundStyle(.secondary)
-                }
-
                 // MARK: - Debug: Review Prompt
                 Section {
                     let eligible = appState.shouldPromptForReview
