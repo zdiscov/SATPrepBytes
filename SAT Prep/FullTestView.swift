@@ -229,7 +229,6 @@ private struct TimedTestSession: View {
                                   systemImage: current.subject == .math ? "function" : "book")
                                 .font(.caption).foregroundStyle(.blue)
                             Spacer()
-                            DifficultyBadge(difficulty: current.difficulty)
                         }
                         LaTeXView(current.text, fontSize: 16)
                         ForEach(current.options.indices, id: \.self) { i in

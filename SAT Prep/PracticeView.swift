@@ -226,7 +226,6 @@ struct QuizView: View {
                                     .background(Capsule().fill(Color.blue.opacity(0.12)))
                                     .foregroundStyle(.blue)
                             }
-                            DifficultyBadge(difficulty: current.difficulty)
                             LaTeXView(current.text, fontSize: 16)
                             ForEach(current.options.indices, id: \.self) { i in
                                 OptionButton(
@@ -237,6 +236,7 @@ struct QuizView: View {
                                 ) { selectedOption = i }
                             }
                             if showExplanation {
+                                DifficultyBadge(difficulty: current.difficulty)
                                 ExplanationCard(isCorrect: selectedOption == current.correctIndex,
                                                 explanation: current.explanation)
                                     .transition(.move(edge: .bottom).combined(with: .opacity))
