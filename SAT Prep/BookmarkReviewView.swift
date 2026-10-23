@@ -22,35 +22,33 @@ struct BookmarkReviewView: View {
     }
     
     var body: some View {
-        NavigationStack {
-            VStack {
-                // Tab Picker
-                Picker("Review Type", selection: $selectedTab) {
-                    Label("\(appState.bookmarkedQuestionIds.count) Bookmarked", systemImage: "star.fill")
-                        .tag(ReviewTab.bookmarked)
-                    Label("By Topic", systemImage: "list.bullet")
-                        .tag(ReviewTab.byTopic)
-                    Label("Sessions", systemImage: "clock.fill")
-                        .tag(ReviewTab.history)
-                }
-                .pickerStyle(.segmented)
-                .padding()
-                
-                // Content
-                Group {
-                    switch selectedTab {
-                    case .bookmarked:
-                        BookmarkedQuestionsTab()
-                    case .byTopic:
-                        BookmarksByTopicTab()
-                    case .history:
-                        SessionHistoryTab()
-                    }
-                }
-                .environmentObject(appState)
+        VStack {
+            // Tab Picker
+            Picker("Review Type", selection: $selectedTab) {
+                Label("\(appState.bookmarkedQuestionIds.count) Bookmarked", systemImage: "star.fill")
+                    .tag(ReviewTab.bookmarked)
+                Label("By Topic", systemImage: "list.bullet")
+                    .tag(ReviewTab.byTopic)
+                Label("Sessions", systemImage: "clock.fill")
+                    .tag(ReviewTab.history)
             }
-            .navigationTitle("Review")
+            .pickerStyle(.segmented)
+            .padding()
+            
+            // Content
+            Group {
+                switch selectedTab {
+                case .bookmarked:
+                    BookmarkedQuestionsTab()
+                case .byTopic:
+                    BookmarksByTopicTab()
+                case .history:
+                    SessionHistoryTab()
+                }
+            }
+            .environmentObject(appState)
         }
+        .navigationTitle("Review")
     }
 }
 
@@ -111,8 +109,10 @@ struct BookmarkedQuestionsTab: View {
             }
             .sheet(isPresented: $showQuiz) {
                 if let question = selectedQuestion {
-                    BookmarkQuizView(question: question)
-                        .environmentObject(appState)
+                    NavigationStack {
+                        BookmarkQuizView(question: question)
+                            .environmentObject(appState)
+                    }
                 }
             }
         }
@@ -245,43 +245,41 @@ struct BookmarkQuizView: View {
     @State private var showExplanation = false
     
     var body: some View {
-        NavigationStack {
-            VStack(spacing: 16) {
-                ScrollView {
-                    VStack(alignment: .leading, spacing: 16) {
-                        LaTeXView(question.text, fontSize: 16)
-                            .frame(minHeight: 100)
-                        
-                        ForEach(question.options.indices, id: \.self) { i in
-                            OptionButton(
-                                label: ["A","B","C","D"][i],
-                                text: question.options[i],
-                                state: selectedOption == i ? .selected : 
-                                       (selectedOption != nil && i == question.correctIndex ? .correct : .normal),
-                                isDisabled: showExplanation
-                            ) {
-                                selectedOption = i
-                                showExplanation = true
-                            }
-                        }
-                        
-                        if showExplanation {
-                            ExplanationCard(
-                                isCorrect: selectedOption == question.correctIndex,
-                                explanation: question.explanation
-                            )
+        VStack(spacing: 16) {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 16) {
+                    LaTeXView(question.text, fontSize: 16)
+                        .frame(minHeight: 100)
+                    
+                    ForEach(question.options.indices, id: \.self) { i in
+                        OptionButton(
+                            label: ["A","B","C","D"][i],
+                            text: question.options[i],
+                            state: selectedOption == i ? .selected : 
+                                   (selectedOption != nil && i == question.correctIndex ? .correct : .normal),
+                            isDisabled: showExplanation
+                        ) {
+                            selectedOption = i
+                            showExplanation = true
                         }
                     }
-                    .padding()
+                    
+                    if showExplanation {
+                        ExplanationCard(
+                            isCorrect: selectedOption == question.correctIndex,
+                            explanation: question.explanation
+                        )
+                    }
                 }
-                
-                Button("Done", action: { dismiss() })
-                    .buttonStyle(.borderedProminent)
-                    .padding()
+                .padding()
             }
-            .navigationTitle("Review Question")
-            .navigationBarTitleDisplayMode(.inline)
+            
+            Button("Done", action: { dismiss() })
+                .buttonStyle(.borderedProminent)
+                .padding()
         }
+        .navigationTitle("Review Question")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
