@@ -1603,7 +1603,7 @@
   },
   {
     "id": "b9b716b4-cb22-55b4-a65e-17993d863688",
-    "text": "The function f is defined by f(x) = 3x2 + 4. What is the value of f(2)?",
+    "text": "The function f is defined by f(x) = 3x² + 4. What is the value of f(2)?",
     "options": [
       "10",
       "16",
@@ -1611,7 +1611,7 @@
       "28"
     ],
     "correctIndex": 1,
-    "explanation": "To find f(2), we substitute 2 for x in the equation f(x) = 3x2 + 4. This gives us f(2) = 3(2)2 + 4 = 3(4) + 4 = 12 + 4 = 16.",
+    "explanation": "To find f(2), we substitute 2 for x in the equation f(x) = 3x² + 4. This gives us f(2) = 3(2)² + 4 = 3(4) + 4 = 12 + 4 = 16.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "e98712e5-cfe3-55ea-8c14-6f28bcc10362",
-    "text": "The function f is defined by f( x ) = x2 + x - 2. If f( a ) = 10, what is the value of a?",
+    "text": "The function f is defined by f(x) = x² + x - 2. If f(a) = 10, what is the value of a?",
     "options": [
       "-4",
       "-3",
@@ -4041,7 +4041,7 @@
       "4"
     ],
     "correctIndex": 2,
-    "explanation": "We can solve for a by substituting 10 for f( a ) in the equation and then solving the quadratic equation. This gives us 10 = a2 + a - 2. Subtracting 10 from both sides of this equation, we get 0 = a2 + a - 12. Factoring the quadratic expression, we get ( a + 4 )( a - 3 ) = 0. The solutions are a = -4 and a = 3. The value of a = 3 is the one that satisfies the given condition, so the answer is 3.",
+    "explanation": "We can solve for a by substituting 10 for f(a) in the equation and then solving the quadratic equation. This gives us 10 = a² + a - 2. Subtracting 10 from both sides of this equation, we get 0 = a² + a - 12. Factoring the quadratic expression, we get (a + 4)(a - 3) = 0. The solutions are a = -4 and a = 3. The value of a = 3 is the one that satisfies the given condition, so the answer is 3.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -6373,7 +6373,7 @@
   },
   {
     "id": "f9ade9ca-b7ab-5911-8a22-b873ad636128",
-    "text": "The function f is defined by f(x) = x2 + 5. If f(x) = 14, what are the possible values of x?",
+    "text": "The function f is defined by f(x) = x² + 5. If f(x) = 14, what are the possible values of x?",
     "options": [
       "-3 and 3",
       "-2 and 2",
@@ -6381,7 +6381,7 @@
       "0 and 10"
     ],
     "correctIndex": 0,
-    "explanation": "To solve for x, we first set f(x) equal to 14: x2 + 5 = 14. Subtracting 5 from both sides, we get x2 = 9. Taking the square root of both sides, we get x = ±3. Therefore, the possible values of x are -3 and 3.",
+    "explanation": "To solve for x, we first set f(x) equal to 14: x² + 5 = 14. Subtracting 5 from both sides, we get x² = 9. Taking the square root of both sides, we get x = ±3. Therefore, the possible values of x are -3 and 3.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
