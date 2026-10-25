@@ -335,11 +335,11 @@ private struct TestScoreView: View {
     let onDone: () -> Void
 
     private var mathAttempts: [QuestionAttempt] {
-        let ids = Set(QuestionBank.math.map(\.id))
+        let ids = Set(appState.allQuestions.filter { $0.subject == .math }.map(\.id))
         return session.attempts.filter { ids.contains($0.questionId) }
     }
     private var ebrwAttempts: [QuestionAttempt] {
-        let ids = Set(QuestionBank.ebrw.map(\.id))
+        let ids = Set(appState.allQuestions.filter { $0.subject == .ebrw }.map(\.id))
         return session.attempts.filter { ids.contains($0.questionId) }
     }
     private func scaledScore(_ attempts: [QuestionAttempt]) -> Int {

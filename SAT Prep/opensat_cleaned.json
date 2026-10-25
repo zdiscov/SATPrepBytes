@@ -3441,13 +3441,13 @@
     "id": "7bb2e04e-c63f-594d-9453-b94289b2ba85",
     "text": "The function f(x) = 3x² + 5x - 2 is defined for all real numbers. What is the value of f(-2)?",
     "options": [
-      "-12",
       "-4",
-      "8",
-      "16"
+      "0",
+      "4",
+      "8"
     ],
-    "correctIndex": 2,
-    "explanation": "Substituting -2 for x in the function f(x) = 3x² + 5x - 2 yields f(-2) = 3(-2)² + 5(-2) - 2 = 12 - 10 - 2 = 8.",
+    "correctIndex": 1,
+    "explanation": "Substituting -2 for x in the function f(x) = 3x² + 5x - 2 yields f(-2) = 3(-2)² + 5(-2) - 2 = 12 - 10 - 2 = 0.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",

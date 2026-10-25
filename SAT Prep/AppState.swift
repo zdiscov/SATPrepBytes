@@ -222,7 +222,7 @@ final class AppState: ObservableObject {
     }
 
     var mathEstimatedScore: Int {
-        let mathQuestionsIds = Set(QuestionBank.math.map(\.id))
+        let mathQuestionsIds = Set(allQuestions.filter { $0.subject == .math }.map(\.id))
         var mathCorrect = 0
         var mathTotal = 0
         for session in sessions {
@@ -237,7 +237,7 @@ final class AppState: ObservableObject {
     }
 
     var ebrwEstimatedScore: Int {
-        let ebrwQuestionsIds = Set(QuestionBank.ebrw.map(\.id))
+        let ebrwQuestionsIds = Set(allQuestions.filter { $0.subject == .ebrw }.map(\.id))
         var ebrwCorrect = 0
         var ebrwTotal = 0
         for session in sessions {
