@@ -1927,15 +1927,15 @@
   },
   {
     "id": "11bea547-f607-5a6c-a126-a249283407c6",
-    "text": "What is the value of the expression 3¹² · 9⁴27³?",
+    "text": "What is the value of the expression (3¹² · 9⁴) / 27³?",
     "options": [
+      "3⁸",
       "3⁹",
-      "3¹²",
-      "3¹⁵",
-      "3¹⁸"
+      "3¹¹",
+      "3¹²"
     ],
     "correctIndex": 2,
-    "explanation": "The expression can be rewritten as 3¹² · (3²)⁴(3³)³. Applying the rules of exponents, we have 3¹² · 3⁸3⁹, which simplifies to 3¹²⁺⁸⁻⁹ = 3¹¹.",
+    "explanation": "The expression can be rewritten by expressing each base in terms of 3: 3¹² · (3²)⁴ / (3³)³ = 3¹² · 3⁸ / 3⁹. Using rules of exponents, this simplifies to 3¹²⁺⁸⁻⁹ = 3¹¹.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
