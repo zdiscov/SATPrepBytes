@@ -1736,7 +1736,7 @@
       "2/3",
       "3/5"
     ],
-    "correctIndex": 2,
+    "correctIndex": 0,
     "explanation": "The probability that a randomly selected person from this group liked oranges, given that they liked apples, is the number of people who liked both apples and oranges divided by the number of people who liked apples. From the given information, 20 people liked both apples and oranges, and 60 people liked apples. Thus, the probability is 20/60, or 1/3.",
     "subject": "Math",
     "topic": "Problem Solving & Data Analysis",
@@ -4807,7 +4807,7 @@
   },
   {
     "id": "eefb0158-52f0-5fbb-a493-2e74aae7b7af",
-    "text": "A group of friends went to a restaurant and ordered 3 pizzas. They split the bill evenly, and each person paid $7.50. How many people were in the group?",
+    "text": "A group of friends went to a restaurant and ordered 3 pizzas that cost $10.00 each. They split the bill evenly, and each person paid $7.50. How many people were in the group?",
     "options": [
       "3",
       "4",
@@ -4815,7 +4815,7 @@
       "6"
     ],
     "correctIndex": 1,
-    "explanation": "Since each person paid 7.50 and the total bill was for 3 pizzas, the total cost of the pizzas was 3 * 7.50 = 22.50. Since they split the bill evenly, there were 22.50 / $7.50 = 3 people in the group.",
+    "explanation": "The 3 pizzas cost 3 × $10.00 = $30.00 total. If each person paid $7.50, the number of people in the group is $30.00 / $7.50 = 4 people.",
     "subject": "Math",
     "topic": "Problem Solving & Data Analysis",
     "difficulty": "Easy",
