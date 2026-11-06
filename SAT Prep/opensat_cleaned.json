@@ -17602,5 +17602,4505 @@
     "isAIGenerated": false,
     "aiTopicCategory": "pilot-500",
     "isTestOnly": false
+  },
+  {
+    "id": "71e34e9d-d889-4ed9-a3d7-de8c895ad0f2",
+    "text": "A jar contains 120 marbles, in the ratio of 3 red to 5 blue. How many of the marbles are red?",
+    "options": [
+      "55",
+      "45",
+      "15",
+      "75"
+    ],
+    "correctIndex": 1,
+    "explanation": "There are 3+5 = 8 equal parts. Each part is 120 / 8 = 15. The red share is 3 x 15 = 45.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "b5bbdb47-d2e3-447c-9ee8-7eb0129bab0e",
+    "text": "A theater sold 84 tickets for a school play, in the ratio of 2 adult tickets to 5 student tickets. How many of the tickets are adult tickets?",
+    "options": [
+      "12",
+      "34",
+      "60",
+      "24"
+    ],
+    "correctIndex": 3,
+    "explanation": "There are 2+5 = 7 equal parts. Each part is 84 / 7 = 12. The adult share is 2 x 12 = 24.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "401ac32b-7f1e-4c71-9055-e0b1a892e190",
+    "text": "A pack of 8 notebooks costs 12 dollars. What is the price of one notebook, in dollars?",
+    "options": [
+      "1.33",
+      "1.5",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide the total price by the number of items: 12 / 8 = 1.5 dollars per item.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "f13ed785-f9a3-4aed-b96a-5d523cf478c1",
+    "text": "A pack of 5 kilograms of apples costs 17.5 dollars. What is the price of one kilogram of apples, in dollars?",
+    "options": [
+      "3.5",
+      "4",
+      "2.92",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "Divide the total price by the number of items: 17.5 / 5 = 3.5 dollars per item.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "e7396c0b-6fbd-4a78-b23b-d5409b7a7c81",
+    "text": "A school has 240 students. 25% of the students ride the bus to school. How many students ride the bus to school?",
+    "options": [
+      "600",
+      "180",
+      "60",
+      "80"
+    ],
+    "correctIndex": 2,
+    "explanation": "25% of 240 is (25/100) x 240 = 60.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8569f009-c63c-49d8-b8e7-692f6f41390a",
+    "text": "A book has 360 pages. A reader has read 40% of the pages. How many pages has the reader read?",
+    "options": [
+      "144",
+      "1440",
+      "164",
+      "216"
+    ],
+    "correctIndex": 0,
+    "explanation": "40% of 360 is (40/100) x 360 = 144.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "aa312eba-3704-4bdf-8497-0cc1dea9c035",
+    "text": "A gym membership costs 80 dollars per month. The price increases by 25%. What is the new price, in dollars?",
+    "options": [
+      "20",
+      "110",
+      "105",
+      "100"
+    ],
+    "correctIndex": 3,
+    "explanation": "Increase = (25/100) x 80 = 20 dollars. New price = 80 + 20 = 100 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a35cf83d-2353-47c7-b947-7eee14530ef9",
+    "text": "A laptop originally costs 200 dollars. Its price increases by 15%. What is the new price, in dollars?",
+    "options": [
+      "215",
+      "230",
+      "30",
+      "240"
+    ],
+    "correctIndex": 1,
+    "explanation": "Increase = (15/100) x 200 = 30 dollars. New price = 200 + 30 = 230 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "4e70080b-583a-4d08-b8a1-b855ad239e2e",
+    "text": "A runner completes a 6-mile race. If 1 mile is equal to 1.6 kilometers, how many kilometers is the distance?",
+    "options": [
+      "6",
+      "9",
+      "9.6",
+      "11.2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply miles by 1.6: 6 x 1.6 = 9.6 kilometers.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a7d73c38-d5ce-4c94-8fba-8bcfbfa696e3",
+    "text": "A cyclist rides 15 miles. If 1 mile is equal to 1.6 kilometers, how many kilometers is the distance?",
+    "options": [
+      "25.6",
+      "15",
+      "22.5",
+      "24"
+    ],
+    "correctIndex": 3,
+    "explanation": "Multiply miles by 1.6: 15 x 1.6 = 24 kilometers.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "03a4c039-737c-45b2-b140-9dfe37cccced",
+    "text": "The five quiz scores are 12, 18, 15, 21, 24. What is the mean?",
+    "options": [
+      "16",
+      "21",
+      "18",
+      "15"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum = 12 + 18 + 15 + 21 + 24 = 90. Mean = 90 / 5 = 18.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "9640f649-7a33-44d9-ba64-eda582100d16",
+    "text": "The five daily temperatures, in degrees Fahrenheit are 40, 55, 50, 45, 60. What is the mean?",
+    "options": [
+      "41.67",
+      "48",
+      "53",
+      "50"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sum = 40 + 55 + 50 + 45 + 60 = 250. Mean = 250 / 5 = 50.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "903faef1-b9a1-466a-a040-31c234bed7e6",
+    "text": "The test scores are 7, 3, 9, 5, 11. What is the median?",
+    "options": [
+      "7",
+      "3",
+      "11",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ordered, the values are 3, 5, 7, 9, 11. The middle value, with two values on each side, is 7.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "eba3d6be-b036-482a-94d3-f79d320122a7",
+    "text": "The ages in a group are 22, 18, 30, 26, 14. What is the median?",
+    "options": [
+      "24",
+      "30",
+      "22",
+      "14"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ordered, the values are 14, 18, 22, 26, 30. The middle value, with two values on each side, is 22.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "ad97f8b4-f791-4d50-8c9e-748ea4fda6b4",
+    "text": "A bag contains 4 green marbles and 6 yellow marbles. If one marble is drawn at random from the bag, what is the probability that it is green?",
+    "options": [
+      "1/2",
+      "6/10",
+      "2/5",
+      "4/12"
+    ],
+    "correctIndex": 2,
+    "explanation": "Probability = favorable outcomes / total outcomes = 4 / 10 = 2/5.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8c6ccf8d-6e1c-4357-b0f0-f426f3dbb9e7",
+    "text": "A spinner is divided into 12 equal sections, 3 of which are shaded. If the spinner is spun once, what is the probability of landing on a shaded section?",
+    "options": [
+      "1/2",
+      "1/4",
+      "9/12",
+      "3/14"
+    ],
+    "correctIndex": 1,
+    "explanation": "Probability = favorable outcomes / total outcomes = 3 / 12 = 1/4.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "373d5147-dfe1-4012-9b74-0449fe937757",
+    "text": "A recipe uses 3 cups of flour for every 5 cups of sugar. How many cups of flour are needed for 30 cups of sugar?",
+    "options": [
+      "18",
+      "6",
+      "20",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Set up the proportion 3/5 = x/30. Then x = 3 x 30 / 5 = 18.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "59578234-9326-40d3-aa5a-201a11371f9d",
+    "text": "A map scale is 2 centimeters for every 7 kilometers. How many centimeters represent 35 kilometers?",
+    "options": [
+      "5",
+      "12",
+      "2",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "Set up the proportion 2/7 = x/35. Then x = 2 x 35 / 7 = 10.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "0c9a9ae3-d4c8-47a9-bc1c-15283ddba4bf",
+    "text": "A train travels 180 miles in 3 hours at a constant speed. What is the speed, in miles per hour?",
+    "options": [
+      "60",
+      "70",
+      "50",
+      "45"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed = distance / time = 180 / 3 = 60 miles per hour.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "cd35a82b-e62d-4b70-98af-eca893e0cc47",
+    "text": "A car travels 240 miles in 4 hours at a constant speed. What is the speed, in miles per hour?",
+    "options": [
+      "60",
+      "70",
+      "50",
+      "48"
+    ],
+    "correctIndex": 0,
+    "explanation": "Speed = distance / time = 240 / 4 = 60 miles per hour.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "b11e10a4-3325-4ccd-9f55-642091fdbe53",
+    "text": "The numbers are 4, 7, 7, 9, and 12. What is the range?",
+    "options": [
+      "12",
+      "8",
+      "9",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Range = maximum - minimum = 12 - 4 = 8.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "cc0b2f66-a399-45fe-a2a0-11b0b1999207",
+    "text": "The numbers are 3, 5, 5, 5, 8, and 9. What is the mode?",
+    "options": [
+      "9",
+      "8",
+      "5",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "The value 5 occurs three times, more often than any other value, so the mode is 5.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "42e79043-c260-4708-90b1-2b104bb955ad",
+    "text": "A jacket originally costs 120 dollars and is on sale for 20% off. What is the sale price, in dollars?",
+    "options": [
+      "24",
+      "110",
+      "96",
+      "108"
+    ],
+    "correctIndex": 2,
+    "explanation": "Discount = 0.20 x 120 = 24 dollars. Sale price = 120 - 24 = 96 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1eb32615-8289-4190-a6d3-8803cb478361",
+    "text": "A restaurant bill is 85 dollars before tax. A 10% tax is added. What is the total, in dollars?",
+    "options": [
+      "8.5",
+      "98.5",
+      "93.5",
+      "95"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tax = 0.10 × 85 = 8.50 dollars. Total = 85 + 8.5 = 93.5 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6e74aae3-ac59-4da2-a88f-387b03e148b1",
+    "text": "A pair of shoes originally costs 64 dollars and is on sale for 25% off. What is the sale price, in dollars?",
+    "options": [
+      "39",
+      "48",
+      "16",
+      "56"
+    ],
+    "correctIndex": 1,
+    "explanation": "Discount = 0.25 x 64 = 16 dollars. Sale price = 64 - 16 = 48 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "77bc1628-ab08-4370-bfaa-78482b5b191b",
+    "text": "In a survey of 200 adults, 120 own a bicycle and 80 do not. Among the 120 bicycle owners, 90 also own a car. Among the 80 who do not own a bicycle, 30 own a car. If a person is selected at random from those who own a car, what is the probability that the person owns a bicycle?",
+    "options": [
+      "1/4",
+      "3/4",
+      "9/20",
+      "1/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Car owners total 90 + 30 = 120. Of those, 90 own a bicycle, so the probability is 90/120 = 3/4.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "0d1b6563-03b8-44d7-bfa8-ef64f00be42a",
+    "text": "A school surveyed 300 students about lunch preference. 180 prefer pizza and 120 prefer sandwiches. Of the pizza fans, 60 are in grade 9. Of the sandwich fans, 40 are in grade 9. If a grade 9 student is chosen at random from the survey, what is the probability the student prefers pizza?",
+    "options": [
+      "1/3",
+      "1/5",
+      "2/5",
+      "3/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Grade 9 students total 60 + 40 = 100. Of those, 60 prefer pizza, so the probability is 60/100 = 3/5.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "962a4e55-ec3a-4ad0-9150-29fd2a56f75c",
+    "text": "A clinic asked 150 patients whether they exercise regularly and whether they sleep at least 8 hours. 70 exercise regularly; of those, 42 sleep at least 8 hours. 80 do not exercise regularly; of those, 24 sleep at least 8 hours. If a patient who sleeps at least 8 hours is chosen at random, what is the probability the patient exercises regularly?",
+    "options": [
+      "3/5",
+      "7/25",
+      "4/11",
+      "7/11"
+    ],
+    "correctIndex": 3,
+    "explanation": "Patients sleeping at least 8 hours total 42 + 24 = 66. Of those, 42 exercise regularly, so the probability is 42/66 = 7/11.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "266101a5-c9ee-47f2-921e-cb209068dd76",
+    "text": "A scatterplot of hours studied per week and exam score for 40 students shows points rising from left to right in a fairly tight band. Which correlation coefficient best describes the relationship?",
+    "options": [
+      "-0.15",
+      "0.05",
+      "-0.82",
+      "0.82"
+    ],
+    "correctIndex": 3,
+    "explanation": "Points rising left to right mean a positive association, and a tight band means it is strong, so r is close to +1; 0.82 fits, while -0.82 would fall, and values near 0 would show almost no pattern.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7ab4fd2b-b320-4f48-b021-eebef8d548c2",
+    "text": "A scatterplot of daily temperature and hot-chocolate sales for a cafe shows points falling from left to right in a loose cloud. Which correlation coefficient best describes the relationship?",
+    "options": [
+      "-0.55",
+      "0.55",
+      "0.92",
+      "-0.92"
+    ],
+    "correctIndex": 0,
+    "explanation": "Points falling left to right mean a negative association, and a loose cloud means it is moderate, not near -1; -0.55 fits.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "7ff4e94f-8bd4-49d1-b8a7-fc529ff213d6",
+    "text": "A scatterplot of shoe size and math test score for adults shows points scattered with no upward or downward trend. Which correlation coefficient best describes the relationship?",
+    "options": [
+      "0.88",
+      "0.61",
+      "-0.88",
+      "0.03"
+    ],
+    "correctIndex": 3,
+    "explanation": "No trend means almost no linear association, so r is close to 0; 0.03 fits, while values near plus or minus 0.9 would show a strong trend.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "821e7c88-591e-4cb2-b614-ec5679eb12b1",
+    "text": "A taxi charges a 3 dollar pickup fee plus 2.50 dollars per mile. The total fare f, in dollars, for a ride of m miles is f = 2.50m + 3. What is the fare for a 12-mile ride, in dollars?",
+    "options": [
+      "36",
+      "33",
+      "30",
+      "27"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute m = 12: f = 2.50 x 12 + 3 = 30 + 3 = 33 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "658d1e8f-edf9-4005-bf7c-9f4bacf392f9",
+    "text": "A phone plan costs 25 dollars per month plus 0.10 dollars per text message. The monthly cost C, in dollars, for t texts is C = 0.10t + 25. If a month has 150 texts, what is the cost, in dollars?",
+    "options": [
+      "25",
+      "50",
+      "15",
+      "40"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitute t = 150: C = 0.10 x 150 + 25 = 15 + 25 = 40 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "6bf2c6ba-8a1b-474c-b433-43036e8364e5",
+    "text": "A gym charges a 40 dollar joining fee plus 30 dollars per month. The total cost T, in dollars, after m months is T = 30m + 40. What does the number 30 represent in this model?",
+    "options": [
+      "The number of months",
+      "The joining fee, in dollars",
+      "The monthly charge, in dollars",
+      "The total cost after one month, in dollars"
+    ],
+    "correctIndex": 2,
+    "explanation": "In T = 30m + 40, 30 is the coefficient of m, so it is the amount added per month: the 30 dollar monthly charge. The 40 is the joining fee.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "36a842ab-14cf-47cc-bfbe-fccc3a659702",
+    "text": "A bacteria culture starts with 500 cells and doubles every 3 hours. How many cells are there after 9 hours?",
+    "options": [
+      "4000",
+      "2000",
+      "1500",
+      "8000"
+    ],
+    "correctIndex": 0,
+    "explanation": "9 hours is 9/3 = 3 doublings. 500 x 2 x 2 x 2 = 500 x 8 = 4,000 cells.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "bf745fa3-1da0-496a-a731-338ed6d0d64f",
+    "text": "An investment of 1,000 dollars grows by 5% each year. What is its value, in dollars, after 2 years, to the nearest dollar?",
+    "options": [
+      "1,103",
+      "1,050",
+      "1,100",
+      "1,150"
+    ],
+    "correctIndex": 0,
+    "explanation": "After 1 year: 1,000 x 1.05 = 1,050 dollars. After 2 years: 1,050 x 1.05 = 1,102.50 dollars, which rounds to 1,103 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "97209611-4a11-40ea-81ce-4c55748e13e0",
+    "text": "A town has 20,000 residents and its population grows by 2% each year. Which expression gives the population after t years?",
+    "options": [
+      "20,000(1.02)^t",
+      "20,000(1.2)^t",
+      "20,000(0.02)^t",
+      "20,000 + 0.02t"
+    ],
+    "correctIndex": 0,
+    "explanation": "Growth by 2% means each year the population is multiplied by 1 + 0.02 = 1.02, so after t years it is 20,000(1.02)^t.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "4d1880ff-055f-42d9-b494-b7400accd527",
+    "text": "The mean of 6 numbers is 14. What is the sum of the 6 numbers?",
+    "options": [
+      "84",
+      "60",
+      "90",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sum = mean x count = 14 x 6 = 84.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "585b7864-503f-47e8-be42-dc1fe76bb5db",
+    "text": "Four test scores have a mean of 75. A fifth score of 95 is added. What is the new mean?",
+    "options": [
+      "75",
+      "85",
+      "80",
+      "79"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sum of first four = 75 x 4 = 300. New sum = 300 + 95 = 395. New mean = 395 / 5 = 79.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "56935ed5-b4ac-4f5d-b58e-6680ec35f14c",
+    "text": "The mean height of 5 players is 180 centimeters. One player who is 190 centimeters tall leaves the team. What is the mean height, in centimeters, of the remaining 4 players?",
+    "options": [
+      "177.5",
+      "185",
+      "170",
+      "180"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total height = 180 x 5 = 900 cm. After removing 190 cm, the total is 900 - 190 = 710 cm. Mean of 4 = 710 / 4 = 177.5 cm.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1ef12b04-a5b9-4a8e-9bef-744ce890546f",
+    "text": "Two classes took the same test. Class A scores are 78, 80, 82, 80, 80. Class B scores are 60, 70, 80, 90, 100. Both classes have a mean of 80. Which class has the greater standard deviation?",
+    "options": [
+      "Class B",
+      "Class A",
+      "They are equal",
+      "Cannot be determined from the means alone"
+    ],
+    "correctIndex": 0,
+    "explanation": "Standard deviation measures spread around the mean. Class B scores range from 60 to 100, much more spread out than Class A scores clustered at 78 to 82, so Class B has the greater standard deviation.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "61aaf6b3-c845-4111-a2ab-da8262268254",
+    "text": "A data set has values clustered tightly around its mean, while another data set with the same mean has values spread far from its mean. Which statement is true?",
+    "options": [
+      "The tightly clustered data set has the larger standard deviation",
+      "Standard deviation depends only on the mean",
+      "The spread-out data set has the larger standard deviation",
+      "Both have the same standard deviation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Standard deviation grows with distance from the mean, so the spread-out set has the larger standard deviation.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "a3cea9b8-7d85-434b-a0e6-0e86528532cd",
+    "text": "If every value in a data set is increased by 10, what happens to the standard deviation?",
+    "options": [
+      "It stays the same",
+      "It increases by 10",
+      "It doubles",
+      "It decreases by 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adding the same constant to every value shifts all values and the mean by 10, but distances from the mean do not change, so the standard deviation stays the same.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "0a8d8e49-db8e-4110-be04-0e3cf97dae9f",
+    "text": "A student earns 90 on a test worth 30% of the grade and 70 on a test worth 70% of the grade. What is the weighted average score?",
+    "options": [
+      "80",
+      "76",
+      "85",
+      "75"
+    ],
+    "correctIndex": 1,
+    "explanation": "Weighted average = 0.30 x 90 + 0.70 x 70 = 27 + 49 = 76.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "23c2b642-a27d-4754-a7ae-3e46692d13fb",
+    "text": "A car travels 60 miles at 30 miles per hour and then 60 miles at 60 miles per hour. What is the average speed for the whole 120-mile trip, in miles per hour?",
+    "options": [
+      "50",
+      "60",
+      "45",
+      "40"
+    ],
+    "correctIndex": 3,
+    "explanation": "First leg takes 60/30 = 2 hours; second takes 60/60 = 1 hour. Total time = 3 hours. Average speed = 120 / 3 = 40 miles per hour.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "ce3bf6c1-b22f-49df-9eec-bc583a2a2023",
+    "text": "A store sells 10 shirts at 20 dollars each and 5 shirts at 30 dollars each. What is the average price per shirt, in dollars, to the nearest cent?",
+    "options": [
+      "25",
+      "23.33",
+      "30",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total revenue = 10 x 20 + 5 x 30 = 200 + 150 = 350 dollars for 15 shirts. Average = 350 / 15 = 23.33 dollars, to two decimal places.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "63852b89-0f7a-4850-b7d2-7ca3710bf7d9",
+    "text": "A fair coin is flipped twice. What is the probability of getting heads on both flips?",
+    "options": [
+      "1/3",
+      "1/2",
+      "3/4",
+      "1/4"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each flip has probability 1/2 of heads. For two independent flips, multiply: (1/2) x (1/2) = 1/4.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "4dd2c1e4-67c1-467e-860d-579ddcaa3b5f",
+    "text": "A bag has 5 red and 5 blue marbles. One marble is drawn, replaced, and a second marble is drawn. What is the probability both are red?",
+    "options": [
+      "1/5",
+      "2/5",
+      "1/4",
+      "1/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "With replacement, each draw has probability 5/10 = 1/2 of red. (1/2) x (1/2) = 1/4.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "deeb2d72-def7-4dd9-92de-bdf764ca7f3f",
+    "text": "The probability it rains on Saturday is 0.3 and the probability it rains on Sunday is 0.4, and the two days are independent. What is the probability it rains on neither day?",
+    "options": [
+      "0.70",
+      "0.58",
+      "0.12",
+      "0.42"
+    ],
+    "correctIndex": 3,
+    "explanation": "Probability of no rain Saturday = 1 - 0.3 = 0.7; no rain Sunday = 1 - 0.4 = 0.6. Multiply: 0.7 x 0.6 = 0.42.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "22d948bc-3bde-4732-b23e-e5305f870fa4",
+    "text": "A recipe calls for 2 liters of water. If 1 liter is about 1.06 quarts, how many quarts is 2 liters, to the nearest tenth?",
+    "options": [
+      "2.0",
+      "2.2",
+      "2.1",
+      "1.1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiplying 2 × 1.06 gives 2.12 quarts. Rounding to the nearest tenth gives 2.1.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "e005584d-92d0-4c89-b8c5-ae0274fc35c8",
+    "text": "A car uses 8 gallons of gasoline to travel 240 miles. How many miles per gallon does the car get?",
+    "options": [
+      "30",
+      "40",
+      "24",
+      "32"
+    ],
+    "correctIndex": 0,
+    "explanation": "Miles per gallon = 240 / 8 = 30.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "b38b3991-4a65-44e4-8048-4afe9ad42dc5",
+    "text": "A runner runs at 10 kilometers per hour. How many minutes does it take to run 5 kilometers?",
+    "options": [
+      "30",
+      "15",
+      "20",
+      "50"
+    ],
+    "correctIndex": 0,
+    "explanation": "Time = distance / speed = 5 / 10 = 0.5 hours = 0.5 x 60 = 30 minutes.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "5a646eb5-0fbe-4c11-b321-ba41f3c0b703",
+    "text": "A fruit salad contains apples and oranges in the ratio 2 to 3. If there are 30 pieces of fruit in total, how many are oranges?",
+    "options": [
+      "18",
+      "15",
+      "12",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "There are 2 + 3 = 5 parts. Each part is 30 / 5 = 6. Oranges are 3 parts: 3 x 6 = 18.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "ccde31fc-df4f-4270-896e-ca0a77770006",
+    "text": "A class has boys and girls in the ratio 3 to 4, with 28 students in total. How many boys are in the class?",
+    "options": [
+      "14",
+      "16",
+      "12",
+      "21"
+    ],
+    "correctIndex": 2,
+    "explanation": "There are 3 + 4 = 7 parts. Each part is 28 / 7 = 4. Boys are 3 parts: 3 x 4 = 12.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7b0f4950-446b-48d4-8007-25095a72e805",
+    "text": "A paint mixture uses blue and white paint in the ratio 1 to 4. How many liters of white paint are needed for 2 liters of blue paint?",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "White paint is 4 times the blue paint: 4 x 2 = 8 liters.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "dc0bfffa-f682-425b-8f68-8357b7db47d9",
+    "text": "A random sample of 400 voters finds that 220 support a proposal. Which is the best estimate of the proportion of all voters who support the proposal?",
+    "options": [
+      "40%",
+      "22%",
+      "55%",
+      "80%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sample proportion = 220 / 400 = 0.55 = 55%. A random sample estimates the population proportion by the sample proportion.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8c0b86f6-5ceb-44f1-87af-d10f77b42c50",
+    "text": "A factory samples 250 light bulbs and finds 10 defective. About how many defective bulbs would be expected in a shipment of 5,000 bulbs?",
+    "options": [
+      "500",
+      "100",
+      "250",
+      "200"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sample defect rate = 10 / 250 = 0.04 = 4%. Expected in 5,000: 0.04 x 5,000 = 200.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "3285a137-8b16-4a6d-8f29-7e9dd607e14c",
+    "text": "A survey of 1,000 randomly selected adults finds 650 own a smartphone. Which interval is the most reasonable estimate for the true proportion of all adults who own a smartphone?",
+    "options": [
+      "About 90% to 100%",
+      "About 62% to 68%",
+      "About 50% to 52%",
+      "About 30% to 40%"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sample proportion is 650/1,000 = 65%. With a sample of 1,000, the margin of error is roughly 3 percentage points, so about 62% to 68% is reasonable.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "149295a5-931a-4d58-958f-ce7bc7af6de7",
+    "text": "A price of 100 dollars is increased by 10% and then decreased by 10%. What is the final price, in dollars?",
+    "options": [
+      "99",
+      "110",
+      "100",
+      "90"
+    ],
+    "correctIndex": 0,
+    "explanation": "After the increase: 100 x 1.10 = 110 dollars. After the decrease: 110 x 0.90 = 99 dollars. The two 10% changes do not cancel because the second is 10% of 110, not of 100.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "5cb8a3e1-38d8-4c21-a4ca-3f01db4e8577",
+    "text": "A store raises a price by 20% and then offers a 20% discount on the raised price. If the original price was 50 dollars, what is the final price, in dollars?",
+    "options": [
+      "48",
+      "40",
+      "50",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "Raised price: 50 x 1.20 = 60 dollars. Discounted price: 60 x 0.80 = 48 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "eecb4cc3-5308-4a60-bd9d-450514bf50be",
+    "text": "What is 20% of 30% of 500?",
+    "options": [
+      "150",
+      "60",
+      "30",
+      "45"
+    ],
+    "correctIndex": 2,
+    "explanation": "30% of 500 = 0.30 x 500 = 150. Then 20% of 150 = 0.20 x 150 = 30.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "25197b46-3a47-4a48-b37f-1c9381070e4e",
+    "text": "The salaries, in thousands of dollars, at a small company are 40, 42, 45, 48, and 200. Which measure best represents a typical salary?",
+    "options": [
+      "The mode",
+      "The median, because the mean is pulled up by the outlier",
+      "The mean, because it uses all values",
+      "The range"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mean = (40+42+45+48+200)/5 = 375/5 = 75, which is above four of the five salaries. The median is 45, a typical value, so the median is better when an outlier is present.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "b8d51385-71b3-47f5-9955-86e2efe01c76",
+    "text": "Adding a very large value to a data set will have what effect on the mean and the median?",
+    "options": [
+      "Both increase by the same amount",
+      "Neither changes",
+      "The mean increases a lot; the median changes little",
+      "The median increases a lot; the mean changes little"
+    ],
+    "correctIndex": 2,
+    "explanation": "The mean uses the sum, so a large value pulls it up strongly. The median depends only on the middle position, so one large value moves it little or not at all.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "b49c1ab0-a6bf-4dac-8414-d787bc06cf62",
+    "text": "A data set has a mean of 50 and a median of 48. A new value of 49 is added. What can be said about the new mean?",
+    "options": [
+      "It must equal 49",
+      "It will be less than 48",
+      "It will be between 48 and 50",
+      "It will be greater than 50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adding a value below the current mean pulls the mean down toward that value. The new mean is a weighted average of 50 and 49, so it lies between 49 and 50, and therefore also between 48 and 50.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "340dcae9-e342-491e-96b7-49df7e6c26c5",
+    "text": "A printer prints 120 pages in 4 minutes. At this rate, how many pages can it print in 10 minutes?",
+    "options": [
+      "300",
+      "480",
+      "360",
+      "240"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rate = 120 / 4 = 30 pages per minute. In 10 minutes: 30 x 10 = 300 pages.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "172a41d7-8729-44f3-9076-94905e581275",
+    "text": "Two workers paint a fence together. One paints 5 meters per hour and the other paints 7 meters per hour. How many meters do they paint together in 3 hours?",
+    "options": [
+      "24",
+      "12",
+      "30",
+      "36"
+    ],
+    "correctIndex": 3,
+    "explanation": "Combined rate = 5 + 7 = 12 meters per hour. In 3 hours: 12 x 3 = 36 meters.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "028f545a-25f5-4ea5-bff0-759c2006e14e",
+    "text": "A faucet fills a tank at 6 liters per minute. How long, in minutes, does it take to fill a 180-liter tank?",
+    "options": [
+      "36",
+      "20",
+      "60",
+      "30"
+    ],
+    "correctIndex": 3,
+    "explanation": "Time = volume / rate = 180 / 6 = 30 minutes.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "ca8dd16e-4d8d-4761-9a19-712d4574a97b",
+    "text": "A radioactive sample starts with 800 grams and halves every 5 years. How many grams remain after 15 years?",
+    "options": [
+      "100",
+      "400",
+      "50",
+      "200"
+    ],
+    "correctIndex": 0,
+    "explanation": "15 years is 15/5 = 3 half-lives. 800 / 2 = 400 after 5 years, / 2 = 200 after 10 years, / 2 = 100 after 15 years.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "321b341f-16bb-4166-b4a7-4916fb36c77b",
+    "text": "A medicine in the bloodstream decreases by 25% each hour. Starting with 160 milligrams, how many milligrams remain after 2 hours?",
+    "options": [
+      "120",
+      "100",
+      "80",
+      "90"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each hour 75% remains. After 1 hour: 160 x 0.75 = 120 mg. After 2 hours: 120 x 0.75 = 90 mg.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "2bbe20b7-277b-45ef-8a8d-ac9f056eb50c",
+    "text": "A population of 1,024 bacteria is reduced by half every hour by a treatment. After how many hours will 64 bacteria remain?",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dividing 1,024 by 2 repeatedly: 512 (1 hr), 256 (2 hrs), 128 (3 hrs), and 64 (4 hrs). Therefore, the number of hours is 4.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "17f54f02-e508-469c-939b-15addbd2c38f",
+    "text": "The table summarizes exam results by whether students studied. If a student who passed is selected at random, what is the probability that the student studied? <table><tr><th></th><th>Pass</th><th>Fail</th><th>Total</th></tr><tr><th>Studied</th><td>72</td><td>18</td><td>90</td></tr><tr><th>Did not study</th><td>12</td><td>28</td><td>40</td></tr><tr><th>Total</th><td>84</td><td>46</td><td>130</td></tr></table>",
+    "options": [
+      "72/90",
+      "72/130",
+      "18/46",
+      "6/7"
+    ],
+    "correctIndex": 3,
+    "explanation": "Students who passed total 84. Of those, 72 studied, so the probability is 72/84 = 6/7.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7e1fcede-1831-4dca-a998-9e03bd70957a",
+    "text": "The table summarizes drink preference by time of day for 150 cafe customers. If a customer who prefers tea is selected at random, what is the probability that the customer visited in the evening? <table><tr><th></th><th>Prefers tea</th><th>Prefers coffee</th><th>Total</th></tr><tr><th>Morning</th><td>30</td><td>50</td><td>80</td></tr><tr><th>Evening</th><td>45</td><td>25</td><td>70</td></tr><tr><th>Total</th><td>75</td><td>75</td><td>150</td></tr></table>",
+    "options": [
+      "45/70",
+      "30/75",
+      "45/150",
+      "3/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tea drinkers total 75. Of those, 45 visited in the evening, so the probability is 45/75 = 3/5.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "c8c698aa-2832-473e-ba63-a45889735695",
+    "text": "The table summarizes arrival by transport mode for 140 commuters. If a commuter who was late is selected at random, what is the probability that the commuter took the train? <table><tr><th></th><th>On time</th><th>Late</th><th>Total</th></tr><tr><th>Bus</th><td>54</td><td>6</td><td>60</td></tr><tr><th>Train</th><td>68</td><td>12</td><td>80</td></tr><tr><th>Total</th><td>122</td><td>18</td><td>140</td></tr></table>",
+    "options": [
+      "12/80",
+      "12/140",
+      "2/3",
+      "6/18"
+    ],
+    "correctIndex": 2,
+    "explanation": "Late commuters total 18. Of those, 12 took the train, so the probability is 12/18 = 2/3.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "fa74ecdc-57b9-45ee-89ff-92943b630866",
+    "text": "A data set has mean 100 and standard deviation 15. Every value is multiplied by 2. What are the new mean and standard deviation?",
+    "options": [
+      "Mean 200, standard deviation 15",
+      "Mean 200, standard deviation 30",
+      "Mean 200, standard deviation 60",
+      "Mean 115, standard deviation 30"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiplying every value by 2 multiplies the mean by 2 (100 x 2 = 200) and multiplies distances from the mean by 2, so the standard deviation also doubles: 15 x 2 = 30.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "f78614a7-6f17-4761-92bd-8a1a3b9cbb3f",
+    "text": "Two data sets have the same mean. Set X has standard deviation 4 and Set Y has standard deviation 9. If a value 2 standard deviations above the mean is chosen from each set, which value is larger?",
+    "options": [
+      "Cannot be determined",
+      "The value from Set Y",
+      "They are equal",
+      "The value from Set X"
+    ],
+    "correctIndex": 1,
+    "explanation": "A value 2 standard deviations above the mean is mean + 2 x SD. For X it is mean + 8; for Y it is mean + 18, so the Y value is larger.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "c418b94c-561d-4ac3-8bb1-413173d6248a",
+    "text": "A data set of exam scores has mean 70 and standard deviation 10. A score of 90 is how many standard deviations above the mean?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "Difference from the mean = 90 - 70 = 20. Divide by the standard deviation: 20 / 10 = 2 standard deviations.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "980a3015-aef9-4e21-bf39-cec84b09501d",
+    "text": "A poll about a new park is conducted by asking only people who visit the park on a Saturday morning. Which statement best describes the poll?",
+    "options": [
+      "It is biased because the sample is too small",
+      "It is likely biased, because Saturday-morning park visitors may favor the park more than the general population",
+      "It is unbiased, because the sample is large",
+      "It is unbiased, because it was conducted in person"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sample is not a random sample of the whole population; it overrepresents people who already use the park, so it is likely biased in favor of the park.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "971f4e6d-4187-4bfb-8238-b63f414f177b",
+    "text": "A researcher wants to estimate the average sleep of all students at a school. She surveys students in the library at midnight. What is the main problem?",
+    "options": [
+      "Sleep cannot be measured",
+      "The sample is not representative of all students",
+      "The sample is too large",
+      "The library is too quiet"
+    ],
+    "correctIndex": 1,
+    "explanation": "Students in the library at midnight are likely to sleep less than typical students, so the sample is not representative and the estimate will be biased.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "66423a12-af0e-40a3-820a-8adcb746c717",
+    "text": "In a random sample of 900 people, 54% support a measure, with a margin of error of about 3 percentage points. Which conclusion is best supported?",
+    "options": [
+      "More than 60% of the whole population supports it",
+      "Less than 50% of the whole population supports it",
+      "Exactly 54% of the whole population supports it",
+      "It is plausible that between 51% and 57% of the whole population supports the measure"
+    ],
+    "correctIndex": 3,
+    "explanation": "The margin of error gives an interval 54% - 3% = 51% to 54% + 3% = 57% as a plausible range for the population proportion.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "3a6f9ba4-c28a-42e8-ad7f-8fbc36a71a98",
+    "text": "A scientist measures the height of a plant: 5 cm on day 0 and 11 cm on day 3, growing at a constant rate. What is the predicted height, in centimeters, on day 10?",
+    "options": [
+      "30",
+      "20",
+      "22",
+      "25"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rate = (11 - 5) / 3 = 2 cm per day. Height on day 10 = 5 + 2 x 10 = 25 cm.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "30e129ff-1e6e-411c-99fd-8290abb9f282",
+    "text": "A car rental charges a fixed fee plus a daily rate. A 3-day rental costs 110 dollars and a 5-day rental costs 150 dollars. What is the fixed fee, in dollars?",
+    "options": [
+      "20",
+      "50",
+      "60",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "The daily rate is (150 - 110) / (5 - 3) = 40 / 2 = 20 dollars per day. Fixed fee = 110 - 3 x 20 = 110 - 60 = 50 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "04bc6b5d-9bfb-4071-bd08-c7a4c7b25d3a",
+    "text": "The number of bacteria in a culture increases linearly by 300 per hour. There are 1,200 bacteria at hour 2. How many are there at hour 7?",
+    "options": [
+      "3000",
+      "2100",
+      "2700",
+      "2400"
+    ],
+    "correctIndex": 2,
+    "explanation": "Increase over 5 hours = 300 x 5 = 1,500. Count at hour 7 = 1,200 + 1,500 = 2,700.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "64e66531-c33b-4597-9490-518ee6a3d088",
+    "text": "A box contains 6 red balls and 4 blue balls. Two balls are drawn without replacement. What is the probability both are red?",
+    "options": [
+      "9/25",
+      "1/3",
+      "3/5",
+      "2/5"
+    ],
+    "correctIndex": 1,
+    "explanation": "First draw: 6/10 = 3/5 red. Second draw, given red first: 5/9 red. Multiply: (6/10) x (5/9) = 30/90 = 1/3.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "f33c3812-b116-48d0-9dfe-7a671ef6d504",
+    "text": "A deck has 52 cards. Two cards are drawn without replacement. What is the probability both are aces?",
+    "options": [
+      "4/663",
+      "1/13",
+      "1/169",
+      "1/221"
+    ],
+    "correctIndex": 3,
+    "explanation": "First ace: 4/52 = 1/13. Second ace: 3/51 = 1/17. Multiply: (1/13) x (1/17) = 1/221.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "e9e5ce8c-27ce-41f0-a493-8c56497094f2",
+    "text": "A jar has 8 green and 2 yellow marbles. Two marbles are drawn without replacement. What is the probability at least one is yellow?",
+    "options": [
+      "1/5",
+      "17/45",
+      "4/9",
+      "1/45"
+    ],
+    "correctIndex": 1,
+    "explanation": "Probability neither is yellow = (8/10) x (7/9) = 56/90 = 28/45. So at least one yellow = 1 - 28/45 = 17/45.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "f04ba192-3866-4b27-975a-23dcde35fe2f",
+    "text": "After a 20% discount, a shirt costs 40 dollars. What was the original price, in dollars?",
+    "options": [
+      "32",
+      "60",
+      "50",
+      "48"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sale price is 80% of the original: 0.80 x original = 40, so original = 40 / 0.80 = 50 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "cd0b4636-c871-45b3-ba1e-549dd5d22d5a",
+    "text": "A salary is increased by 25% to 60,000 dollars. What was the salary before the increase, in dollars?",
+    "options": [
+      "45,000",
+      "75,000",
+      "50,000",
+      "48,000"
+    ],
+    "correctIndex": 3,
+    "explanation": "The new salary is 125% of the old: 1.25 x old = 60,000, so old = 60,000 / 1.25 = 48,000 dollars.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "513f2636-b5de-4900-8898-3c256c5d036a",
+    "text": "A population decreases by 10% each year for 2 years, starting at 10,000. What is the population after 2 years?",
+    "options": [
+      "810",
+      "8100",
+      "8000",
+      "9000"
+    ],
+    "correctIndex": 1,
+    "explanation": "After 1 year: 10,000 × 0.90 = 9,000. After 2 years: 9,000 × 0.90 = 8100.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "4d751793-89d8-48ab-be64-8d12bf0cf4f2",
+    "text": "A 200-gram solution is 15% salt by mass. How many grams of salt must be added so the solution becomes 20% salt by mass, if no water is added or removed?",
+    "options": [
+      "10",
+      "20",
+      "12.5",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let x be grams added. Salt becomes 30 + x and total becomes 200 + x. Solve (30 + x)/(200 + x) = 0.20: 30 + x = 40 + 0.20x, so 0.80x = 10 and x = 12.5 grams.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "803fc60a-6621-4de2-88b9-83d97ed0b9c7",
+    "text": "In a school, 60% of students are girls. Of the girls, 40% play a sport, and of the boys, 25% play a sport. What percent of all students play a sport?",
+    "options": [
+      "34%",
+      "65%",
+      "32.5%",
+      "40%"
+    ],
+    "correctIndex": 0,
+    "explanation": "Girls who play: 0.60 x 0.40 = 0.24 = 24% of all students. Boys who play: 0.40 x 0.25 = 0.10 = 10% of all students. Total = 24% + 10% = 34%.",
+    "subject": "Math",
+    "topic": "Problem Solving & Data Analysis",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "255b0272-34d3-4b4b-aa99-035eee80ca0a",
+    "text": "If $4x - 9 = 19$, what is the value of $x$?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "Add 9 to both sides: $4x = 28$. Then divide both sides by 4: $x = \\frac{28}{4} = 7$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7c11e480-fd99-448b-99a8-fe12f676dcb6",
+    "text": "If $4x - 5 = 27$, what is the value of $x$?",
+    "options": [
+      "7",
+      "10",
+      "9",
+      "8"
+    ],
+    "correctIndex": 3,
+    "explanation": "Subtract -5 from both sides: $4x = 32$. Then divide both sides by 4: $x = \\frac{32}{4} = 8$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "3a64e2b9-2417-42f0-b810-b5c6d600bbe3",
+    "text": "If $5x + 3 = 38$, what is the value of $x$?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subtract 3 from both sides: $5x = 35$. Then divide both sides by 5: $x = \\frac{35}{5} = 7$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "4cbe0497-93a3-44cc-8edc-39ca303cf5cc",
+    "text": "If $2x + 11 = 31$, what is the value of $x$?",
+    "options": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 11 from both sides: $2x = 20$. Then divide both sides by 2: $x = \\frac{20}{2} = 10$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "131286b1-7a22-405c-8eea-9740f4a0ef96",
+    "text": "If $6x - 4 = 20$, what is the value of $x$?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract -4 from both sides: $6x = 24$. Then divide both sides by 6: $x = \\frac{24}{6} = 4$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "d0585a79-6828-45c2-9616-62ffca8b347d",
+    "text": "If $7x + 2 = 51$, what is the value of $x$?",
+    "options": [
+      "7",
+      "9",
+      "8",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 2 from both sides: $7x = 49$. Then divide both sides by 7: $x = \\frac{49}{7} = 7$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "d3df2050-c72b-4511-931a-a9995ce274a2",
+    "text": "If $f(x) = 3x + 4$, what is the value of $f(5)$?",
+    "options": [
+      "18",
+      "21",
+      "20",
+      "19"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitute $x = 5$: $f(5) = 3(5) + 4 = 15 + 4 = 19$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "eeb236b8-5ee3-4712-b372-f3e0da0900e7",
+    "text": "If $f(x) = -2x + 9$, what is the value of $f(4)$?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute $x = 4$: $f(4) = -2(4) + 9 = -8 + 9 = 1$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "22f2844f-5aa4-40c0-ae2e-064666a1bcb9",
+    "text": "If $f(x) = 5x - 3$, what is the value of $f(6)$?",
+    "options": [
+      "26",
+      "28",
+      "27",
+      "29"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute $x = 6$: $f(6) = 5(6) - 3 = 30 - 3 = 27$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "9013b597-608e-4fa0-85a6-13df9f9c4b76",
+    "text": "What is the slope of the line that passes through the points $(1, 2)$ and $(5, 14)$?",
+    "options": [
+      "5",
+      "2",
+      "4",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "The slope is $\\frac{y_2-y_1}{x_2-x_1} = \\frac{14-2}{5-1} = \\frac{12}{4} = 3$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "867ffb17-8f7f-4c31-8878-d8b6a5924c42",
+    "text": "What is the slope of the line that passes through the points $(0, 3)$ and $(4, 11)$?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "The slope is $\\frac{y_2-y_1}{x_2-x_1} = \\frac{11-3}{4-0} = \\frac{8}{4} = 2$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "65c657ea-2023-4e72-82c7-94ff9b2349a8",
+    "text": "What is the slope of the line that passes through the points $(-2, 5)$ and $(3, 15)$?",
+    "options": [
+      "4",
+      "1",
+      "3",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "The slope is $\\frac{y_2-y_1}{x_2-x_1} = \\frac{15-5}{3--2} = \\frac{10}{5} = 2$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "199196cb-41c4-486a-8e70-c70772d7560d",
+    "text": "The line $y = 4x + b$ passes through the point $(3, 17)$. What is the value of $b$?",
+    "options": [
+      "5",
+      "1",
+      "9",
+      "13"
+    ],
+    "correctIndex": 0,
+    "explanation": "Substitute $x=3$ and $y=17$: $17 = 4(3) + b$, so $17 = 12 + b$ and $b = 17 - 12 = 5$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "13c3edfd-e058-4281-a33e-903d238c4977",
+    "text": "What is the $y$-intercept of the line $y = -3x + 8$?",
+    "options": [
+      "-8",
+      "3",
+      "8",
+      "-3"
+    ],
+    "correctIndex": 2,
+    "explanation": "In slope-intercept form $y = mx + b$, the $y$-intercept is $b$. Here $b = 8$, so the line crosses the $y$-axis at $(0, 8)$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "368f69ef-d5bc-41c5-8176-f81300081765",
+    "text": "If $2x + 3 < 13$, which of the following could be the value of $x$?",
+    "options": [
+      "7",
+      "6",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract 3 from both sides: $2x < 10$. Divide by 2: $x < 5$. Of the choices, only $4$ is less than $5$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "09291305-e117-488f-895e-46e1762bf47e",
+    "text": "If $3x - 4 > 14$, which of the following could be the value of $x$?",
+    "options": [
+      "4",
+      "7",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add 4 to both sides: $3x > 18$. Divide by 3: $x > 6$. Of the choices, only $7$ is greater than $6$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "d213f9e7-9b78-49f0-a30b-c558f761e98f",
+    "text": "A taxi charges a flat fee of 4 dollars plus 3 dollars per mile. If a ride costs 25 dollars in total, how many miles was the ride?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let $m$ be the miles. Then $4 + 3m = 25$, so $3m = 21$ and $m = 7$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "55e9c231-34eb-4038-b9f0-251eae3c0929",
+    "text": "Maria buys 5 notebooks for the same price each and pays with a 20-dollar bill. If she receives 5 dollars in change, what is the price of one notebook, in dollars?",
+    "options": [
+      "4",
+      "2",
+      "5",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "She spent $20 - 5 = 15$ dollars on 5 notebooks, so one notebook costs $\\frac{15}{5} = 3$ dollars.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "ff8cedcf-dff4-4555-9949-80b2b6f4cf37",
+    "text": "If $2x + 1y = 11$ and $1x - 1y = 1$, what is the value of $x$?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adding the two equations eliminates y: (2x + y) + (x - y) = 11 + 1, so 3x = 12, which gives x = 4.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "bb632dc0-d7a2-4e87-885c-93bb36079cf9",
+    "text": "If $3x + 2y = 19$ and $1x - 2y = 1$, what is the value of $y$?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Solving the system (for example, by elimination) gives $x = 5$ and $y = 2$. Check: $1(5) - 2(2) = 1$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "cb3d3c88-ade8-4eb4-bd72-ad843f84b295",
+    "text": "If $1x + 3y = 16$ and $2x - 1y = 4$, what is the value of $x+y$?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solving the system gives $x = 4$ and $y = 4$, so $x + y = 4 + 4 = 8$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "db4ceda9-0666-42ca-a1fe-9dd0fe3ad180",
+    "text": "If $4x - 1y = 5$ and $2x + 3y = 13$, what is the value of $x-y$?",
+    "options": [
+      "1",
+      "-2",
+      "-1",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "Solving the system gives $x = 2$ and $y = 3$, so $x - y = 2 - 3 = -1$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "678ac136-532a-4c7f-99e9-ca3ce2677357",
+    "text": "If $2x + 3y = 13$ and $3x - 2y = 0$, what is the value of $x$?",
+    "options": [
+      "3",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "From 3x - 2y = 0, we have y = 1.5x. Substituting into 2x + 3y = 13 gives 2x + 4.5x = 13, so 6.5x = 13, which gives x = 2.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "91d4cbfc-077b-4f40-a57d-9d3e6703ffb2",
+    "text": "If $1x - 2y = 3$ and $3x + 1y = 16$, what is the value of $y$?",
+    "options": [
+      "0",
+      "3",
+      "1",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiplying the first equation by 3 gives 3x - 6y = 9. Subtracting this from 3x + y = 16 gives 7y = 7, which simplifies to y = 1.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "b534cd09-bbfe-4d00-bf65-3728c9302bc0",
+    "text": "If $5x + 1y = 23$ and $2x + 1y = 11$, what is the value of $x+y$?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solving the system gives $x = 4$ and $y = 3$, so $x + y = 4 + 3 = 7$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "12db18e3-3ec2-4130-9509-3e681a5d3e27",
+    "text": "If $3x - 1y = 4$ and $1x + 2y = 13$, what is the value of $x-y$?",
+    "options": [
+      "-3",
+      "-2",
+      "-1",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solving the system gives $x = 3$ and $y = 5$, so $x - y = 3 - 5 = -2$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "2ecca079-3f06-46cb-bbbc-42da24d2ca66",
+    "text": "A theater sells adult tickets for 12 dollars each and student tickets for 7 dollars each. On one evening, 100 tickets are sold for a total of 950 dollars. How many adult tickets were sold?",
+    "options": [
+      "60",
+      "40",
+      "30",
+      "50"
+    ],
+    "correctIndex": 3,
+    "explanation": "Let $a$ be adult tickets and $s$ student tickets. Then $a + s = 100$ and $12a + 7s = 950$. From the first equation $s = 100 - a$, so $12a + 7(100 - a) = 950$, giving $5a + 700 = 950$, $5a = 250$, and $a = 50$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "979fa113-d68b-40ee-9dfc-59d787de0a52",
+    "text": "A chemist mixes a 10 percent salt solution with a 30 percent salt solution to make 20 liters of a 25 percent salt solution. How many liters of the 30 percent solution are used?",
+    "options": [
+      "10",
+      "5",
+      "12",
+      "15"
+    ],
+    "correctIndex": 3,
+    "explanation": "Let $x$ be liters of the 30 percent solution; then $20 - x$ liters of the 10 percent solution are used. Salt: $0.30x + 0.10(20 - x) = 0.25(20)$, so $0.20x + 2 = 5$, $0.20x = 3$, and $x = 15$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "272fd991-2902-4194-81bc-2ec058d1f344",
+    "text": "Two trains leave the same station in opposite directions. One travels at 60 miles per hour and the other at 80 miles per hour. After how many hours will they be 350 miles apart?",
+    "options": [
+      "3.5",
+      "3",
+      "2",
+      "2.5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Their separation grows at $60 + 80 = 140$ miles per hour. Time $= \\frac{350}{140} = 2.5$ hours.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "3d04d8ba-2451-4b7c-bdb7-c08b7e476d71",
+    "text": "A plumber charges a 50-dollar service fee plus 40 dollars per hour. A job costs 210 dollars in total. How many hours did the job take?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let $h$ be the hours. Then $50 + 40h = 210$, so $40h = 160$ and $h = 4$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "20da91fd-52d5-4593-8edf-1cc9290e8fb9",
+    "text": "Five years ago, Ana was twice as old as Ben. In five years, Ana will be 3 times as old as Ben was five years ago. How old is Ana now? (Let Ben's current age be $b$.)",
+    "options": [
+      "20",
+      "15",
+      "30",
+      "25"
+    ],
+    "correctIndex": 3,
+    "explanation": "Let Ana's current age be $a$ and Ben's be $b$. Five years ago $a - 5 = 2(b - 5)$. In five years $a + 5 = 3(b - 5)$. From the first, $a = 2b - 5$. Substituting: $2b - 5 + 5 = 3b - 15$, so $2b = 3b - 15$ and $b = 15$. Then $a = 2(15) - 5 = 25$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "e0bb9879-33e0-41ad-8089-bca65940f0c5",
+    "text": "Working together, Al and Bea can paint a room in 6 hours. Al alone can paint the room in 10 hours. How many hours would it take Bea alone to paint the room?",
+    "options": [
+      "20",
+      "15",
+      "12",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rates add: $\\frac{1}{10} + \\frac{1}{t} = \\frac{1}{6}$, where $t$ is Bea's time. So $\\frac{1}{t} = \\frac{1}{6} - \\frac{1}{10} = \\frac{5-3}{30} = \\frac{1}{15}$, and $t = 15$ hours.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "e8f4201f-c671-46c4-ab9d-dcb22378ad43",
+    "text": "If $-2x + 7 \\leq 19$, what is the smallest integer value of $x$ that satisfies the inequality?",
+    "options": [
+      "-5",
+      "6",
+      "-7",
+      "-6"
+    ],
+    "correctIndex": 3,
+    "explanation": "Subtract 7: $-2x \\leq 12$. Divide by $-2$ and reverse the inequality: $x \\geq -6$. The smallest integer satisfying this is $-6$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "a093023c-e41c-41cf-a2e1-f80fa006e677",
+    "text": "Which of the following is a solution to $3x - 5 > 2x + 4$?",
+    "options": [
+      "7",
+      "8",
+      "10",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract $2x$ from both sides: $x - 5 > 4$, so $x > 9$. Of the choices, only 10 is greater than 9.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "4d15cd67-cb7b-40af-a3d6-699376def1ab",
+    "text": "The inequality $2(x - 3) < 4x + 6$ is equivalent to which of the following?",
+    "options": [
+      "$x > -6$",
+      "$x < -6$",
+      "$x < 6$",
+      "$x > 6$"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand: $2x - 6 < 4x + 6$. Subtract $2x$: $-6 < 2x + 6$. Subtract 6: $-12 < 2x$, so $-6 < x$, i.e. $x > -6$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "37a2baa1-c1eb-4c91-9f79-9b17c4357e71",
+    "text": "A gym membership costs 30 dollars per month plus a one-time fee of 45 dollars. If a member wants the total cost for the first year to be at most 375 dollars, what is the greatest number of months she can be a member if the fee is charged once?",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let $m$ be months. Then $45 + 30m \\leq 375$, so $30m \\leq 330$ and $m \\leq 11$. The greatest whole number of months is 11.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "c695c20a-5e42-4167-807a-61bddffd1f0a",
+    "text": "If $\\frac{x}{3} + 2 \\geq 7$, what is the least possible value of $x$?",
+    "options": [
+      "15",
+      "18",
+      "12",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 2: $\\frac{x}{3} \\geq 5$. Multiply by 3: $x \\geq 15$. The least possible value is 15.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "e624c15f-25ab-4512-9cc2-8a0c44b190de",
+    "text": "What is the slope of the line parallel to the line $y = -\\frac{2}{3}x + 5$?",
+    "options": [
+      "$-\\frac{2}{3}$",
+      "$\\frac{3}{2}$",
+      "$-\\frac{3}{2}$",
+      "$\\frac{2}{3}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "Parallel lines have equal slopes. The given line has slope $-\\frac{2}{3}$, so any line parallel to it also has slope $-\\frac{2}{3}$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "c9828289-b22d-4561-95cd-618fbb55b948",
+    "text": "What is the slope of the line perpendicular to the line $y = 4x - 7$?",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$-4$",
+      "$4$",
+      "$-\\frac{1}{4}$"
+    ],
+    "correctIndex": 3,
+    "explanation": "Perpendicular slopes are negative reciprocals. The given slope is 4, so the perpendicular slope is $-\\frac{1}{4}$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a76c6922-8ef1-49e5-9d15-851b1196f55c",
+    "text": "A line passes through $(2, 5)$ and has slope 3. What is the $y$-intercept of the line?",
+    "options": [
+      "-1",
+      "-7",
+      "11",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use $y = 3x + b$ with $(2, 5)$: $5 = 3(2) + b$, so $5 = 6 + b$ and $b = -1$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "77664a08-a1c0-4a1d-a4a1-653702055637",
+    "text": "What is the equation of the line that passes through $(0, -4)$ and $(3, 5)$?",
+    "options": [
+      "$y = 3x - 4$",
+      "$y = 3x + 4$",
+      "$y = \\frac{1}{3}x - 4$",
+      "$y = -3x - 4$"
+    ],
+    "correctIndex": 0,
+    "explanation": "The slope is $\\frac{5 - (-4)}{3 - 0} = \\frac{9}{3} = 3$, and the line passes through $(0, -4)$, so its $y$-intercept is $-4$. Hence $y = 3x - 4$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "e1721fb2-20d0-4131-8fea-54cc257de5ed",
+    "text": "The graph of the linear function $f$ passes through $(1, 4)$ and $(4, 13)$. What is the value of $f(7)$?",
+    "options": [
+      "19",
+      "16",
+      "22",
+      "25"
+    ],
+    "correctIndex": 2,
+    "explanation": "The slope is $\\frac{13-4}{4-1} = 3$. Using $(1, 4)$: $f(x) = 3x + 1$, since $4 = 3(1) + 1$. Then $f(7) = 3(7) + 1 = 22$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "89c8215e-a440-4e53-9343-ccf676a07d7b",
+    "text": "If $f(x) = \\frac{2x + 8}{3}$, what is the value of $f(7)$?",
+    "options": [
+      "$\\frac{22}{3}$",
+      "$\\frac{20}{3}$",
+      "$7$",
+      "$\\frac{26}{3}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "Substitute $x = 7$: $f(7) = \\frac{2(7) + 8}{3} = \\frac{22}{3}$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "f1b530f2-a731-425b-ad0b-fc4ff0789984",
+    "text": "If $g(x) = \\frac{x + 6}{2}$, what is the value of $x$ for which $g(x) = 10$?",
+    "options": [
+      "8",
+      "14",
+      "26",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "Set $\\frac{x + 6}{2} = 10$. Multiply by 2: $x + 6 = 20$, so $x = 14$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "48d4d733-d8a9-44bf-bff5-0087e789e268",
+    "text": "The function $h$ is defined by $h(x) = ax + 5$. If $h(4) = 17$, what is the value of $a$?",
+    "options": [
+      "4",
+      "5",
+      "2",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitute: $h(4) = 4a + 5 = 17$, so $4a = 12$ and $a = 3$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "86ca8b10-c65d-48a7-a1b7-e26bfddd2269",
+    "text": "If $f(x) = 3x - 2$ and $g(x) = x + 4$, what is the value of $f(g(3))$?",
+    "options": [
+      "16",
+      "19",
+      "13",
+      "22"
+    ],
+    "correctIndex": 1,
+    "explanation": "First $g(3) = 3 + 4 = 7$. Then $f(7) = 3(7) - 2 = 19$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "3e9348b6-227e-4b3c-bb68-8808d7fdcbf2",
+    "text": "A linear function $f$ satisfies $f(2) = 9$ and $f(5) = 18$. What is the value of $f(0)$?",
+    "options": [
+      "6",
+      "0",
+      "-3",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "The slope is $\\frac{18-9}{5-2} = 3$. Write $f(x) = 3x + b$; from $f(2) = 9$, $6 + b = 9$, so $b = 3$. Hence $f(0) = 3$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a6c32482-17b6-4777-bb1f-f758fb024e70",
+    "text": "If $\\frac{2x - 1}{3} = \\frac{x + 4}{2}$, what is the value of $x$?",
+    "options": [
+      "7",
+      "11",
+      "14",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cross-multiply: $2(2x - 1) = 3(x + 4)$, so $4x - 2 = 3x + 12$ and $x = 14$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "d0fa9803-45c7-4418-94df-4444b91814e9",
+    "text": "If $3(x - 2) + 5 = 2x + 4$, what is the value of $x$?",
+    "options": [
+      "7",
+      "9",
+      "3",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expand: $3x - 6 + 5 = 2x + 4$, so $3x - 1 = 2x + 4$ and $x = 5$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "8cccf073-8b46-476e-bb23-d2a989e94ea6",
+    "text": "The sum of three consecutive even integers is 72. What is the largest of the three integers?",
+    "options": [
+      "24",
+      "28",
+      "26",
+      "22"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let the integers be $n$, $n+2$, $n+4$. Then $3n + 6 = 72$, so $3n = 66$, $n = 22$, and the largest is $22 + 4 = 26$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "213f0063-fdf2-41dd-8b53-2d3d69fd0e9a",
+    "text": "A rectangle has length 5 centimeters more than its width. If its perimeter is 38 centimeters, what is its width, in centimeters?",
+    "options": [
+      "7",
+      "9",
+      "6",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let the width be $w$; the length is $w + 5$. Perimeter: $2w + 2(w + 5) = 38$, so $4w + 10 = 38$, $4w = 28$, and $w = 7$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a7f25c86-f265-4cf9-a4e1-4ee96d89885b",
+    "text": "If $x + y = 10$ and $x - y = 4$, what is the value of $xy$?",
+    "options": [
+      "21",
+      "14",
+      "24",
+      "18"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adding the equations gives $2x = 14$, so $x = 7$; then $y = 3$. Hence $xy = 7 \\times 3 = 21$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "c1d76f66-9be1-4920-8d07-a4033ab1981d",
+    "text": "A phone plan charges 25 dollars per month plus 0.10 dollars per text message. If the monthly bill is 40 dollars, how many text messages were sent?",
+    "options": [
+      "150",
+      "200",
+      "100",
+      "125"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let $t$ be the number of texts. Then $25 + 0.10t = 40$, so $0.10t = 15$ and $t = 150$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "d3e08795-d63e-435e-aef6-3387ad7e16f6",
+    "text": "For what value of $k$ does the system $2x + ky = 6$ and $4x + 6y = 12$ have infinitely many solutions?",
+    "options": [
+      "6",
+      "2",
+      "3",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "Infinitely many solutions require the equations to be proportional. The second equation is twice the first in $x$ and in the constant ($4 = 2 \\times 2$, $12 = 2 \\times 6$), so $k$ must satisfy $6 = 2k$, giving $k = 3$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "62f3f445-caeb-4d38-a4f4-376c348995f3",
+    "text": "For what value of $k$ does the system $x + 2y = 5$ and $3x + ky = 7$ have no solution?",
+    "options": [
+      "6",
+      "3",
+      "5",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "No solution requires parallel distinct lines: the ratios of the $x$- and $y$-coefficients must be equal but differ from the ratio of the constants. $\\frac{3}{1} = \\frac{k}{2}$ gives $k = 6$, and $\\frac{7}{5} \\neq 3$, so the lines are parallel and distinct.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6ed9e493-be3d-439d-b0a0-285e6d12d814",
+    "text": "If $ax + 3y = 9$ and $2x + y = 5$ have the solution $x = 3$, $y = -1$, what is the value of $a$?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute x = 3 and y = -1 into ax + 3y = 9: 3a + 3(-1) = 9, so 3a - 3 = 9, 3a = 12, which gives a = 4.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "44e1c31e-9d39-4bf2-b993-397ab46c699e",
+    "text": "The system $x + y = 8$ and $2x - y = 7$ has solution $(x, y)$. What is the value of $x^2 - y^2$?",
+    "options": [
+      "8",
+      "15",
+      "24",
+      "16"
+    ],
+    "correctIndex": 3,
+    "explanation": "Adding gives $3x = 15$, so $x = 5$ and $y = 3$. Then $x^2 - y^2 = 25 - 9 = 16$. (Equivalently, $x^2 - y^2 = (x-y)(x+y) = 2 \\times 8 = 16$.)",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "63f8700c-c4c3-48dd-ba0e-0fe48e6335cf",
+    "text": "If $\\frac{1}{x} + \\frac{1}{y} = \\frac{5}{6}$ and $\\frac{1}{x} - \\frac{1}{y} = \\frac{1}{6}$, what is the value of $xy$?",
+    "options": [
+      "12",
+      "6",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. Adding: $2u = 1$, so $u = \\frac{1}{2}$ and $x = 2$. Subtracting: $2v = \\frac{2}{3}$, so $v = \\frac{1}{3}$ and $y = 3$. Hence $xy = 6$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "d635d1bb-a357-4e9d-8c20-d12751434806",
+    "text": "A boat travels 24 miles upstream in 3 hours and 24 miles downstream in 2 hours. What is the speed of the boat in still water, in miles per hour?",
+    "options": [
+      "10",
+      "12",
+      "8",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Upstream speed is $\\frac{24}{3} = 8$ mph and downstream speed is $\\frac{24}{2} = 12$ mph. If $b$ is the boat speed and $c$ the current, $b - c = 8$ and $b + c = 12$. Adding gives $2b = 20$, so $b = 10$ mph.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7ab97b34-f1f7-465c-9772-8a93f5703104",
+    "text": "A store sells pencils in packs of 6 and pens in packs of 8. A teacher buys 10 packs in total containing 68 items. How many packs of pens did she buy?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let $p$ be packs of pens and $q$ packs of pencils. Then $p + q = 10$ and $8p + 6q = 68$. Substituting $q = 10 - p$: $8p + 6(10 - p) = 68$, so $2p + 60 = 68$, $2p = 8$, and $p = 4$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "a8c33bc3-0a93-430c-ac10-c20026bc1fe9",
+    "text": "The sum of a two-digit number and the number formed by reversing its digits is 121. If the difference between the digits is 3, what is the original number?",
+    "options": [
+      "85",
+      "47",
+      "74",
+      "58"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let the tens digit be $t$ and the units digit be $u$. Then $(10t + u) + (10u + t) = 11(t + u) = 121$, so $t + u = 11$. With $t - u = 3$ (tens digit larger), adding gives $2t = 14$, $t = 7$, $u = 4$. The number is 74.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1df54433-dc18-425c-82c4-15d2ed634291",
+    "text": "A cyclist rides from town A to town B at 15 miles per hour and returns at 10 miles per hour. If the total time for the round trip is 5 hours, what is the distance between the towns, in miles?",
+    "options": [
+      "40",
+      "30",
+      "25",
+      "35"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let the distance be $d$. Then $\\frac{d}{15} + \\frac{d}{10} = 5$. Multiplying by 30: $2d + 3d = 150$, so $5d = 150$ and $d = 30$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8598d088-c527-4d55-a22b-19158cd45e0e",
+    "text": "A father is 4 times as old as his son. In 12 years, the father will be twice as old as his son. How old is the son now?",
+    "options": [
+      "8",
+      "12",
+      "6",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let the son's age be $s$; the father is $4s$. In 12 years: $4s + 12 = 2(s + 12)$, so $4s + 12 = 2s + 24$, $2s = 12$, and $s = 6$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "9db4bb0b-27ed-4826-981b-88607669b932",
+    "text": "If $|2x - 3| = 7$, what is the sum of all possible values of $x$?",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Either $2x - 3 = 7$, giving $x = 5$, or $2x - 3 = -7$, giving $x = -2$. The sum is $5 + (-2) = 3$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1c453b5d-7c21-44da-99e8-a7d94f1ced1e",
+    "text": "How many integer values of $x$ satisfy $-3 < 2x - 1 \\leq 7$?",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Add 1: $-2 < 2x \\leq 8$. Divide by 2: $-1 < x \\leq 4$. The integers are $0, 1, 2, 3, 4$, a total of 5 values.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "cdf92ef1-7cad-429d-b434-f1db6f6d3160",
+    "text": "A delivery company charges 8 dollars plus 2 dollars per mile for the first 10 miles, then 1 dollar per mile after that. For a delivery of $m$ miles with $m > 10$, the charge is 38 dollars. What is $m$?",
+    "options": [
+      "22",
+      "18",
+      "24",
+      "20"
+    ],
+    "correctIndex": 3,
+    "explanation": "For $m > 10$, the charge is $8 + 2(10) + 1(m - 10) = 28 + m - 10 = 18 + m$. Setting $18 + m = 38$ gives $m = 20$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "c872b312-c75e-4dff-9f49-093f4cf9f645",
+    "text": "The line $y = mx + 2$ is perpendicular to the line $y = -\\frac{1}{2}x + 9$ and passes through $(4, 10)$. What is the value of $m$?",
+    "options": [
+      "$-2$",
+      "$\\frac{1}{2}$",
+      "4",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Perpendicular slopes are negative reciprocals: the slope of $y = -\\frac{1}{2}x + 9$ is $-\\frac{1}{2}$, so $m = 2$. Check: $10 = 2(4) + 2$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "27196853-de1c-4b22-b92f-534c42c77036",
+    "text": "If $f(x) = \\frac{3x - 1}{x + 2}$ and $f(a) = 2$, what is the value of $a$?",
+    "options": [
+      "5",
+      "4",
+      "7",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Set $\\frac{3a - 1}{a + 2} = 2$. Then $3a - 1 = 2a + 4$, so $a = 5$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "ca8488e6-e7fd-485e-981d-e0d06ead2868",
+    "text": "The points $(-1, 3)$, $(2, 9)$, and $(5, 15)$ lie on the graph of a linear function $f$. What is the value of $f(-4)$?",
+    "options": [
+      "-1",
+      "-5",
+      "0",
+      "-3"
+    ],
+    "correctIndex": 3,
+    "explanation": "The slope is $\\frac{9-3}{2-(-1)} = 2$, so $f(x) = 2x + b$; from $(-1, 3)$, $3 = -2 + b$, so $b = 5$ and $f(x) = 2x + 5$. Then $f(-4) = -8 + 5 = -3$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "f4f4a035-2b3a-4b91-8af9-b9e769bae814",
+    "text": "A line with slope $-2$ passes through $(3, -1)$. Another line, parallel to it, passes through $(0, 5)$. What is the $x$-intercept of the second line?",
+    "options": [
+      "5",
+      "3",
+      "2.5",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "The second line has slope $-2$ and $y$-intercept 5, so its equation is $y = -2x + 5$. Setting $y = 0$ gives $0 = -2x + 5$, so $x = 2.5$.",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "db54d287-a29c-4e20-9bc1-6d965a97a6ff",
+    "text": "A circular rug has a radius of 6 feet. What is the area of the rug, in square feet?",
+    "options": [
+      "$72\\pi$",
+      "$36\\pi$",
+      "$18\\pi$",
+      "$12\\pi$"
+    ],
+    "correctIndex": 1,
+    "explanation": "The area of a circle is $A=\\pi r^2$. With $r=6$, $A=\\pi(6)^2=36\\pi$ square feet.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7cb8be8a-edc0-4766-a93d-a8d0325320de",
+    "text": "A triangle has a base of 10 units and a height of 6 units. What is the area of the triangle?",
+    "options": [
+      "60",
+      "36",
+      "16",
+      "30"
+    ],
+    "correctIndex": 3,
+    "explanation": "The area of a triangle is $A=\\frac{1}{2}bh=\\frac{1}{2}(10)(6)=30$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "35689e41-b999-440e-8c88-79bd3e09bdee",
+    "text": "A rectangle is 8 units long and 5 units wide. What is the perimeter of the rectangle?",
+    "options": [
+      "13",
+      "26",
+      "40",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "The perimeter is $P=2(\\text{length}+\\text{width})=2(8+5)=2(13)=26$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "3090873a-cca7-447d-8578-bbe1fa1764f8",
+    "text": "A right triangle has legs of length 3 units and 4 units. What is the length of the hypotenuse?",
+    "options": [
+      "5",
+      "7",
+      "6",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "By the Pythagorean theorem, $c^2=3^2+4^2=9+16=25$, so $c=\\sqrt{25}=5$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "ef12205a-df64-46eb-903f-7d8282c4d220",
+    "text": "In a 45-45-90 right triangle, each leg has length 7 units. What is the length of the hypotenuse?",
+    "options": [
+      "$7\\sqrt{3}$",
+      "14",
+      "$7\\sqrt{2}$",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "In a 45-45-90 triangle the hypotenuse is $\\text{leg}\\times\\sqrt{2}$, so the hypotenuse is $7\\sqrt{2}$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "5c88cc76-23be-48e7-b22c-6ee03a90ee1d",
+    "text": "Two angles are complementary. One angle measures 35 degrees. What is the measure of the other angle?",
+    "options": [
+      "55°",
+      "125°",
+      "35°",
+      "145°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Complementary angles sum to 90 degrees, so the other angle is $90^\\circ-35^\\circ=55^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "f876b845-1c9f-4946-b53e-669bf2862a81",
+    "text": "A circle has a radius of 4 units. What is the circumference of the circle?",
+    "options": [
+      "$16\\pi$",
+      "$12\\pi$",
+      "$4\\pi$",
+      "$8\\pi$"
+    ],
+    "correctIndex": 3,
+    "explanation": "The circumference is $C=2\\pi r=2\\pi(4)=8\\pi$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "619673b9-d53f-4af4-966e-e29ef62cc047",
+    "text": "A square has a side length of 9 units. What is the area of the square?",
+    "options": [
+      "36",
+      "81",
+      "18",
+      "72"
+    ],
+    "correctIndex": 1,
+    "explanation": "The area of a square is $A=s^2=9^2=81$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "971c4a45-4c96-4527-95e7-54779723ced4",
+    "text": "A right triangle has a hypotenuse of length 13 units and one leg of length 5 units. What is the length of the other leg?",
+    "options": [
+      "18",
+      "8",
+      "12",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "By the Pythagorean theorem, the other leg is $\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "9fcd7e81-6d0d-429c-9e94-1770f04d2764",
+    "text": "Two angles of a triangle measure 70 degrees and 50 degrees. What is the measure of the third angle?",
+    "options": [
+      "110°",
+      "70°",
+      "50°",
+      "60°"
+    ],
+    "correctIndex": 3,
+    "explanation": "The angles of a triangle sum to 180 degrees, so the third angle is $180^\\circ-70^\\circ-50^\\circ=60^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "62aa1fa2-d554-4d46-9848-a220fcacd86d",
+    "text": "A right circular cylinder has a radius of 3 units and a height of 5 units. What is the volume of the cylinder?",
+    "options": [
+      "$30\\pi$",
+      "$15\\pi$",
+      "$45\\pi$",
+      "$75\\pi$"
+    ],
+    "correctIndex": 2,
+    "explanation": "The volume is $V=\\pi r^2h=\\pi(3)^2(5)=45\\pi$ cubic units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "66a435bc-9d06-4ec9-9844-740b1fd2e63b",
+    "text": "In a right triangle, the side opposite angle $A$ has length 3 units and the hypotenuse has length 5 units. What is $\\sin A$?",
+    "options": [
+      "$\\frac{5}{3}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{4}{5}$",
+      "$\\frac{3}{5}$"
+    ],
+    "correctIndex": 3,
+    "explanation": "$\\sin A=\\frac{\\text{opposite}}{\\text{hypotenuse}}=\\frac{3}{5}$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6b93c64c-60c0-4534-8d3a-9ec172fa4f6d",
+    "text": "A sphere has a radius of 3 units. What is the volume of the sphere?",
+    "options": [
+      "$36\\pi$",
+      "$12\\pi$",
+      "$27\\pi$",
+      "$108\\pi$"
+    ],
+    "correctIndex": 0,
+    "explanation": "The volume is $V=\\frac{4}{3}\\pi r^3=\\frac{4}{3}\\pi(3)^3=\\frac{4}{3}\\pi(27)=36\\pi$ cubic units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "0a57ae0c-9849-4dc1-a1f9-65975037f858",
+    "text": "A right circular cone has a radius of 4 units and a height of 9 units. What is the volume of the cone?",
+    "options": [
+      "$36\\pi$",
+      "$144\\pi$",
+      "$48\\pi$",
+      "$16\\pi$"
+    ],
+    "correctIndex": 2,
+    "explanation": "The volume is $V=\\frac{1}{3}\\pi r^2h=\\frac{1}{3}\\pi(4)^2(9)=\\frac{1}{3}\\pi(144)=48\\pi$ cubic units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "d5b8ec60-5e3f-40d9-b21b-0b89b3e9f849",
+    "text": "A parallelogram has a base of 12 units and a height of 7 units. What is the area of the parallelogram?",
+    "options": [
+      "168",
+      "42",
+      "84",
+      "38"
+    ],
+    "correctIndex": 2,
+    "explanation": "The area is $A=\\text{base}\\times\\text{height}=12\\times 7=84$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1a6bbb35-f1ec-47c1-843b-ecd28a1cce71",
+    "text": "A trapezoid has bases of length 8 units and 14 units and a height of 5 units. What is the area of the trapezoid?",
+    "options": [
+      "44",
+      "55",
+      "70",
+      "110"
+    ],
+    "correctIndex": 1,
+    "explanation": "The area is $A=\\frac{1}{2}(\\text{base}_1+\\text{base}_2)h=\\frac{1}{2}(8+14)(5)=\\frac{1}{2}(22)(5)=55$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "42a10e91-c887-407e-90cf-1c7a7bdc1bda",
+    "text": "In a 30-60-90 right triangle, the hypotenuse has length 12 units. What is the length of the longer leg?",
+    "options": [
+      "$6\\sqrt{3}$",
+      "$12\\sqrt{3}$",
+      "6",
+      "$6\\sqrt{2}$"
+    ],
+    "correctIndex": 0,
+    "explanation": "In a 30-60-90 triangle the short leg is half the hypotenuse, $6$, and the long leg is $\\text{short}\\times\\sqrt{3}=6\\sqrt{3}$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1364c320-1536-43ba-850c-c0d8b51b5134",
+    "text": "A circle has a radius of 6 units. What is the length of an arc with a central angle of 60 degrees?",
+    "options": [
+      "$3\\pi$",
+      "$\\pi$",
+      "$6\\pi$",
+      "$2\\pi$"
+    ],
+    "correctIndex": 3,
+    "explanation": "Arc length is $s=2\\pi r\\cdot\\frac{\\theta}{360^\\circ}=2\\pi(6)\\cdot\\frac{60}{360}=12\\pi\\cdot\\frac{1}{6}=2\\pi$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "718d1aba-fefe-46bc-894f-4d81f0111be8",
+    "text": "A circle has a radius of 8 units. What is the area of a sector with a central angle of 90 degrees?",
+    "options": [
+      "$16\\pi$",
+      "$8\\pi$",
+      "$64\\pi$",
+      "$32\\pi$"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sector area is $A=\\pi r^2\\cdot\\frac{\\theta}{360^\\circ}=\\pi(8)^2\\cdot\\frac{90}{360}=64\\pi\\cdot\\frac{1}{4}=16\\pi$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "ba456b21-5609-43e8-ae19-2e56d383141f",
+    "text": "The equation of a circle is $(x-3)^2+(y+2)^2=25$. What is the radius of the circle?",
+    "options": [
+      "5",
+      "25",
+      "10",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "The standard form is $(x-h)^2+(y-k)^2=r^2$, so $r^2=25$ and $r=\\sqrt{25}=5$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "a034ef89-8f49-46ad-b58c-14a714401840",
+    "text": "The equation of a circle is $(x-3)^2+(y+2)^2=25$. What is the center of the circle?",
+    "options": [
+      "$(3, 2)$",
+      "$(3, -2)$",
+      "$(-3, 2)$",
+      "$(-3, -2)$"
+    ],
+    "correctIndex": 1,
+    "explanation": "In $(x-h)^2+(y-k)^2=r^2$ the center is $(h,k)$. Here $h=3$ and $k=-2$, so the center is $(3,-2)$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7d9829a7-d8bd-49b2-8dab-f7939ee6d750",
+    "text": "Two triangles are similar. A side of the smaller triangle has length 4 units and the corresponding side of the larger triangle has length 12 units. If a height of the smaller triangle is 6 units, what is the corresponding height of the larger triangle?",
+    "options": [
+      "24",
+      "12",
+      "18",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "The scale factor is $12\\div 4=3$, so the corresponding height is $6\\times 3=18$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1b0ed801-e596-4f48-baf1-c3846cb4732a",
+    "text": "In a right triangle, one acute angle measures 30 degrees and the hypotenuse has length 10 units. What is the length of the side opposite the 30-degree angle?",
+    "options": [
+      "10",
+      "$5\\sqrt{3}$",
+      "5",
+      "$10\\sqrt{3}$"
+    ],
+    "correctIndex": 2,
+    "explanation": "$\\sin 30^\\circ=\\frac{\\text{opposite}}{10}=\\frac{1}{2}$, so the opposite side is $10\\times\\frac{1}{2}=5$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "4ec8831e-4f4a-4b6f-8519-a9df9cc1f3e5",
+    "text": "In a right triangle, one acute angle measures 60 degrees and the hypotenuse has length 14 units. What is the length of the side adjacent to the 60-degree angle?",
+    "options": [
+      "$7\\sqrt{3}$",
+      "$14\\sqrt{3}$",
+      "7",
+      "14"
+    ],
+    "correctIndex": 2,
+    "explanation": "$\\cos 60^\\circ=\\frac{\\text{adjacent}}{14}=\\frac{1}{2}$, so the adjacent side is $14\\times\\frac{1}{2}=7$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6255041c-2270-4a4d-abff-380771019ba1",
+    "text": "In a right triangle, one acute angle measures 45 degrees and the side adjacent to that angle has length 9 units. What is the length of the side opposite that angle?",
+    "options": [
+      "$9\\sqrt{2}$",
+      "9",
+      "18",
+      "$\\frac{9}{2}$"
+    ],
+    "correctIndex": 1,
+    "explanation": "$\\tan 45^\\circ=\\frac{\\text{opposite}}{9}=1$, so the opposite side is $9\\times 1=9$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "1af56af9-1fb1-4cf9-8a62-7b83d82ec383",
+    "text": "What is the sum of the measures of the interior angles of a pentagon?",
+    "options": [
+      "720°",
+      "540°",
+      "360°",
+      "180°"
+    ],
+    "correctIndex": 1,
+    "explanation": "The interior-angle sum of an $n$-gon is $(n-2)\\times 180^\\circ$. For $n=5$, it is $(5-2)\\times 180^\\circ=3\\times 180^\\circ=540^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "f707527f-a91f-456a-baa9-b11712813059",
+    "text": "Two parallel lines are cut by a transversal. One interior angle on one side of the transversal measures 110 degrees. What is the measure of the interior angle on the same side of the transversal on the other parallel line?",
+    "options": [
+      "90°",
+      "110°",
+      "20°",
+      "70°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Same-side interior angles are supplementary, so the other angle is $180^\\circ-110^\\circ=70^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "da287146-11dd-4f6f-9d29-89f195074567",
+    "text": "An exterior angle of a triangle measures 120 degrees. One of the remote interior angles measures 50 degrees. What is the measure of the other remote interior angle?",
+    "options": [
+      "60°",
+      "50°",
+      "120°",
+      "70°"
+    ],
+    "correctIndex": 3,
+    "explanation": "An exterior angle equals the sum of the two remote interior angles, so the other remote angle is $120^\\circ-50^\\circ=70^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6d6720d6-cace-4013-a559-2b3c5b3eddc2",
+    "text": "A right circular cylinder has a radius of 2 units and a height of 6 units. What is the total surface area of the cylinder, including both circular bases?",
+    "options": [
+      "$16\\pi$",
+      "$48\\pi$",
+      "$24\\pi$",
+      "$32\\pi$"
+    ],
+    "correctIndex": 3,
+    "explanation": "Total surface area is $2\\pi r(r+h)=2\\pi(2)(2+6)=4\\pi(8)=32\\pi$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "38916b6c-685b-4a1f-bea7-b3805b33c0eb",
+    "text": "A sphere has a radius of 5 units. What is the surface area of the sphere?",
+    "options": [
+      "$100\\pi$",
+      "$50\\pi$",
+      "$25\\pi$",
+      "$125\\pi$"
+    ],
+    "correctIndex": 0,
+    "explanation": "Surface area is $A=4\\pi r^2=4\\pi(5)^2=4\\pi(25)=100\\pi$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "90d983d4-850d-418c-82b3-32972e571928",
+    "text": "What is the distance between the points $(0, 0)$ and $(6, 8)$ in the coordinate plane?",
+    "options": [
+      "14",
+      "12",
+      "7",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "By the distance formula, $d=\\sqrt{(6-0)^2+(8-0)^2}=\\sqrt{36+64}=\\sqrt{100}=10$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "7b560112-da76-4a8e-a733-b9f0d73d119c",
+    "text": "What is the measure of each interior angle of a regular hexagon?",
+    "options": [
+      "135°",
+      "120°",
+      "90°",
+      "108°"
+    ],
+    "correctIndex": 1,
+    "explanation": "The interior-angle sum is $(6-2)\\times 180^\\circ=720^\\circ$. Dividing by 6 equal angles gives $720^\\circ\\div 6=120^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "61701521-d0c5-4ca8-a664-96bd5c371cb1",
+    "text": "A rectangular prism is 4 units long, 5 units wide, and 6 units tall. What is the volume of the prism?",
+    "options": [
+      "60",
+      "240",
+      "90",
+      "120"
+    ],
+    "correctIndex": 3,
+    "explanation": "The volume is $V=\\text{length}\\times\\text{width}\\times\\text{height}=4\\times 5\\times 6=120$ cubic units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "bcd39160-70b0-4e14-b6f1-14687abd5ae2",
+    "text": "A central angle of a circle measures 80 degrees. What is the measure of an inscribed angle that intercepts the same arc?",
+    "options": [
+      "20°",
+      "80°",
+      "40°",
+      "160°"
+    ],
+    "correctIndex": 2,
+    "explanation": "An inscribed angle is half the measure of its intercepted arc, and the central angle equals the arc measure, so the inscribed angle is $80^\\circ\\div 2=40^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "15211a68-9232-471a-a93e-a8ece14a34e9",
+    "text": "An isosceles triangle has a vertex angle of 40 degrees. What is the measure of each base angle?",
+    "options": [
+      "70°",
+      "40°",
+      "55°",
+      "140°"
+    ],
+    "correctIndex": 0,
+    "explanation": "The base angles are equal and sum with the vertex angle to 180 degrees, so each base angle is $(180^\\circ-40^\\circ)\\div 2=70^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "769921df-0a09-44bf-acd2-0f7623742e62",
+    "text": "A right triangle has legs of length 8 units and 15 units. What is the area of the triangle?",
+    "options": [
+      "60",
+      "68",
+      "120",
+      "34"
+    ],
+    "correctIndex": 0,
+    "explanation": "The area is $A=\\frac{1}{2}\\times 8\\times 15=60$ square units. (The hypotenuse is 17 units, but it is not needed for the area.)",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "551287dc-a41c-4f63-a31c-93ad784904e9",
+    "text": "A circle has a diameter of 14 units. What is the area of the circle?",
+    "options": [
+      "$49\\pi$",
+      "$14\\pi$",
+      "$28\\pi$",
+      "$196\\pi$"
+    ],
+    "correctIndex": 0,
+    "explanation": "The radius is $14\\div 2=7$ units, so the area is $A=\\pi r^2=\\pi(7)^2=49\\pi$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "9f5bd2cc-07b5-4528-8707-08ef7bf39538",
+    "text": "In a right triangle, the side opposite angle $A$ has length 5 units and the hypotenuse has length 10 units. What is the measure of angle $A$?",
+    "options": [
+      "30°",
+      "60°",
+      "15°",
+      "45°"
+    ],
+    "correctIndex": 0,
+    "explanation": "$\\sin A=\\frac{5}{10}=\\frac{1}{2}$, and $\\sin 30^\\circ=\\frac{1}{2}$, so angle $A$ measures $30^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "84ad6ef9-7aee-4539-b0fc-63208731bc17",
+    "text": "The equation of a circle is $x^2+y^2-6x+4y-12=0$. What is the radius of the circle?",
+    "options": [
+      "3",
+      "4",
+      "$\\sqrt{13}$",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Complete the square: $x^2-6x+9+y^2+4y+4=12+9+4$, so $(x-3)^2+(y+2)^2=25$. Hence $r^2=25$ and $r=5$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8b5a9738-6fbe-4ffb-985a-7b44aec4ef0d",
+    "text": "A circle has a radius of 8 units. An arc of the circle has length $4\\pi$ units. What is the measure, in degrees, of the central angle of the arc?",
+    "options": [
+      "90°",
+      "180°",
+      "60°",
+      "45°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Arc length is $s=r\\theta$ with $\\theta$ in radians, so $\\theta=\\frac{4\\pi}{8}=\\frac{\\pi}{2}$ radians, which is $90^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "4c755d19-4c26-44be-9a93-9b7d44f3a68b",
+    "text": "Two triangles are similar. The smaller triangle is a 3-4-5 right triangle. The larger triangle has a hypotenuse of length 25 units. What is the length of the shorter leg of the larger triangle?",
+    "options": [
+      "15",
+      "12",
+      "20",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "The scale factor is $25\\div 5=5$, so the shorter leg is $3\\times 5=15$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "d8d94f04-5a90-4d1a-a021-40cd755429f0",
+    "text": "A surveyor stands 20 meters from the base of a vertical tower and measures the angle of elevation to the top of the tower to be 30 degrees. What is the height of the tower, in meters?",
+    "options": [
+      "$20\\sqrt{3}$",
+      "20",
+      "$\\frac{20\\sqrt{3}}{3}$",
+      "$10\\sqrt{3}$"
+    ],
+    "correctIndex": 2,
+    "explanation": "$\\tan 30^\\circ=\\frac{\\text{height}}{20}=\\frac{1}{\\sqrt{3}}$, so the height is $\\frac{20}{\\sqrt{3}}=\\frac{20\\sqrt{3}}{3}$ meters.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "f764d0c0-714b-4423-845b-5d23ade1bab0",
+    "text": "Each exterior angle of a regular polygon measures 30 degrees. How many sides does the polygon have?",
+    "options": [
+      "12",
+      "6",
+      "15",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "The exterior angles of any polygon sum to 360 degrees, so the number of sides is $360^\\circ\\div 30^\\circ=12$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6601e33f-965a-44ad-8d06-32b5de05d6cc",
+    "text": "The radius of a sphere is doubled. By what factor does the volume of the sphere increase?",
+    "options": [
+      "2",
+      "8",
+      "6",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Volume is proportional to $r^3$, so doubling $r$ multiplies the volume by $2^3=8$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "68b09db7-5138-4c90-8646-80891d292a14",
+    "text": "A triangle has two sides of length 8 units and 10 units with an included angle of 30 degrees. What is the area of the triangle?",
+    "options": [
+      "80",
+      "10",
+      "40",
+      "20"
+    ],
+    "correctIndex": 3,
+    "explanation": "The area is $A=\\frac{1}{2}ab\\sin C=\\frac{1}{2}(8)(10)\\sin 30^\\circ=40\\times\\frac{1}{2}=20$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a401f7a5-957f-4685-a00c-007173293a78",
+    "text": "An isosceles trapezoid has bases of length 10 units and 18 units and a height of 3 units. What is the perimeter of the trapezoid?",
+    "options": [
+      "36",
+      "38",
+      "48",
+      "42"
+    ],
+    "correctIndex": 1,
+    "explanation": "The horizontal overhang on each side is $(18-10)\\div 2=4$ units, so each non-parallel side is $\\sqrt{4^2+3^2}=\\sqrt{25}=5$ units. The perimeter is $10+18+5+5=38$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6465a6c8-9718-46a4-86e4-16f1fdc0cde8",
+    "text": "An inscribed angle of a circle intercepts an arc that measures 140 degrees. What is the measure of the inscribed angle?",
+    "options": [
+      "280°",
+      "140°",
+      "35°",
+      "70°"
+    ],
+    "correctIndex": 3,
+    "explanation": "An inscribed angle is half the measure of its intercepted arc, so it is $140^\\circ\\div 2=70^\\circ$.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "78a80921-4d20-46bc-bd0c-1bf8068685e2",
+    "text": "A right circular cone has a slant height of 13 units and a radius of 5 units. What is the volume of the cone?",
+    "options": [
+      "$130\\pi$",
+      "$60\\pi$",
+      "$100\\pi$",
+      "$65\\pi$"
+    ],
+    "correctIndex": 2,
+    "explanation": "First find the height: $h=\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$ units. Then $V=\\frac{1}{3}\\pi r^2h=\\frac{1}{3}\\pi(25)(12)=100\\pi$ cubic units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "00efbbf3-04bc-421b-a525-86a6ac58cab4",
+    "text": "A square has a side length of 10 units. A circle is inscribed in the square, touching all four sides. What is the area of the region inside the square but outside the circle?",
+    "options": [
+      "$25\\pi$",
+      "$100-50\\pi$",
+      "$100-10\\pi$",
+      "$100-25\\pi$"
+    ],
+    "correctIndex": 3,
+    "explanation": "The square has area $10^2=100$. The inscribed circle has radius $10\\div 2=5$, so its area is $\\pi(5)^2=25\\pi$. The shaded region is $100-25\\pi$ square units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "6e211ce7-c38e-4db6-a700-acfaa1ea5bc9",
+    "text": "In a right triangle, one acute angle measures 60 degrees and the side opposite that angle has length $6\\sqrt{3}$ units. What is the length of the hypotenuse?",
+    "options": [
+      "6",
+      "$6\\sqrt{2}$",
+      "12",
+      "18"
+    ],
+    "correctIndex": 2,
+    "explanation": "$\\sin 60^\\circ=\\frac{6\\sqrt{3}}{\\text{hypotenuse}}=\\frac{\\sqrt{3}}{2}$, so the hypotenuse is $6\\sqrt{3}\\div\\frac{\\sqrt{3}}{2}=12$ units.",
+    "subject": "Math",
+    "topic": "Geometry & Trigonometry",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "0a9146f3-ffad-4b24-a5ab-79e3412ffadb",
+    "text": "Let $f(x) = x^2 - 5x + 6$. What is the value of $f(4)$?",
+    "options": [
+      "2",
+      "-2",
+      "10",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Substitute $x = 4$: $f(4) = 4^2 - 5(4) + 6 = 16 - 20 + 6 = 2$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "fc6375ff-cd7f-4e0b-b20a-1f410a80a621",
+    "text": "What are the solutions to the equation $x^2 + 7x + 12 = 0$?",
+    "options": [
+      "$x = -3$ and $x = -4$",
+      "$x = 3$ and $x = 4$",
+      "$x = -3$ and $x = 4$",
+      "$x = 3$ and $x = -4$"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factor: $x^2 + 7x + 12 = (x + 3)(x + 4)$, since $3 + 4 = 7$ and $3 \\cdot 4 = 12$. Setting each factor equal to zero gives $x = -3$ and $x = -4$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "86b3403b-dfdb-425b-81fe-11830032ffc5",
+    "text": "What is the vertex of the parabola given by $y = x^2 - 6x + 5$?",
+    "options": [
+      "$(-3, -4)$",
+      "$(3, -4)$",
+      "$(3, 14)$",
+      "$(-3, 4)$"
+    ],
+    "correctIndex": 1,
+    "explanation": "The $x$-coordinate of the vertex is $-b/(2a) = -(-6)/(2 \\cdot 1) = 3$. Then $y = 3^2 - 6(3) + 5 = 9 - 18 + 5 = -4$, so the vertex is $(3, -4)$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "66bf77b1-22e3-43a7-b8da-4a2a0d16772f",
+    "text": "Which of the following is equivalent to $(x + 3)(x - 5)$?",
+    "options": [
+      "$x^2 - 8x - 15$",
+      "$x^2 + 2x - 15$",
+      "$x^2 - 2x + 15$",
+      "$x^2 - 2x - 15$"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expand: $(x + 3)(x - 5) = x^2 - 5x + 3x - 15 = x^2 - 2x - 15$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8ef90b99-f8ce-48bc-ad74-8306b26ab80f",
+    "text": "What is the value of $x$ that satisfies $2^x = 32$?",
+    "options": [
+      "16",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Write 32 as a power of 2: $32 = 2^5$. So $2^x = 2^5$, and therefore $x = 5$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "480f7ba9-6bc8-4fa1-b834-285b6befca53",
+    "text": "Let $f(x) = x^2 + 1$ and $g(x) = 2x - 1$. What is the value of $f(g(2))$?",
+    "options": [
+      "5",
+      "17",
+      "10",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "First $g(2) = 2(2) - 1 = 3$. Then $f(3) = 3^2 + 1 = 10$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "69f125e8-0892-462f-bbca-0829d0714a9e",
+    "text": "What are the solutions to the equation $x^2 - 9 = 0$?",
+    "options": [
+      "$x = 9$ and $x = -9$",
+      "$x = 3$ only",
+      "$x = 0$ and $x = 9$",
+      "$x = 3$ and $x = -3$"
+    ],
+    "correctIndex": 3,
+    "explanation": "Factor as a difference of squares: $x^2 - 9 = (x - 3)(x + 3) = 0$, so $x = 3$ or $x = -3$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8dd7dded-c57e-41dc-83c1-258fb7c8fbaa",
+    "text": "For $x \\ne 2$, which expression is equivalent to $\\frac{x^2 - 4}{x - 2}$?",
+    "options": [
+      "$x^2 + 2$",
+      "$x + 2$",
+      "$x - 2$",
+      "$x + 4$"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor the numerator: $x^2 - 4 = (x - 2)(x + 2)$. Cancelling the factor $x - 2$ (which is nonzero) leaves $x + 2$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "cbbbbba7-5011-46ba-8e6c-fe3e990b158b",
+    "text": "If $y = 3^x$, what is the value of $y$ when $x = 3$?",
+    "options": [
+      "27",
+      "81",
+      "9",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Substitute $x = 3$: $y = 3^3 = 3 \\cdot 3 \\cdot 3 = 27$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "ca136a27-f4d1-4a3e-929b-a56076244826",
+    "text": "How many distinct real solutions does the equation $x^2 + 4x + 4 = 0$ have?",
+    "options": [
+      "2",
+      "Infinitely many",
+      "0",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "The discriminant is $b^2 - 4ac = 4^2 - 4(1)(4) = 16 - 16 = 0$. A discriminant of 0 means one distinct (double) real solution; indeed $x^2 + 4x + 4 = (x + 2)^2$, so $x = -2$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Easy",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "97216f53-40af-4092-8745-b7380ee3bb0c",
+    "text": "What is the vertex of the parabola given by $y = x^2 + 8x + 15$?",
+    "options": [
+      "$(4, 47)$",
+      "$(4, -1)$",
+      "$(-4, -1)$",
+      "$(-4, 15)$"
+    ],
+    "correctIndex": 2,
+    "explanation": "The $x$-coordinate of the vertex is $-b/(2a) = -8/2 = -4$. Then $y = (-4)^2 + 8(-4) + 15 = 16 - 32 + 15 = -1$, so the vertex is $(-4, -1)$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "f3f45d7a-57e2-4886-afca-0345556f32c4",
+    "text": "What is the larger solution to the equation $x^2 - 5x - 14 = 0$?",
+    "options": [
+      "-2",
+      "14",
+      "7",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Factor: $x^2 - 5x - 14 = (x - 7)(x + 2)$, since $-7 + 2 = -5$ and $(-7)(2) = -14$. The solutions are $x = 7$ and $x = -2$; the larger is 7.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "288b2ed5-510d-4b17-9102-e658a2875e82",
+    "text": "What is the sum of the solutions to the equation $2x^2 - 8x + 6 = 0$?",
+    "options": [
+      "-4",
+      "8",
+      "4",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "For $ax^2 + bx + c = 0$, the sum of the roots is $-b/a$. Here $-(-8)/2 = 8/2 = 4$. (Check: dividing by 2 gives $x^2 - 4x + 3 = (x-1)(x-3)$, roots 1 and 3, sum 4.)",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "afb03b8f-8514-4360-afe3-1e5126217993",
+    "text": "For $x \\ne 2$, which expression is equivalent to $\\frac{x^2 - 5x + 6}{x - 2}$?",
+    "options": [
+      "$x + 3$",
+      "$x - 3$",
+      "$x^2 - 3$",
+      "$x - 2$"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor the numerator: $x^2 - 5x + 6 = (x - 2)(x - 3)$. Cancelling $x - 2$ leaves $x - 3$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "152d3302-51f9-4d8c-838a-522e8caadebd",
+    "text": "What is the value of $x$ that satisfies $3^{2x} = 81$?",
+    "options": [
+      "8",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Write 81 as a power of 3: $81 = 3^4$. So $3^{2x} = 3^4$, giving $2x = 4$ and $x = 2$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "d2066136-5aeb-4ab8-86a0-4ba746d6013e",
+    "text": "Let $f(x) = 2x + 3$. For what value of $x$ is $f(x) = 11$?",
+    "options": [
+      "8",
+      "7",
+      "5",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "Set $2x + 3 = 11$. Subtracting 3 gives $2x = 8$, so $x = 4$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "2537be5c-f8a7-4c9d-b7a3-948db9c8fc3f",
+    "text": "Let $f(x) = x^2 - 3$ and $g(x) = x + 2$. What is the value of $g(f(3))$?",
+    "options": [
+      "6",
+      "11",
+      "5",
+      "8"
+    ],
+    "correctIndex": 3,
+    "explanation": "First $f(3) = 3^2 - 3 = 6$. Then $g(6) = 6 + 2 = 8$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "c46dce2d-fa28-4797-a72f-a1e3d52321d9",
+    "text": "The graphs of $y = x^2$ and $y = 2x + 3$ intersect at two points. What is the $x$-coordinate of the intersection point in the first quadrant?",
+    "options": [
+      "1",
+      "-1",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Set x² = 2x + 3, so x² - 2x - 3 = 0, or (x - 3)(x + 1) = 0. In the first quadrant, x must be positive, so x = 3.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a19d311c-233f-4777-92e9-7360fc558871",
+    "text": "How many real solutions does the equation $x^2 - 3x + 5 = 0$ have?",
+    "options": [
+      "2",
+      "0",
+      "1",
+      "Infinitely many"
+    ],
+    "correctIndex": 1,
+    "explanation": "The discriminant is $b^2 - 4ac = (-3)^2 - 4(1)(5) = 9 - 20 = -11$. A negative discriminant means no real solutions.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "a6a6b437-4b5a-4d12-b7d3-97e1310a0e10",
+    "text": "What is the value of $x$ that satisfies $5^{x+1} = 125$?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Write 125 as a power of 5: $125 = 5^3$. So $5^{x+1} = 5^3$, giving $x + 1 = 3$ and $x = 2$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "eb097c4c-c27a-4c47-8e31-1000d0cc1f99",
+    "text": "Let $p(x) = x^3 - 4x^2 + 5x - 2$. Which of the following is a factor of $p(x)$?",
+    "options": [
+      "$x + 1$",
+      "$x - 3$",
+      "$x - 2$",
+      "$x + 2$"
+    ],
+    "correctIndex": 2,
+    "explanation": "Evaluate at $x = 2$: $p(2) = 8 - 4(4) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0$. Since $p(2) = 0$, the Factor Theorem says $x - 2$ is a factor. (The others give $p(-2) = -36$, $p(3) = 4$, $p(-1) = -12$.)",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "fb7cd4d2-1768-49ad-812a-870f22bc58ca",
+    "text": "Which of the following is equivalent to $(2x + 1)(x - 4)$?",
+    "options": [
+      "$2x^2 - 9x - 4$",
+      "$2x^2 - 7x + 4$",
+      "$2x^2 + 7x - 4$",
+      "$2x^2 - 7x - 4$"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expand: $(2x + 1)(x - 4) = 2x^2 - 8x + x - 4 = 2x^2 - 7x - 4$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8509944c-ba78-462e-a5a3-b057dbd4e6eb",
+    "text": "What is the product of the solutions to the equation $x^2 - 3x - 10 = 0$?",
+    "options": [
+      "3",
+      "10",
+      "-3",
+      "-10"
+    ],
+    "correctIndex": 3,
+    "explanation": "For $ax^2 + bx + c = 0$, the product of the roots is $c/a$. Here $c/a = -10/1 = -10$. (Check: the equation factors as $(x - 5)(x + 2) = 0$, roots 5 and $-2$, product $-10$.)",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "bcc6881b-3cc3-433d-8d2e-c3279df280ad",
+    "text": "Let $f(x) = x^2 - 2x$. Which expression is equivalent to $f(a + 1)$ in terms of $a$?",
+    "options": [
+      "$a^2 + 1$",
+      "$a^2 - 2a - 1$",
+      "$a^2 - 1$",
+      "$a^2 + 2a - 1$"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute: $f(a+1) = (a+1)^2 - 2(a+1) = (a^2 + 2a + 1) - 2a - 2 = a^2 - 1$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "f880ac6f-5a88-4bae-a09c-36a9504093c3",
+    "text": "What is the value of $x$ that satisfies $\\frac{x}{x + 1} = \\frac{2}{3}$?",
+    "options": [
+      "-2",
+      "2",
+      "1",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cross-multiply: $3x = 2(x + 1)$, so $3x = 2x + 2$ and $x = 2$. Check: $2/(2+1) = 2/3$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "e6a1fcc9-4d1c-43bc-bab1-e093e619ed4d",
+    "text": "What is the value of $x$ that satisfies $\\left(\\frac{1}{2}\\right)^x = \\frac{1}{16}$?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "-4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Write $1/16$ as a power of $1/2$: $(1/2)^4 = 1/16$. So $x = 4$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "32920fca-ab90-48ac-a914-55c1952561d4",
+    "text": "For what value of $k$ does the equation $x^2 + 6x + k = 0$ have exactly one distinct real solution?",
+    "options": [
+      "6",
+      "36",
+      "3",
+      "9"
+    ],
+    "correctIndex": 3,
+    "explanation": "Exactly one distinct real solution requires discriminant zero: $b^2 - 4ac = 36 - 4k = 0$, so $4k = 36$ and $k = 9$. Then the equation is $(x + 3)^2 = 0$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "7be428c2-c320-4f3b-b16f-070f44047e31",
+    "text": "If $x + y = 5$ and $xy = 6$, what is the value of $x^2 + y^2$?",
+    "options": [
+      "19",
+      "37",
+      "25",
+      "13"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use $(x + y)^2 = x^2 + 2xy + y^2$. So $x^2 + y^2 = (x + y)^2 - 2xy = 5^2 - 2(6) = 25 - 12 = 13$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "73675deb-8a34-4b70-ac26-15cc2f249ea5",
+    "text": "What is the maximum value of the function $f(x) = -x^2 + 4x + 1$?",
+    "options": [
+      "5",
+      "4",
+      "1",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "The vertex is at $x = -b/(2a) = -4/(2 \\cdot -1) = 2$. Then $f(2) = -4 + 8 + 1 = 5$. Since the parabola opens downward, 5 is the maximum value.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "2fd6741b-4ed5-431a-a93f-480fd7c016c4",
+    "text": "Let $f(x) = 3x - 2$ and $g(x) = x^2$. What is the value of $f(g(2))$?",
+    "options": [
+      "10",
+      "34",
+      "14",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "First $g(2) = 2^2 = 4$. Then $f(4) = 3(4) - 2 = 10$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Medium",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "3112633b-b013-446b-963d-048fd2bc88b3",
+    "text": "If $x_1$ and $x_2$ are the solutions to $x^2 - 5x + 3 = 0$, what is the value of $x_1^2 + x_2^2$?",
+    "options": [
+      "25",
+      "13",
+      "22",
+      "19"
+    ],
+    "correctIndex": 3,
+    "explanation": "By Vieta's formulas, $x_1 + x_2 = 5$ and $x_1 x_2 = 3$. Then $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 6 = 19$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "c75b4f22-b0fa-4e74-a9be-d6217159d8e1",
+    "text": "What is the value of $x$ that satisfies $2^x + 2^{x+1} = 24$?",
+    "options": [
+      "2",
+      "5",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Factor: $2^x + 2 \\cdot 2^x = 3 \\cdot 2^x = 24$, so $2^x = 8 = 2^3$ and $x = 3$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "117a324e-982e-4aaf-8cab-c7cbc4f452ab",
+    "text": "If $x^2 + y^2 = 25$ and $x + y = 7$, what is the value of $xy$?",
+    "options": [
+      "12",
+      "24",
+      "18",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Square the second equation: $(x + y)^2 = x^2 + 2xy + y^2 = 49$. Substituting $x^2 + y^2 = 25$ gives $25 + 2xy = 49$, so $2xy = 24$ and $xy = 12$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "d4869251-e21e-46fc-815e-b86af4f526c9",
+    "text": "When $x^3 - 2x^2 + 3x - 4$ is divided by $x - 1$, what is the remainder?",
+    "options": [
+      "-2",
+      "2",
+      "0",
+      "-4"
+    ],
+    "correctIndex": 0,
+    "explanation": "By the Remainder Theorem, the remainder is $p(1)$ where $p(x) = x^3 - 2x^2 + 3x - 4$. So $p(1) = 1 - 2 + 3 - 4 = -2$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "0adc07cb-c6f4-41f2-a225-82fa4e2188d9",
+    "text": "What is the value of $x$ that satisfies $9^x - 3^x - 6 = 0$?",
+    "options": [
+      "1",
+      "2",
+      "0",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let $t = 3^x$, so $9^x = t^2$. The equation becomes $t^2 - t - 6 = 0$, or $(t - 3)(t + 2) = 0$. Since $t = 3^x > 0$, $t = 3$, so $3^x = 3$ and $x = 1$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
+  },
+  {
+    "id": "98087893-49c1-4a91-aeaa-9581550b5463",
+    "text": "What is the sum of all solutions to the equation $4^x - 5 \\cdot 2^x + 4 = 0$?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let $t = 2^x$, so $4^x = t^2$. Then $t^2 - 5t + 4 = 0$, or $(t - 1)(t - 4) = 0$. So $2^x = 1$ gives $x = 0$, and $2^x = 4$ gives $x = 2$. The sum of the solutions is $0 + 2 = 2$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "dd8ee0c0-e081-4478-bd1d-b0119daad696",
+    "text": "The graphs of $y = x^2$ and $x + y = 6$ intersect at two points. What is the larger $y$-coordinate of these intersection points?",
+    "options": [
+      "36",
+      "9",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute $y = 6 - x$ into $y = x^2$: $x^2 = 6 - x$, so $x^2 + x - 6 = 0$, or $(x + 3)(x - 2) = 0$. Thus $x = -3$ or $x = 2$. The corresponding $y$-values are $y = 6 - (-3) = 9$ and $y = 6 - 2 = 4$; the larger is 9.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "8b5bb6dc-1460-41b0-8f35-e839d6cdea9b",
+    "text": "For what value of $k$ do the two solutions to $x^2 - 4x + k = 0$ differ by 2?",
+    "options": [
+      "0",
+      "3",
+      "5",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Let the roots be $r$ and $s$. Then $r + s = 4$ and $rs = k$. Since $(r - s)^2 = (r + s)^2 - 4rs$, we have $2^2 = 16 - 4k$, so $4k = 12$ and $k = 3$. (Check: $x^2 - 4x + 3 = (x-1)(x-3)$, roots 1 and 3, difference 2.)",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "631858d1-ff46-4395-ac61-32a497b27e55",
+    "text": "A population of bacteria starts at 2,000 and doubles every 3 hours. How many bacteria will there be after 12 hours?",
+    "options": [
+      "32,000",
+      "8,000",
+      "24,000",
+      "16,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "After 12 hours there are $12/3 = 4$ doubling periods. The population is $2{,}000 \\cdot 2^4 = 2{,}000 \\cdot 16 = 32{,}000$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": false
+  },
+  {
+    "id": "b5742a69-817d-43ae-9e67-55ae8a44aebc",
+    "text": "For what value of $a$ is the polynomial $x^3 - 2x^2 + ax + 6$ divisible by $x + 3$?",
+    "options": [
+      "-13",
+      "5",
+      "-5",
+      "13"
+    ],
+    "correctIndex": 0,
+    "explanation": "Divisibility by $x + 3$ requires $p(-3) = 0$, where $p(x) = x^3 - 2x^2 + ax + 6$. So $(-3)^3 - 2(-3)^2 + a(-3) + 6 = -27 - 18 - 3a + 6 = -39 - 3a = 0$, giving $a = -13$.",
+    "subject": "Math",
+    "topic": "Advanced Math",
+    "difficulty": "Hard",
+    "isAIGenerated": false,
+    "aiTopicCategory": "pilot-500",
+    "isTestOnly": true
   }
 ]
