@@ -5221,7 +5221,7 @@
   },
   {
     "id": "d67d154c-bd24-5b31-b21b-76091a6689fb",
-    "text": "A rectangular garden is feet long and feet wide. The garden is surrounded by a path that is feet wide. What is the area, in square feet, of the path?",
+    "text": "A rectangular garden is 20 feet long and 14 feet wide. The garden is surrounded by a path that is 3 feet wide. What is the area, in square feet, of the path?",
     "options": [
       "64",
       "96",
@@ -5229,7 +5229,7 @@
       "192"
     ],
     "correctIndex": 3,
-    "explanation": "The area of the garden is square feet. The area of the garden plus the path is square feet. Therefore, the area of the path is square feet.",
+    "explanation": "The area of the garden is 20 × 14 = 280 square feet. The outer dimensions including the path are (20 + 2×3) = 26 feet and (14 + 2×3) = 20 feet, giving an outer area of 26 × 20 = 520 square feet. Therefore, the area of the path is 520 − 280 = 192 square feet.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
