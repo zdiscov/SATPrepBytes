@@ -5,6 +5,7 @@ import SwiftUI
 struct QuestionInspectorView: View {
     let question: Question
     @Environment(\.dismiss) private var dismiss
+    @State private var showPractice = false
 
     var body: some View {
         NavigationStack {
@@ -39,9 +40,17 @@ struct QuestionInspectorView: View {
             .navigationTitle("Question Inspector")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button { showPractice = true } label: {
+                        Label("Practice", systemImage: "play.circle")
+                    }
+                }
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") { dismiss() }
                 }
+            }
+            .sheet(isPresented: $showPractice) {
+                BookmarkQuizView(question: question)
             }
         }
     }
