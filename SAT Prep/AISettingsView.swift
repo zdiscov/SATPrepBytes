@@ -148,6 +148,7 @@ struct DevTestingMenu: View {
     @State private var useDevMock = false
     @State private var selectedDifficulty = Difficulty.medium
     @State private var searchQuery = ""
+    @State private var displayLimit = 50
     @State private var inspectedQuestion: Question?
 
     private var allTopics: [(String, Subject)] {
@@ -161,7 +162,8 @@ struct DevTestingMenu: View {
         return appState.allQuestions.filter {
             $0.id.uuidString.lowercased().contains(query) ||
             $0.text.lowercased().contains(query) ||
-            $0.topic.lowercased().contains(query)
+            $0.topic.lowercased().contains(query) ||
+            ($0.aiTopicCategory?.lowercased().contains(query) ?? false)
         }
     }
 
@@ -169,13 +171,19 @@ struct DevTestingMenu: View {
         NavigationStack {
             Form {
                 Section("Search Question Bank / Inspector") {
-                    TextField("Search text, topic, or ID (e.g. basketball)...", text: $searchQuery)
+                    TextField("Search text, topic, ID, or 'pilot'...", text: $searchQuery)
+                        .onChange(of: searchQuery) { _, _ in
+                            displayLimit = 50
+                        }
                     if !searchQuery.isEmpty {
                         let matches = matchingQuestions
                         if matches.isEmpty {
                             Text("No questions found matching '\(searchQuery)'").font(.caption).foregroundStyle(.secondary)
                         } else {
-                            ForEach(matches.prefix(5)) { q in
+                            Text("Showing \(min(matches.count, displayLimit)) of \(matches.count) matches")
+                                .font(.caption2)
+                                .foregroundStyle(.secondary)
+                            ForEach(matches.prefix(displayLimit)) { q in
                                 Button {
                                     inspectedQuestion = q
                                 } label: {
@@ -188,6 +196,11 @@ struct DevTestingMenu: View {
                                             Text(q.topic)
                                                 .font(.caption2)
                                                 .foregroundStyle(.secondary)
+                                            if let cat = q.aiTopicCategory {
+                                                Text("[\(cat)]")
+                                                    .font(.caption2)
+                                                    .foregroundStyle(.blue)
+                                            }
                                             Spacer()
                                             Text("Ans: \(q.correctAnswer)")
                                                 .font(.caption2.bold())
@@ -195,6 +208,19 @@ struct DevTestingMenu: View {
                                         }
                                     }
                                 }
+                            }
+                            if matches.count > displayLimit {
+                                Button("Load More (+50)...") {
+                                    displayLimit += 50
+                                }
+                                .font(.subheadline.bold())
+                                .foregroundStyle(.blue)
+
+                                Button("Show All (\(matches.count))...") {
+                                    displayLimit = matches.count
+                                }
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
                             }
                         }
                     }

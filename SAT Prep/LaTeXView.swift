@@ -102,7 +102,7 @@ struct DynamicHTMLView: UIViewRepresentable {
         <style>
           body { font-family: -apple-system, sans-serif; font-size: \(fontSize)px;
                  color: \(isDark ? "#fff" : "#000"); background: transparent;
-                 margin: 0; padding: 0; word-wrap: break-word; }
+                 margin: 0; padding: 0; word-wrap: break-word; white-space: pre-wrap; }
           p { margin: 4px 0; }
           figure { margin: 0; }
           table { border-collapse: collapse; width: 100%; margin: 8px 0; }
