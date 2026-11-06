@@ -284,7 +284,11 @@ final class AppState: ObservableObject {
         if let data = UserDefaults.standard.data(forKey: aiFeedbackKey),
            let f = try? decoder.decode([AIQuestionFeedback].self, from: data) { aiFeedbackRecords = f }
         if let data = UserDefaults.standard.data(forKey: bookmarksKey),
-           let b = try? decoder.decode(Set<UUID>.self, from: data) { bookmarkedQuestionIds = b }
+           let b = try? decoder.decode(Set<UUID>.self, from: data) { 
+            bookmarkedQuestionIds = b 
+            // Prune any stale bookmark IDs from removed questions so counters stay accurate
+            bookmarkedQuestionIds.formIntersection(questionsById.keys)
+        }
         aiEnabled = UserDefaults.standard.bool(forKey: aiEnabledKey)
     }
 
