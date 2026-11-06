@@ -18027,7 +18027,7 @@
       "95"
     ],
     "correctIndex": 2,
-    "explanation": "Tax = 0.10 × 85 = 8.50 dollars. Total = 85 + 8.5 = 93.5 dollars.",
+    "explanation": "Tax = 0.10 x 85 = 8.50 dollars. Total = 85 + 8.50 = 93.5 dollars.",
     "subject": "Math",
     "topic": "Problem Solving & Data Analysis",
     "difficulty": "Medium",
@@ -18495,7 +18495,7 @@
       "1.1"
     ],
     "correctIndex": 2,
-    "explanation": "Multiplying 2 × 1.06 gives 2.12 quarts. Rounding to the nearest tenth gives 2.1.",
+    "explanation": "2 x 1.06 = 2.12 quarts, which rounds to 2.1 quarts, so the answer is 2.1.",
     "subject": "Math",
     "topic": "Problem Solving & Data Analysis",
     "difficulty": "Medium",
@@ -18855,7 +18855,7 @@
       "3"
     ],
     "correctIndex": 2,
-    "explanation": "Dividing 1,024 by 2 repeatedly: 512 (1 hr), 256 (2 hrs), 128 (3 hrs), and 64 (4 hrs). Therefore, the number of hours is 4.",
+    "explanation": "1,024 / 2 = 512 (1 hour), / 2 = 256 (2 hours), / 2 = 128 (3 hours), / 2 = 64 (4 hours), so 4 hours. So the answer is 4.",
     "subject": "Math",
     "topic": "Problem Solving & Data Analysis",
     "difficulty": "Hard",
@@ -19179,7 +19179,7 @@
       "9000"
     ],
     "correctIndex": 1,
-    "explanation": "After 1 year: 10,000 × 0.90 = 9,000. After 2 years: 9,000 × 0.90 = 8100.",
+    "explanation": "After 1 year: 10000 x 0.90 = 9000. After 2 years: 9000 x 0.90 = 8100.",
     "subject": "Math",
     "topic": "Problem Solving & Data Analysis",
     "difficulty": "Hard",
@@ -19225,7 +19225,7 @@
   },
   {
     "id": "255b0272-34d3-4b4b-aa99-035eee80ca0a",
-    "text": "If $4x - 9 = 19$, what is the value of $x$?",
+    "text": "If 4x - 9 = 19, what is the value of x?",
     "options": [
       "5",
       "6",
@@ -19233,7 +19233,7 @@
       "7"
     ],
     "correctIndex": 3,
-    "explanation": "Add 9 to both sides: $4x = 28$. Then divide both sides by 4: $x = \\frac{28}{4} = 7$.",
+    "explanation": "Add 9 to both sides: 4x = 28. Then divide both sides by 4: x = (28/4) = 7.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19243,7 +19243,7 @@
   },
   {
     "id": "7c11e480-fd99-448b-99a8-fe12f676dcb6",
-    "text": "If $4x - 5 = 27$, what is the value of $x$?",
+    "text": "If 4x - 5 = 27, what is the value of x?",
     "options": [
       "7",
       "10",
@@ -19251,7 +19251,7 @@
       "8"
     ],
     "correctIndex": 3,
-    "explanation": "Subtract -5 from both sides: $4x = 32$. Then divide both sides by 4: $x = \\frac{32}{4} = 8$.",
+    "explanation": "Subtract -5 from both sides: 4x = 32. Then divide both sides by 4: x = (32/4) = 8.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19261,7 +19261,7 @@
   },
   {
     "id": "3a64e2b9-2417-42f0-b810-b5c6d600bbe3",
-    "text": "If $5x + 3 = 38$, what is the value of $x$?",
+    "text": "If 5x + 3 = 38, what is the value of x?",
     "options": [
       "6",
       "7",
@@ -19269,7 +19269,7 @@
       "9"
     ],
     "correctIndex": 1,
-    "explanation": "Subtract 3 from both sides: $5x = 35$. Then divide both sides by 5: $x = \\frac{35}{5} = 7$.",
+    "explanation": "Subtract 3 from both sides: 5x = 35. Then divide both sides by 5: x = (35/5) = 7.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19279,7 +19279,7 @@
   },
   {
     "id": "4cbe0497-93a3-44cc-8edc-39ca303cf5cc",
-    "text": "If $2x + 11 = 31$, what is the value of $x$?",
+    "text": "If 2x + 11 = 31, what is the value of x?",
     "options": [
       "10",
       "11",
@@ -19287,7 +19287,7 @@
       "12"
     ],
     "correctIndex": 0,
-    "explanation": "Subtract 11 from both sides: $2x = 20$. Then divide both sides by 2: $x = \\frac{20}{2} = 10$.",
+    "explanation": "Subtract 11 from both sides: 2x = 20. Then divide both sides by 2: x = (20/2) = 10.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19297,7 +19297,7 @@
   },
   {
     "id": "131286b1-7a22-405c-8eea-9740f4a0ef96",
-    "text": "If $6x - 4 = 20$, what is the value of $x$?",
+    "text": "If 6x - 4 = 20, what is the value of x?",
     "options": [
       "6",
       "3",
@@ -19305,7 +19305,7 @@
       "5"
     ],
     "correctIndex": 2,
-    "explanation": "Subtract -4 from both sides: $6x = 24$. Then divide both sides by 6: $x = \\frac{24}{6} = 4$.",
+    "explanation": "Subtract -4 from both sides: 6x = 24. Then divide both sides by 6: x = (24/6) = 4.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19315,7 +19315,7 @@
   },
   {
     "id": "d0585a79-6828-45c2-9616-62ffca8b347d",
-    "text": "If $7x + 2 = 51$, what is the value of $x$?",
+    "text": "If 7x + 2 = 51, what is the value of x?",
     "options": [
       "7",
       "9",
@@ -19323,7 +19323,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "Subtract 2 from both sides: $7x = 49$. Then divide both sides by 7: $x = \\frac{49}{7} = 7$.",
+    "explanation": "Subtract 2 from both sides: 7x = 49. Then divide both sides by 7: x = (49/7) = 7.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19333,7 +19333,7 @@
   },
   {
     "id": "d3df2050-c72b-4511-931a-a9995ce274a2",
-    "text": "If $f(x) = 3x + 4$, what is the value of $f(5)$?",
+    "text": "If f(x) = 3x + 4, what is the value of f(5)?",
     "options": [
       "18",
       "21",
@@ -19341,7 +19341,7 @@
       "19"
     ],
     "correctIndex": 3,
-    "explanation": "Substitute $x = 5$: $f(5) = 3(5) + 4 = 15 + 4 = 19$.",
+    "explanation": "Substitute x = 5: f(5) = 3(5) + 4 = 15 + 4 = 19.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19351,7 +19351,7 @@
   },
   {
     "id": "eeb236b8-5ee3-4712-b372-f3e0da0900e7",
-    "text": "If $f(x) = -2x + 9$, what is the value of $f(4)$?",
+    "text": "If f(x) = -2x + 9, what is the value of f(4)?",
     "options": [
       "2",
       "1",
@@ -19359,7 +19359,7 @@
       "3"
     ],
     "correctIndex": 1,
-    "explanation": "Substitute $x = 4$: $f(4) = -2(4) + 9 = -8 + 9 = 1$.",
+    "explanation": "Substitute x = 4: f(4) = -2(4) + 9 = -8 + 9 = 1.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19369,7 +19369,7 @@
   },
   {
     "id": "22f2844f-5aa4-40c0-ae2e-064666a1bcb9",
-    "text": "If $f(x) = 5x - 3$, what is the value of $f(6)$?",
+    "text": "If f(x) = 5x - 3, what is the value of f(6)?",
     "options": [
       "26",
       "28",
@@ -19377,7 +19377,7 @@
       "29"
     ],
     "correctIndex": 2,
-    "explanation": "Substitute $x = 6$: $f(6) = 5(6) - 3 = 30 - 3 = 27$.",
+    "explanation": "Substitute x = 6: f(6) = 5(6) - 3 = 30 - 3 = 27.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19387,7 +19387,7 @@
   },
   {
     "id": "9013b597-608e-4fa0-85a6-13df9f9c4b76",
-    "text": "What is the slope of the line that passes through the points $(1, 2)$ and $(5, 14)$?",
+    "text": "What is the slope of the line that passes through the points (1, 2) and (5, 14)?",
     "options": [
       "5",
       "2",
@@ -19395,7 +19395,7 @@
       "3"
     ],
     "correctIndex": 3,
-    "explanation": "The slope is $\\frac{y_2-y_1}{x_2-x_1} = \\frac{14-2}{5-1} = \\frac{12}{4} = 3$.",
+    "explanation": "The slope is (y₂-y₁/x₂-x₁) = (14-2/5-1) = (12/4) = 3.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19405,7 +19405,7 @@
   },
   {
     "id": "867ffb17-8f7f-4c31-8878-d8b6a5924c42",
-    "text": "What is the slope of the line that passes through the points $(0, 3)$ and $(4, 11)$?",
+    "text": "What is the slope of the line that passes through the points (0, 3) and (4, 11)?",
     "options": [
       "1",
       "3",
@@ -19413,7 +19413,7 @@
       "4"
     ],
     "correctIndex": 2,
-    "explanation": "The slope is $\\frac{y_2-y_1}{x_2-x_1} = \\frac{11-3}{4-0} = \\frac{8}{4} = 2$.",
+    "explanation": "The slope is (y₂-y₁/x₂-x₁) = (11-3/4-0) = (8/4) = 2.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19423,7 +19423,7 @@
   },
   {
     "id": "65c657ea-2023-4e72-82c7-94ff9b2349a8",
-    "text": "What is the slope of the line that passes through the points $(-2, 5)$ and $(3, 15)$?",
+    "text": "What is the slope of the line that passes through the points (-2, 5) and (3, 15)?",
     "options": [
       "4",
       "1",
@@ -19431,7 +19431,7 @@
       "2"
     ],
     "correctIndex": 3,
-    "explanation": "The slope is $\\frac{y_2-y_1}{x_2-x_1} = \\frac{15-5}{3--2} = \\frac{10}{5} = 2$.",
+    "explanation": "The slope is (y₂-y₁/x₂-x₁) = (15-5/3--2) = (10/5) = 2.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19441,7 +19441,7 @@
   },
   {
     "id": "199196cb-41c4-486a-8e70-c70772d7560d",
-    "text": "The line $y = 4x + b$ passes through the point $(3, 17)$. What is the value of $b$?",
+    "text": "The line y = 4x + b passes through the point (3, 17). What is the value of b?",
     "options": [
       "5",
       "1",
@@ -19449,7 +19449,7 @@
       "13"
     ],
     "correctIndex": 0,
-    "explanation": "Substitute $x=3$ and $y=17$: $17 = 4(3) + b$, so $17 = 12 + b$ and $b = 17 - 12 = 5$.",
+    "explanation": "Substitute x=3 and y=17: 17 = 4(3) + b, so 17 = 12 + b and b = 17 - 12 = 5.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19459,7 +19459,7 @@
   },
   {
     "id": "13c3edfd-e058-4281-a33e-903d238c4977",
-    "text": "What is the $y$-intercept of the line $y = -3x + 8$?",
+    "text": "What is the y-intercept of the line y = -3x + 8?",
     "options": [
       "-8",
       "3",
@@ -19467,7 +19467,7 @@
       "-3"
     ],
     "correctIndex": 2,
-    "explanation": "In slope-intercept form $y = mx + b$, the $y$-intercept is $b$. Here $b = 8$, so the line crosses the $y$-axis at $(0, 8)$.",
+    "explanation": "In slope-intercept form y = mx + b, the y-intercept is b. Here b = 8, so the line crosses the y-axis at (0, 8).",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19477,7 +19477,7 @@
   },
   {
     "id": "368f69ef-d5bc-41c5-8176-f81300081765",
-    "text": "If $2x + 3 < 13$, which of the following could be the value of $x$?",
+    "text": "If 2x + 3 < 13, which of the following could be the value of x?",
     "options": [
       "7",
       "6",
@@ -19485,7 +19485,7 @@
       "5"
     ],
     "correctIndex": 2,
-    "explanation": "Subtract 3 from both sides: $2x < 10$. Divide by 2: $x < 5$. Of the choices, only $4$ is less than $5$.",
+    "explanation": "Subtract 3 from both sides: 2x < 10. Divide by 2: x < 5. Of the choices, only 4 is less than 5.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19495,7 +19495,7 @@
   },
   {
     "id": "09291305-e117-488f-895e-46e1762bf47e",
-    "text": "If $3x - 4 > 14$, which of the following could be the value of $x$?",
+    "text": "If 3x - 4 > 14, which of the following could be the value of x?",
     "options": [
       "4",
       "7",
@@ -19503,7 +19503,7 @@
       "6"
     ],
     "correctIndex": 1,
-    "explanation": "Add 4 to both sides: $3x > 18$. Divide by 3: $x > 6$. Of the choices, only $7$ is greater than $6$.",
+    "explanation": "Add 4 to both sides: 3x > 18. Divide by 3: x > 6. Of the choices, only 7 is greater than 6.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19521,7 +19521,7 @@
       "8"
     ],
     "correctIndex": 0,
-    "explanation": "Let $m$ be the miles. Then $4 + 3m = 25$, so $3m = 21$ and $m = 7$.",
+    "explanation": "Let m be the miles. Then 4 + 3m = 25, so 3m = 21 and m = 7.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19539,7 +19539,7 @@
       "3"
     ],
     "correctIndex": 3,
-    "explanation": "She spent $20 - 5 = 15$ dollars on 5 notebooks, so one notebook costs $\\frac{15}{5} = 3$ dollars.",
+    "explanation": "She spent 20 - 5 = 15 dollars on 5 notebooks, so one notebook costs (15/5) = 3 dollars.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Easy",
@@ -19549,7 +19549,7 @@
   },
   {
     "id": "ff8cedcf-dff4-4555-9949-80b2b6f4cf37",
-    "text": "If $2x + 1y = 11$ and $1x - 1y = 1$, what is the value of $x$?",
+    "text": "If 2x + 1y = 11 and 1x - 1y = 1, what is the value of x?",
     "options": [
       "4",
       "5",
@@ -19557,7 +19557,7 @@
       "3"
     ],
     "correctIndex": 0,
-    "explanation": "Adding the two equations eliminates y: (2x + y) + (x - y) = 11 + 1, so 3x = 12, which gives x = 4.",
+    "explanation": "Solving the system (for example, by elimination) gives x = 4 and y = 3. Check: 2(4) + 1(3) = 11. So x = 4.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19567,7 +19567,7 @@
   },
   {
     "id": "bb632dc0-d7a2-4e87-885c-93bb36079cf9",
-    "text": "If $3x + 2y = 19$ and $1x - 2y = 1$, what is the value of $y$?",
+    "text": "If 3x + 2y = 19 and 1x - 2y = 1, what is the value of y?",
     "options": [
       "2",
       "3",
@@ -19575,7 +19575,7 @@
       "1"
     ],
     "correctIndex": 0,
-    "explanation": "Solving the system (for example, by elimination) gives $x = 5$ and $y = 2$. Check: $1(5) - 2(2) = 1$.",
+    "explanation": "Solving the system (for example, by elimination) gives x = 5 and y = 2. Check: 1(5) - 2(2) = 1.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19585,7 +19585,7 @@
   },
   {
     "id": "cb3d3c88-ade8-4eb4-bd72-ad843f84b295",
-    "text": "If $1x + 3y = 16$ and $2x - 1y = 4$, what is the value of $x+y$?",
+    "text": "If 1x + 3y = 16 and 2x - 1y = 4, what is the value of x+y?",
     "options": [
       "7",
       "8",
@@ -19593,7 +19593,7 @@
       "10"
     ],
     "correctIndex": 1,
-    "explanation": "Solving the system gives $x = 4$ and $y = 4$, so $x + y = 4 + 4 = 8$.",
+    "explanation": "Solving the system gives x = 4 and y = 4, so x + y = 4 + 4 = 8.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19603,7 +19603,7 @@
   },
   {
     "id": "db4ceda9-0666-42ca-a1fe-9dd0fe3ad180",
-    "text": "If $4x - 1y = 5$ and $2x + 3y = 13$, what is the value of $x-y$?",
+    "text": "If 4x - 1y = 5 and 2x + 3y = 13, what is the value of x-y?",
     "options": [
       "1",
       "-2",
@@ -19611,7 +19611,7 @@
       "0"
     ],
     "correctIndex": 2,
-    "explanation": "Solving the system gives $x = 2$ and $y = 3$, so $x - y = 2 - 3 = -1$.",
+    "explanation": "Solving the system gives x = 2 and y = 3, so x - y = 2 - 3 = -1.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19621,7 +19621,7 @@
   },
   {
     "id": "678ac136-532a-4c7f-99e9-ca3ce2677357",
-    "text": "If $2x + 3y = 13$ and $3x - 2y = 0$, what is the value of $x$?",
+    "text": "If 2x + 3y = 13 and 3x - 2y = 0, what is the value of x?",
     "options": [
       "3",
       "1",
@@ -19629,7 +19629,7 @@
       "4"
     ],
     "correctIndex": 2,
-    "explanation": "From 3x - 2y = 0, we have y = 1.5x. Substituting into 2x + 3y = 13 gives 2x + 4.5x = 13, so 6.5x = 13, which gives x = 2.",
+    "explanation": "Solving the system (for example, by elimination) gives x = 2 and y = 3. Check: 2(2) + 3(3) = 13. So x = 2.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19639,7 +19639,7 @@
   },
   {
     "id": "91d4cbfc-077b-4f40-a57d-9d3e6703ffb2",
-    "text": "If $1x - 2y = 3$ and $3x + 1y = 16$, what is the value of $y$?",
+    "text": "If 1x - 2y = 3 and 3x + 1y = 16, what is the value of y?",
     "options": [
       "0",
       "3",
@@ -19647,7 +19647,7 @@
       "2"
     ],
     "correctIndex": 2,
-    "explanation": "Multiplying the first equation by 3 gives 3x - 6y = 9. Subtracting this from 3x + y = 16 gives 7y = 7, which simplifies to y = 1.",
+    "explanation": "Solving the system (for example, by elimination) gives x = 5 and y = 1. Check: 3(5) + 1(1) = 16. So y = 1.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19657,7 +19657,7 @@
   },
   {
     "id": "b534cd09-bbfe-4d00-bf65-3728c9302bc0",
-    "text": "If $5x + 1y = 23$ and $2x + 1y = 11$, what is the value of $x+y$?",
+    "text": "If 5x + 1y = 23 and 2x + 1y = 11, what is the value of x+y?",
     "options": [
       "6",
       "7",
@@ -19665,7 +19665,7 @@
       "9"
     ],
     "correctIndex": 1,
-    "explanation": "Solving the system gives $x = 4$ and $y = 3$, so $x + y = 4 + 3 = 7$.",
+    "explanation": "Solving the system gives x = 4 and y = 3, so x + y = 4 + 3 = 7.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19675,7 +19675,7 @@
   },
   {
     "id": "12db18e3-3ec2-4130-9509-3e681a5d3e27",
-    "text": "If $3x - 1y = 4$ and $1x + 2y = 13$, what is the value of $x-y$?",
+    "text": "If 3x - 1y = 4 and 1x + 2y = 13, what is the value of x-y?",
     "options": [
       "-3",
       "-2",
@@ -19683,7 +19683,7 @@
       "0"
     ],
     "correctIndex": 1,
-    "explanation": "Solving the system gives $x = 3$ and $y = 5$, so $x - y = 3 - 5 = -2$.",
+    "explanation": "Solving the system gives x = 3 and y = 5, so x - y = 3 - 5 = -2.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19701,7 +19701,7 @@
       "50"
     ],
     "correctIndex": 3,
-    "explanation": "Let $a$ be adult tickets and $s$ student tickets. Then $a + s = 100$ and $12a + 7s = 950$. From the first equation $s = 100 - a$, so $12a + 7(100 - a) = 950$, giving $5a + 700 = 950$, $5a = 250$, and $a = 50$.",
+    "explanation": "Let a be adult tickets and s student tickets. Then a + s = 100 and 12a + 7s = 950. From the first equation s = 100 - a, so 12a + 7(100 - a) = 950, giving 5a + 700 = 950, 5a = 250, and a = 50.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19719,7 +19719,7 @@
       "15"
     ],
     "correctIndex": 3,
-    "explanation": "Let $x$ be liters of the 30 percent solution; then $20 - x$ liters of the 10 percent solution are used. Salt: $0.30x + 0.10(20 - x) = 0.25(20)$, so $0.20x + 2 = 5$, $0.20x = 3$, and $x = 15$.",
+    "explanation": "Let x be liters of the 30 percent solution; then 20 - x liters of the 10 percent solution are used. Salt: 0.30x + 0.10(20 - x) = 0.25(20), so 0.20x + 2 = 5, 0.20x = 3, and x = 15.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19737,7 +19737,7 @@
       "2.5"
     ],
     "correctIndex": 3,
-    "explanation": "Their separation grows at $60 + 80 = 140$ miles per hour. Time $= \\frac{350}{140} = 2.5$ hours.",
+    "explanation": "Their separation grows at 60 + 80 = 140 miles per hour. Time = (350/140) = 2.5 hours.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19755,7 +19755,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "Let $h$ be the hours. Then $50 + 40h = 210$, so $40h = 160$ and $h = 4$.",
+    "explanation": "Let h be the hours. Then 50 + 40h = 210, so 40h = 160 and h = 4.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19765,7 +19765,7 @@
   },
   {
     "id": "20da91fd-52d5-4593-8edf-1cc9290e8fb9",
-    "text": "Five years ago, Ana was twice as old as Ben. In five years, Ana will be 3 times as old as Ben was five years ago. How old is Ana now? (Let Ben's current age be $b$.)",
+    "text": "Five years ago, Ana was twice as old as Ben. In five years, Ana will be 3 times as old as Ben was five years ago. How old is Ana now? (Let Ben's current age be b.)",
     "options": [
       "20",
       "15",
@@ -19773,7 +19773,7 @@
       "25"
     ],
     "correctIndex": 3,
-    "explanation": "Let Ana's current age be $a$ and Ben's be $b$. Five years ago $a - 5 = 2(b - 5)$. In five years $a + 5 = 3(b - 5)$. From the first, $a = 2b - 5$. Substituting: $2b - 5 + 5 = 3b - 15$, so $2b = 3b - 15$ and $b = 15$. Then $a = 2(15) - 5 = 25$.",
+    "explanation": "Let Ana's current age be a and Ben's be b. Five years ago a - 5 = 2(b - 5). In five years a + 5 = 3(b - 5). From the first, a = 2b - 5. Substituting: 2b - 5 + 5 = 3b - 15, so 2b = 3b - 15 and b = 15. Then a = 2(15) - 5 = 25.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19791,7 +19791,7 @@
       "24"
     ],
     "correctIndex": 1,
-    "explanation": "Rates add: $\\frac{1}{10} + \\frac{1}{t} = \\frac{1}{6}$, where $t$ is Bea's time. So $\\frac{1}{t} = \\frac{1}{6} - \\frac{1}{10} = \\frac{5-3}{30} = \\frac{1}{15}$, and $t = 15$ hours.",
+    "explanation": "Rates add: (1/10) + (1/t) = (1/6), where t is Bea's time. So (1/t) = (1/6) - (1/10) = (5-3/30) = (1/15), and t = 15 hours.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19801,7 +19801,7 @@
   },
   {
     "id": "e8f4201f-c671-46c4-ab9d-dcb22378ad43",
-    "text": "If $-2x + 7 \\leq 19$, what is the smallest integer value of $x$ that satisfies the inequality?",
+    "text": "If -2x + 7 ≤ 19, what is the smallest integer value of x that satisfies the inequality?",
     "options": [
       "-5",
       "6",
@@ -19809,7 +19809,7 @@
       "-6"
     ],
     "correctIndex": 3,
-    "explanation": "Subtract 7: $-2x \\leq 12$. Divide by $-2$ and reverse the inequality: $x \\geq -6$. The smallest integer satisfying this is $-6$.",
+    "explanation": "Subtract 7: -2x ≤ 12. Divide by -2 and reverse the inequality: x ≥ -6. The smallest integer satisfying this is -6.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19819,7 +19819,7 @@
   },
   {
     "id": "a093023c-e41c-41cf-a2e1-f80fa006e677",
-    "text": "Which of the following is a solution to $3x - 5 > 2x + 4$?",
+    "text": "Which of the following is a solution to 3x - 5 > 2x + 4?",
     "options": [
       "7",
       "8",
@@ -19827,7 +19827,7 @@
       "9"
     ],
     "correctIndex": 2,
-    "explanation": "Subtract $2x$ from both sides: $x - 5 > 4$, so $x > 9$. Of the choices, only 10 is greater than 9.",
+    "explanation": "Subtract 2x from both sides: x - 5 > 4, so x > 9. Of the choices, only 10 is greater than 9.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19837,15 +19837,15 @@
   },
   {
     "id": "4d15cd67-cb7b-40af-a3d6-699376def1ab",
-    "text": "The inequality $2(x - 3) < 4x + 6$ is equivalent to which of the following?",
+    "text": "The inequality 2(x - 3) < 4x + 6 is equivalent to which of the following?",
     "options": [
-      "$x > -6$",
-      "$x < -6$",
-      "$x < 6$",
-      "$x > 6$"
+      "x > -6",
+      "x < -6",
+      "x < 6",
+      "x > 6"
     ],
     "correctIndex": 0,
-    "explanation": "Expand: $2x - 6 < 4x + 6$. Subtract $2x$: $-6 < 2x + 6$. Subtract 6: $-12 < 2x$, so $-6 < x$, i.e. $x > -6$.",
+    "explanation": "Expand: 2x - 6 < 4x + 6. Subtract 2x: -6 < 2x + 6. Subtract 6: -12 < 2x, so -6 < x, i.e. x > -6.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19863,7 +19863,7 @@
       "9"
     ],
     "correctIndex": 0,
-    "explanation": "Let $m$ be months. Then $45 + 30m \\leq 375$, so $30m \\leq 330$ and $m \\leq 11$. The greatest whole number of months is 11.",
+    "explanation": "Let m be months. Then 45 + 30m ≤ 375, so 30m ≤ 330 and m ≤ 11. The greatest whole number of months is 11.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19873,7 +19873,7 @@
   },
   {
     "id": "c695c20a-5e42-4167-807a-61bddffd1f0a",
-    "text": "If $\\frac{x}{3} + 2 \\geq 7$, what is the least possible value of $x$?",
+    "text": "If (x/3) + 2 ≥ 7, what is the least possible value of x?",
     "options": [
       "15",
       "18",
@@ -19881,7 +19881,7 @@
       "9"
     ],
     "correctIndex": 0,
-    "explanation": "Subtract 2: $\\frac{x}{3} \\geq 5$. Multiply by 3: $x \\geq 15$. The least possible value is 15.",
+    "explanation": "Subtract 2: (x/3) ≥ 5. Multiply by 3: x ≥ 15. The least possible value is 15.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19891,15 +19891,15 @@
   },
   {
     "id": "e624c15f-25ab-4512-9cc2-8a0c44b190de",
-    "text": "What is the slope of the line parallel to the line $y = -\\frac{2}{3}x + 5$?",
+    "text": "What is the slope of the line parallel to the line y = -(2/3)x + 5?",
     "options": [
-      "$-\\frac{2}{3}$",
-      "$\\frac{3}{2}$",
-      "$-\\frac{3}{2}$",
-      "$\\frac{2}{3}$"
+      "-(2/3)",
+      "(3/2)",
+      "-(3/2)",
+      "(2/3)"
     ],
     "correctIndex": 0,
-    "explanation": "Parallel lines have equal slopes. The given line has slope $-\\frac{2}{3}$, so any line parallel to it also has slope $-\\frac{2}{3}$.",
+    "explanation": "Parallel lines have equal slopes. The given line has slope -(2/3), so any line parallel to it also has slope -(2/3).",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19909,15 +19909,15 @@
   },
   {
     "id": "c9828289-b22d-4561-95cd-618fbb55b948",
-    "text": "What is the slope of the line perpendicular to the line $y = 4x - 7$?",
+    "text": "What is the slope of the line perpendicular to the line y = 4x - 7?",
     "options": [
-      "$\\frac{1}{4}$",
-      "$-4$",
-      "$4$",
-      "$-\\frac{1}{4}$"
+      "(1/4)",
+      "-4",
+      "4",
+      "-(1/4)"
     ],
     "correctIndex": 3,
-    "explanation": "Perpendicular slopes are negative reciprocals. The given slope is 4, so the perpendicular slope is $-\\frac{1}{4}$.",
+    "explanation": "Perpendicular slopes are negative reciprocals. The given slope is 4, so the perpendicular slope is -(1/4).",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19927,7 +19927,7 @@
   },
   {
     "id": "a76c6922-8ef1-49e5-9d15-851b1196f55c",
-    "text": "A line passes through $(2, 5)$ and has slope 3. What is the $y$-intercept of the line?",
+    "text": "A line passes through (2, 5) and has slope 3. What is the y-intercept of the line?",
     "options": [
       "-1",
       "-7",
@@ -19935,7 +19935,7 @@
       "1"
     ],
     "correctIndex": 0,
-    "explanation": "Use $y = 3x + b$ with $(2, 5)$: $5 = 3(2) + b$, so $5 = 6 + b$ and $b = -1$.",
+    "explanation": "Use y = 3x + b with (2, 5): 5 = 3(2) + b, so 5 = 6 + b and b = -1.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19945,15 +19945,15 @@
   },
   {
     "id": "77664a08-a1c0-4a1d-a4a1-653702055637",
-    "text": "What is the equation of the line that passes through $(0, -4)$ and $(3, 5)$?",
+    "text": "What is the equation of the line that passes through (0, -4) and (3, 5)?",
     "options": [
-      "$y = 3x - 4$",
-      "$y = 3x + 4$",
-      "$y = \\frac{1}{3}x - 4$",
-      "$y = -3x - 4$"
+      "y = 3x - 4",
+      "y = 3x + 4",
+      "y = (1/3)x - 4",
+      "y = -3x - 4"
     ],
     "correctIndex": 0,
-    "explanation": "The slope is $\\frac{5 - (-4)}{3 - 0} = \\frac{9}{3} = 3$, and the line passes through $(0, -4)$, so its $y$-intercept is $-4$. Hence $y = 3x - 4$.",
+    "explanation": "The slope is (5 - (-4)/3 - 0) = (9/3) = 3, and the line passes through (0, -4), so its y-intercept is -4. Hence y = 3x - 4.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19963,7 +19963,7 @@
   },
   {
     "id": "e1721fb2-20d0-4131-8fea-54cc257de5ed",
-    "text": "The graph of the linear function $f$ passes through $(1, 4)$ and $(4, 13)$. What is the value of $f(7)$?",
+    "text": "The graph of the linear function f passes through (1, 4) and (4, 13). What is the value of f(7)?",
     "options": [
       "19",
       "16",
@@ -19971,7 +19971,7 @@
       "25"
     ],
     "correctIndex": 2,
-    "explanation": "The slope is $\\frac{13-4}{4-1} = 3$. Using $(1, 4)$: $f(x) = 3x + 1$, since $4 = 3(1) + 1$. Then $f(7) = 3(7) + 1 = 22$.",
+    "explanation": "The slope is (13-4/4-1) = 3. Using (1, 4): f(x) = 3x + 1, since 4 = 3(1) + 1. Then f(7) = 3(7) + 1 = 22.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19981,15 +19981,15 @@
   },
   {
     "id": "89c8215e-a440-4e53-9343-ccf676a07d7b",
-    "text": "If $f(x) = \\frac{2x + 8}{3}$, what is the value of $f(7)$?",
+    "text": "If f(x) = (2x + 8/3), what is the value of f(7)?",
     "options": [
-      "$\\frac{22}{3}$",
-      "$\\frac{20}{3}$",
-      "$7$",
-      "$\\frac{26}{3}$"
+      "(22/3)",
+      "(20/3)",
+      "7",
+      "(26/3)"
     ],
     "correctIndex": 0,
-    "explanation": "Substitute $x = 7$: $f(7) = \\frac{2(7) + 8}{3} = \\frac{22}{3}$.",
+    "explanation": "Substitute x = 7: f(7) = (2(7) + 8/3) = (22/3).",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -19999,7 +19999,7 @@
   },
   {
     "id": "f1b530f2-a731-425b-ad0b-fc4ff0789984",
-    "text": "If $g(x) = \\frac{x + 6}{2}$, what is the value of $x$ for which $g(x) = 10$?",
+    "text": "If g(x) = (x + 6/2), what is the value of x for which g(x) = 10?",
     "options": [
       "8",
       "14",
@@ -20007,7 +20007,7 @@
       "16"
     ],
     "correctIndex": 1,
-    "explanation": "Set $\\frac{x + 6}{2} = 10$. Multiply by 2: $x + 6 = 20$, so $x = 14$.",
+    "explanation": "Set (x + 6/2) = 10. Multiply by 2: x + 6 = 20, so x = 14.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20017,7 +20017,7 @@
   },
   {
     "id": "48d4d733-d8a9-44bf-bff5-0087e789e268",
-    "text": "The function $h$ is defined by $h(x) = ax + 5$. If $h(4) = 17$, what is the value of $a$?",
+    "text": "The function h is defined by h(x) = ax + 5. If h(4) = 17, what is the value of a?",
     "options": [
       "4",
       "5",
@@ -20025,7 +20025,7 @@
       "3"
     ],
     "correctIndex": 3,
-    "explanation": "Substitute: $h(4) = 4a + 5 = 17$, so $4a = 12$ and $a = 3$.",
+    "explanation": "Substitute: h(4) = 4a + 5 = 17, so 4a = 12 and a = 3.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20035,7 +20035,7 @@
   },
   {
     "id": "86ca8b10-c65d-48a7-a1b7-e26bfddd2269",
-    "text": "If $f(x) = 3x - 2$ and $g(x) = x + 4$, what is the value of $f(g(3))$?",
+    "text": "If f(x) = 3x - 2 and g(x) = x + 4, what is the value of f(g(3))?",
     "options": [
       "16",
       "19",
@@ -20043,7 +20043,7 @@
       "22"
     ],
     "correctIndex": 1,
-    "explanation": "First $g(3) = 3 + 4 = 7$. Then $f(7) = 3(7) - 2 = 19$.",
+    "explanation": "First g(3) = 3 + 4 = 7. Then f(7) = 3(7) - 2 = 19.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20053,7 +20053,7 @@
   },
   {
     "id": "3e9348b6-227e-4b3c-bb68-8808d7fdcbf2",
-    "text": "A linear function $f$ satisfies $f(2) = 9$ and $f(5) = 18$. What is the value of $f(0)$?",
+    "text": "A linear function f satisfies f(2) = 9 and f(5) = 18. What is the value of f(0)?",
     "options": [
       "6",
       "0",
@@ -20061,7 +20061,7 @@
       "3"
     ],
     "correctIndex": 3,
-    "explanation": "The slope is $\\frac{18-9}{5-2} = 3$. Write $f(x) = 3x + b$; from $f(2) = 9$, $6 + b = 9$, so $b = 3$. Hence $f(0) = 3$.",
+    "explanation": "The slope is (18-9/5-2) = 3. Write f(x) = 3x + b; from f(2) = 9, 6 + b = 9, so b = 3. Hence f(0) = 3.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20071,7 +20071,7 @@
   },
   {
     "id": "a6c32482-17b6-4777-bb1f-f758fb024e70",
-    "text": "If $\\frac{2x - 1}{3} = \\frac{x + 4}{2}$, what is the value of $x$?",
+    "text": "If (2x - 1/3) = (x + 4/2), what is the value of x?",
     "options": [
       "7",
       "11",
@@ -20079,7 +20079,7 @@
       "10"
     ],
     "correctIndex": 2,
-    "explanation": "Cross-multiply: $2(2x - 1) = 3(x + 4)$, so $4x - 2 = 3x + 12$ and $x = 14$.",
+    "explanation": "Cross-multiply: 2(2x - 1) = 3(x + 4), so 4x - 2 = 3x + 12 and x = 14.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20089,7 +20089,7 @@
   },
   {
     "id": "d0fa9803-45c7-4418-94df-4444b91814e9",
-    "text": "If $3(x - 2) + 5 = 2x + 4$, what is the value of $x$?",
+    "text": "If 3(x - 2) + 5 = 2x + 4, what is the value of x?",
     "options": [
       "7",
       "9",
@@ -20097,7 +20097,7 @@
       "5"
     ],
     "correctIndex": 3,
-    "explanation": "Expand: $3x - 6 + 5 = 2x + 4$, so $3x - 1 = 2x + 4$ and $x = 5$.",
+    "explanation": "Expand: 3x - 6 + 5 = 2x + 4, so 3x - 1 = 2x + 4 and x = 5.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20115,7 +20115,7 @@
       "22"
     ],
     "correctIndex": 2,
-    "explanation": "Let the integers be $n$, $n+2$, $n+4$. Then $3n + 6 = 72$, so $3n = 66$, $n = 22$, and the largest is $22 + 4 = 26$.",
+    "explanation": "Let the integers be n, n+2, n+4. Then 3n + 6 = 72, so 3n = 66, n = 22, and the largest is 22 + 4 = 26.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20133,7 +20133,7 @@
       "8"
     ],
     "correctIndex": 0,
-    "explanation": "Let the width be $w$; the length is $w + 5$. Perimeter: $2w + 2(w + 5) = 38$, so $4w + 10 = 38$, $4w = 28$, and $w = 7$.",
+    "explanation": "Let the width be w; the length is w + 5. Perimeter: 2w + 2(w + 5) = 38, so 4w + 10 = 38, 4w = 28, and w = 7.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20143,7 +20143,7 @@
   },
   {
     "id": "a7f25c86-f265-4cf9-a4e1-4ee96d89885b",
-    "text": "If $x + y = 10$ and $x - y = 4$, what is the value of $xy$?",
+    "text": "If x + y = 10 and x - y = 4, what is the value of xy?",
     "options": [
       "21",
       "14",
@@ -20151,7 +20151,7 @@
       "18"
     ],
     "correctIndex": 0,
-    "explanation": "Adding the equations gives $2x = 14$, so $x = 7$; then $y = 3$. Hence $xy = 7 \\times 3 = 21$.",
+    "explanation": "Adding the equations gives 2x = 14, so x = 7; then y = 3. Hence xy = 7 × 3 = 21.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20169,7 +20169,7 @@
       "125"
     ],
     "correctIndex": 0,
-    "explanation": "Let $t$ be the number of texts. Then $25 + 0.10t = 40$, so $0.10t = 15$ and $t = 150$.",
+    "explanation": "Let t be the number of texts. Then 25 + 0.10t = 40, so 0.10t = 15 and t = 150.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Medium",
@@ -20179,7 +20179,7 @@
   },
   {
     "id": "d3e08795-d63e-435e-aef6-3387ad7e16f6",
-    "text": "For what value of $k$ does the system $2x + ky = 6$ and $4x + 6y = 12$ have infinitely many solutions?",
+    "text": "For what value of k does the system 2x + ky = 6 and 4x + 6y = 12 have infinitely many solutions?",
     "options": [
       "6",
       "2",
@@ -20187,7 +20187,7 @@
       "12"
     ],
     "correctIndex": 2,
-    "explanation": "Infinitely many solutions require the equations to be proportional. The second equation is twice the first in $x$ and in the constant ($4 = 2 \\times 2$, $12 = 2 \\times 6$), so $k$ must satisfy $6 = 2k$, giving $k = 3$.",
+    "explanation": "Infinitely many solutions require the equations to be proportional. The second equation is twice the first in x and in the constant (4 = 2 × 2, 12 = 2 × 6), so k must satisfy 6 = 2k, giving k = 3.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20197,7 +20197,7 @@
   },
   {
     "id": "62f3f445-caeb-4d38-a4f4-376c348995f3",
-    "text": "For what value of $k$ does the system $x + 2y = 5$ and $3x + ky = 7$ have no solution?",
+    "text": "For what value of k does the system x + 2y = 5 and 3x + ky = 7 have no solution?",
     "options": [
       "6",
       "3",
@@ -20205,7 +20205,7 @@
       "2"
     ],
     "correctIndex": 0,
-    "explanation": "No solution requires parallel distinct lines: the ratios of the $x$- and $y$-coefficients must be equal but differ from the ratio of the constants. $\\frac{3}{1} = \\frac{k}{2}$ gives $k = 6$, and $\\frac{7}{5} \\neq 3$, so the lines are parallel and distinct.",
+    "explanation": "No solution requires parallel distinct lines: the ratios of the x- and y-coefficients must be equal but differ from the ratio of the constants. (3/1) = (k/2) gives k = 6, and (7/5) ≠ 3, so the lines are parallel and distinct.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20215,7 +20215,7 @@
   },
   {
     "id": "6ed9e493-be3d-439d-b0a0-285e6d12d814",
-    "text": "If $ax + 3y = 9$ and $2x + y = 5$ have the solution $x = 3$, $y = -1$, what is the value of $a$?",
+    "text": "If ax + 3y = 9 and 2x + y = 5 have the solution x = 3, y = -1, what is the value of a?",
     "options": [
       "3",
       "2",
@@ -20223,7 +20223,7 @@
       "6"
     ],
     "correctIndex": 2,
-    "explanation": "Substitute x = 3 and y = -1 into ax + 3y = 9: 3a + 3(-1) = 9, so 3a - 3 = 9, 3a = 12, which gives a = 4.",
+    "explanation": "Substitute x = 3, y = -1 into ax + 3y = 9: 3a + 3(-1) = 9, so 3a - 3 = 9, 3a = 12, and a = 4. (Check the second equation: 2(3) + (-1) = 5.) So a = 4.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20233,7 +20233,7 @@
   },
   {
     "id": "44e1c31e-9d39-4bf2-b993-397ab46c699e",
-    "text": "The system $x + y = 8$ and $2x - y = 7$ has solution $(x, y)$. What is the value of $x^2 - y^2$?",
+    "text": "The system x + y = 8 and 2x - y = 7 has solution (x, y). What is the value of x² - y²?",
     "options": [
       "8",
       "15",
@@ -20241,7 +20241,7 @@
       "16"
     ],
     "correctIndex": 3,
-    "explanation": "Adding gives $3x = 15$, so $x = 5$ and $y = 3$. Then $x^2 - y^2 = 25 - 9 = 16$. (Equivalently, $x^2 - y^2 = (x-y)(x+y) = 2 \\times 8 = 16$.)",
+    "explanation": "Adding gives 3x = 15, so x = 5 and y = 3. Then x² - y² = 25 - 9 = 16. (Equivalently, x² - y² = (x-y)(x+y) = 2 × 8 = 16.)",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20251,7 +20251,7 @@
   },
   {
     "id": "63f8700c-c4c3-48dd-ba0e-0fe48e6335cf",
-    "text": "If $\\frac{1}{x} + \\frac{1}{y} = \\frac{5}{6}$ and $\\frac{1}{x} - \\frac{1}{y} = \\frac{1}{6}$, what is the value of $xy$?",
+    "text": "If (1/x) + (1/y) = (5/6) and (1/x) - (1/y) = (1/6), what is the value of xy?",
     "options": [
       "12",
       "6",
@@ -20259,7 +20259,7 @@
       "3"
     ],
     "correctIndex": 1,
-    "explanation": "Let $u = \\frac{1}{x}$ and $v = \\frac{1}{y}$. Adding: $2u = 1$, so $u = \\frac{1}{2}$ and $x = 2$. Subtracting: $2v = \\frac{2}{3}$, so $v = \\frac{1}{3}$ and $y = 3$. Hence $xy = 6$.",
+    "explanation": "Let u = (1/x) and v = (1/y). Adding: 2u = 1, so u = (1/2) and x = 2. Subtracting: 2v = (2/3), so v = (1/3) and y = 3. Hence xy = 6.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20277,7 +20277,7 @@
       "9"
     ],
     "correctIndex": 0,
-    "explanation": "Upstream speed is $\\frac{24}{3} = 8$ mph and downstream speed is $\\frac{24}{2} = 12$ mph. If $b$ is the boat speed and $c$ the current, $b - c = 8$ and $b + c = 12$. Adding gives $2b = 20$, so $b = 10$ mph.",
+    "explanation": "Upstream speed is (24/3) = 8 mph and downstream speed is (24/2) = 12 mph. If b is the boat speed and c the current, b - c = 8 and b + c = 12. Adding gives 2b = 20, so b = 10 mph.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20295,7 +20295,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "Let $p$ be packs of pens and $q$ packs of pencils. Then $p + q = 10$ and $8p + 6q = 68$. Substituting $q = 10 - p$: $8p + 6(10 - p) = 68$, so $2p + 60 = 68$, $2p = 8$, and $p = 4$.",
+    "explanation": "Let p be packs of pens and q packs of pencils. Then p + q = 10 and 8p + 6q = 68. Substituting q = 10 - p: 8p + 6(10 - p) = 68, so 2p + 60 = 68, 2p = 8, and p = 4.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20313,7 +20313,7 @@
       "58"
     ],
     "correctIndex": 2,
-    "explanation": "Let the tens digit be $t$ and the units digit be $u$. Then $(10t + u) + (10u + t) = 11(t + u) = 121$, so $t + u = 11$. With $t - u = 3$ (tens digit larger), adding gives $2t = 14$, $t = 7$, $u = 4$. The number is 74.",
+    "explanation": "Let the tens digit be t and the units digit be u. Then (10t + u) + (10u + t) = 11(t + u) = 121, so t + u = 11. With t - u = 3 (tens digit larger), adding gives 2t = 14, t = 7, u = 4. The number is 74.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20331,7 +20331,7 @@
       "35"
     ],
     "correctIndex": 1,
-    "explanation": "Let the distance be $d$. Then $\\frac{d}{15} + \\frac{d}{10} = 5$. Multiplying by 30: $2d + 3d = 150$, so $5d = 150$ and $d = 30$.",
+    "explanation": "Let the distance be d. Then (d/15) + (d/10) = 5. Multiplying by 30: 2d + 3d = 150, so 5d = 150 and d = 30.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20349,7 +20349,7 @@
       "9"
     ],
     "correctIndex": 2,
-    "explanation": "Let the son's age be $s$; the father is $4s$. In 12 years: $4s + 12 = 2(s + 12)$, so $4s + 12 = 2s + 24$, $2s = 12$, and $s = 6$.",
+    "explanation": "Let the son's age be s; the father is 4s. In 12 years: 4s + 12 = 2(s + 12), so 4s + 12 = 2s + 24, 2s = 12, and s = 6.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20359,7 +20359,7 @@
   },
   {
     "id": "9db4bb0b-27ed-4826-981b-88607669b932",
-    "text": "If $|2x - 3| = 7$, what is the sum of all possible values of $x$?",
+    "text": "If |2x - 3| = 7, what is the sum of all possible values of x?",
     "options": [
       "5",
       "4",
@@ -20367,7 +20367,7 @@
       "2"
     ],
     "correctIndex": 2,
-    "explanation": "Either $2x - 3 = 7$, giving $x = 5$, or $2x - 3 = -7$, giving $x = -2$. The sum is $5 + (-2) = 3$.",
+    "explanation": "Either 2x - 3 = 7, giving x = 5, or 2x - 3 = -7, giving x = -2. The sum is 5 + (-2) = 3.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20377,7 +20377,7 @@
   },
   {
     "id": "1c453b5d-7c21-44da-99e8-a7d94f1ced1e",
-    "text": "How many integer values of $x$ satisfy $-3 < 2x - 1 \\leq 7$?",
+    "text": "How many integer values of x satisfy -3 < 2x - 1 ≤ 7?",
     "options": [
       "5",
       "3",
@@ -20385,7 +20385,7 @@
       "4"
     ],
     "correctIndex": 0,
-    "explanation": "Add 1: $-2 < 2x \\leq 8$. Divide by 2: $-1 < x \\leq 4$. The integers are $0, 1, 2, 3, 4$, a total of 5 values.",
+    "explanation": "Add 1: -2 < 2x ≤ 8. Divide by 2: -1 < x ≤ 4. The integers are 0, 1, 2, 3, 4, a total of 5 values.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20395,7 +20395,7 @@
   },
   {
     "id": "cdf92ef1-7cad-429d-b434-f1db6f6d3160",
-    "text": "A delivery company charges 8 dollars plus 2 dollars per mile for the first 10 miles, then 1 dollar per mile after that. For a delivery of $m$ miles with $m > 10$, the charge is 38 dollars. What is $m$?",
+    "text": "A delivery company charges 8 dollars plus 2 dollars per mile for the first 10 miles, then 1 dollar per mile after that. For a delivery of m miles with m > 10, the charge is 38 dollars. What is m?",
     "options": [
       "22",
       "18",
@@ -20403,7 +20403,7 @@
       "20"
     ],
     "correctIndex": 3,
-    "explanation": "For $m > 10$, the charge is $8 + 2(10) + 1(m - 10) = 28 + m - 10 = 18 + m$. Setting $18 + m = 38$ gives $m = 20$.",
+    "explanation": "For m > 10, the charge is 8 + 2(10) + 1(m - 10) = 28 + m - 10 = 18 + m. Setting 18 + m = 38 gives m = 20.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20413,15 +20413,15 @@
   },
   {
     "id": "c872b312-c75e-4dff-9f49-093f4cf9f645",
-    "text": "The line $y = mx + 2$ is perpendicular to the line $y = -\\frac{1}{2}x + 9$ and passes through $(4, 10)$. What is the value of $m$?",
+    "text": "The line y = mx + 2 is perpendicular to the line y = -(1/2)x + 9 and passes through (4, 10). What is the value of m?",
     "options": [
-      "$-2$",
-      "$\\frac{1}{2}$",
+      "-2",
+      "(1/2)",
       "4",
       "2"
     ],
     "correctIndex": 3,
-    "explanation": "Perpendicular slopes are negative reciprocals: the slope of $y = -\\frac{1}{2}x + 9$ is $-\\frac{1}{2}$, so $m = 2$. Check: $10 = 2(4) + 2$.",
+    "explanation": "Perpendicular slopes are negative reciprocals: the slope of y = -(1/2)x + 9 is -(1/2), so m = 2. Check: 10 = 2(4) + 2.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20431,7 +20431,7 @@
   },
   {
     "id": "27196853-de1c-4b22-b92f-534c42c77036",
-    "text": "If $f(x) = \\frac{3x - 1}{x + 2}$ and $f(a) = 2$, what is the value of $a$?",
+    "text": "If f(x) = (3x - 1/x + 2) and f(a) = 2, what is the value of a?",
     "options": [
       "5",
       "4",
@@ -20439,7 +20439,7 @@
       "3"
     ],
     "correctIndex": 0,
-    "explanation": "Set $\\frac{3a - 1}{a + 2} = 2$. Then $3a - 1 = 2a + 4$, so $a = 5$.",
+    "explanation": "Set (3a - 1/a + 2) = 2. Then 3a - 1 = 2a + 4, so a = 5.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20449,7 +20449,7 @@
   },
   {
     "id": "ca8488e6-e7fd-485e-981d-e0d06ead2868",
-    "text": "The points $(-1, 3)$, $(2, 9)$, and $(5, 15)$ lie on the graph of a linear function $f$. What is the value of $f(-4)$?",
+    "text": "The points (-1, 3), (2, 9), and (5, 15) lie on the graph of a linear function f. What is the value of f(-4)?",
     "options": [
       "-1",
       "-5",
@@ -20457,7 +20457,7 @@
       "-3"
     ],
     "correctIndex": 3,
-    "explanation": "The slope is $\\frac{9-3}{2-(-1)} = 2$, so $f(x) = 2x + b$; from $(-1, 3)$, $3 = -2 + b$, so $b = 5$ and $f(x) = 2x + 5$. Then $f(-4) = -8 + 5 = -3$.",
+    "explanation": "The slope is (9-3/2-(-1)) = 2, so f(x) = 2x + b; from (-1, 3), 3 = -2 + b, so b = 5 and f(x) = 2x + 5. Then f(-4) = -8 + 5 = -3.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20467,7 +20467,7 @@
   },
   {
     "id": "f4f4a035-2b3a-4b91-8af9-b9e769bae814",
-    "text": "A line with slope $-2$ passes through $(3, -1)$. Another line, parallel to it, passes through $(0, 5)$. What is the $x$-intercept of the second line?",
+    "text": "A line with slope -2 passes through (3, -1). Another line, parallel to it, passes through (0, 5). What is the x-intercept of the second line?",
     "options": [
       "5",
       "3",
@@ -20475,7 +20475,7 @@
       "2"
     ],
     "correctIndex": 2,
-    "explanation": "The second line has slope $-2$ and $y$-intercept 5, so its equation is $y = -2x + 5$. Setting $y = 0$ gives $0 = -2x + 5$, so $x = 2.5$.",
+    "explanation": "The second line has slope -2 and y-intercept 5, so its equation is y = -2x + 5. Setting y = 0 gives 0 = -2x + 5, so x = 2.5.",
     "subject": "Math",
     "topic": "Algebra",
     "difficulty": "Hard",
@@ -20487,13 +20487,13 @@
     "id": "db54d287-a29c-4e20-9bc1-6d965a97a6ff",
     "text": "A circular rug has a radius of 6 feet. What is the area of the rug, in square feet?",
     "options": [
-      "$72\\pi$",
-      "$36\\pi$",
-      "$18\\pi$",
-      "$12\\pi$"
+      "72π",
+      "36π",
+      "18π",
+      "12π"
     ],
     "correctIndex": 1,
-    "explanation": "The area of a circle is $A=\\pi r^2$. With $r=6$, $A=\\pi(6)^2=36\\pi$ square feet.",
+    "explanation": "The area of a circle is A=π r². With r=6, A=π(6)²=36π square feet.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20511,7 +20511,7 @@
       "30"
     ],
     "correctIndex": 3,
-    "explanation": "The area of a triangle is $A=\\frac{1}{2}bh=\\frac{1}{2}(10)(6)=30$ square units.",
+    "explanation": "The area of a triangle is A=(1/2)bh=(1/2)(10)(6)=30 square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20529,7 +20529,7 @@
       "20"
     ],
     "correctIndex": 1,
-    "explanation": "The perimeter is $P=2(\\text{length}+\\text{width})=2(8+5)=2(13)=26$ units.",
+    "explanation": "The perimeter is P=2(length+width)=2(8+5)=2(13)=26 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20547,7 +20547,7 @@
       "25"
     ],
     "correctIndex": 0,
-    "explanation": "By the Pythagorean theorem, $c^2=3^2+4^2=9+16=25$, so $c=\\sqrt{25}=5$ units.",
+    "explanation": "By the Pythagorean theorem, c²=3²+4²=9+16=25, so c=√(25)=5 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20559,13 +20559,13 @@
     "id": "ef12205a-df64-46eb-903f-7d8282c4d220",
     "text": "In a 45-45-90 right triangle, each leg has length 7 units. What is the length of the hypotenuse?",
     "options": [
-      "$7\\sqrt{3}$",
+      "7√(3)",
       "14",
-      "$7\\sqrt{2}$",
+      "7√(2)",
       "7"
     ],
     "correctIndex": 2,
-    "explanation": "In a 45-45-90 triangle the hypotenuse is $\\text{leg}\\times\\sqrt{2}$, so the hypotenuse is $7\\sqrt{2}$ units.",
+    "explanation": "In a 45-45-90 triangle the hypotenuse is leg×√(2), so the hypotenuse is 7√(2) units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20583,7 +20583,7 @@
       "145°"
     ],
     "correctIndex": 0,
-    "explanation": "Complementary angles sum to 90 degrees, so the other angle is $90^\\circ-35^\\circ=55^\\circ$.",
+    "explanation": "Complementary angles sum to 90 degrees, so the other angle is 90°-35°=55°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20595,13 +20595,13 @@
     "id": "f876b845-1c9f-4946-b53e-669bf2862a81",
     "text": "A circle has a radius of 4 units. What is the circumference of the circle?",
     "options": [
-      "$16\\pi$",
-      "$12\\pi$",
-      "$4\\pi$",
-      "$8\\pi$"
+      "16π",
+      "12π",
+      "4π",
+      "8π"
     ],
     "correctIndex": 3,
-    "explanation": "The circumference is $C=2\\pi r=2\\pi(4)=8\\pi$ units.",
+    "explanation": "The circumference is C=2π r=2π(4)=8π units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20619,7 +20619,7 @@
       "72"
     ],
     "correctIndex": 1,
-    "explanation": "The area of a square is $A=s^2=9^2=81$ square units.",
+    "explanation": "The area of a square is A=s²=9²=81 square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20637,7 +20637,7 @@
       "7"
     ],
     "correctIndex": 2,
-    "explanation": "By the Pythagorean theorem, the other leg is $\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$ units.",
+    "explanation": "By the Pythagorean theorem, the other leg is √(13²-5²)=√(169-25)=√(144)=12 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20655,7 +20655,7 @@
       "60°"
     ],
     "correctIndex": 3,
-    "explanation": "The angles of a triangle sum to 180 degrees, so the third angle is $180^\\circ-70^\\circ-50^\\circ=60^\\circ$.",
+    "explanation": "The angles of a triangle sum to 180 degrees, so the third angle is 180°-70°-50°=60°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20667,13 +20667,13 @@
     "id": "62aa1fa2-d554-4d46-9848-a220fcacd86d",
     "text": "A right circular cylinder has a radius of 3 units and a height of 5 units. What is the volume of the cylinder?",
     "options": [
-      "$30\\pi$",
-      "$15\\pi$",
-      "$45\\pi$",
-      "$75\\pi$"
+      "30π",
+      "15π",
+      "45π",
+      "75π"
     ],
     "correctIndex": 2,
-    "explanation": "The volume is $V=\\pi r^2h=\\pi(3)^2(5)=45\\pi$ cubic units.",
+    "explanation": "The volume is V=π r²h=π(3)²(5)=45π cubic units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20683,15 +20683,15 @@
   },
   {
     "id": "66a435bc-9d06-4ec9-9844-740b1fd2e63b",
-    "text": "In a right triangle, the side opposite angle $A$ has length 3 units and the hypotenuse has length 5 units. What is $\\sin A$?",
+    "text": "In a right triangle, the side opposite angle A has length 3 units and the hypotenuse has length 5 units. What is sin A?",
     "options": [
-      "$\\frac{5}{3}$",
-      "$\\frac{3}{4}$",
-      "$\\frac{4}{5}$",
-      "$\\frac{3}{5}$"
+      "(5/3)",
+      "(3/4)",
+      "(4/5)",
+      "(3/5)"
     ],
     "correctIndex": 3,
-    "explanation": "$\\sin A=\\frac{\\text{opposite}}{\\text{hypotenuse}}=\\frac{3}{5}$.",
+    "explanation": "sin A=(opposite/hypotenuse)=(3/5).",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Easy",
@@ -20703,13 +20703,13 @@
     "id": "6b93c64c-60c0-4534-8d3a-9ec172fa4f6d",
     "text": "A sphere has a radius of 3 units. What is the volume of the sphere?",
     "options": [
-      "$36\\pi$",
-      "$12\\pi$",
-      "$27\\pi$",
-      "$108\\pi$"
+      "36π",
+      "12π",
+      "27π",
+      "108π"
     ],
     "correctIndex": 0,
-    "explanation": "The volume is $V=\\frac{4}{3}\\pi r^3=\\frac{4}{3}\\pi(3)^3=\\frac{4}{3}\\pi(27)=36\\pi$ cubic units.",
+    "explanation": "The volume is V=(4/3)π r³=(4/3)π(3)³=(4/3)π(27)=36π cubic units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20721,13 +20721,13 @@
     "id": "0a57ae0c-9849-4dc1-a1f9-65975037f858",
     "text": "A right circular cone has a radius of 4 units and a height of 9 units. What is the volume of the cone?",
     "options": [
-      "$36\\pi$",
-      "$144\\pi$",
-      "$48\\pi$",
-      "$16\\pi$"
+      "36π",
+      "144π",
+      "48π",
+      "16π"
     ],
     "correctIndex": 2,
-    "explanation": "The volume is $V=\\frac{1}{3}\\pi r^2h=\\frac{1}{3}\\pi(4)^2(9)=\\frac{1}{3}\\pi(144)=48\\pi$ cubic units.",
+    "explanation": "The volume is V=(1/3)π r²h=(1/3)π(4)²(9)=(1/3)π(144)=48π cubic units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20745,7 +20745,7 @@
       "38"
     ],
     "correctIndex": 2,
-    "explanation": "The area is $A=\\text{base}\\times\\text{height}=12\\times 7=84$ square units.",
+    "explanation": "The area is A=base×height=12× 7=84 square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20763,7 +20763,7 @@
       "110"
     ],
     "correctIndex": 1,
-    "explanation": "The area is $A=\\frac{1}{2}(\\text{base}_1+\\text{base}_2)h=\\frac{1}{2}(8+14)(5)=\\frac{1}{2}(22)(5)=55$ square units.",
+    "explanation": "The area is A=(1/2)(base₁+base₂)h=(1/2)(8+14)(5)=(1/2)(22)(5)=55 square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20775,13 +20775,13 @@
     "id": "42a10e91-c887-407e-90cf-1c7a7bdc1bda",
     "text": "In a 30-60-90 right triangle, the hypotenuse has length 12 units. What is the length of the longer leg?",
     "options": [
-      "$6\\sqrt{3}$",
-      "$12\\sqrt{3}$",
+      "6√(3)",
+      "12√(3)",
       "6",
-      "$6\\sqrt{2}$"
+      "6√(2)"
     ],
     "correctIndex": 0,
-    "explanation": "In a 30-60-90 triangle the short leg is half the hypotenuse, $6$, and the long leg is $\\text{short}\\times\\sqrt{3}=6\\sqrt{3}$ units.",
+    "explanation": "In a 30-60-90 triangle the short leg is half the hypotenuse, 6, and the long leg is short×√(3)=6√(3) units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20793,13 +20793,13 @@
     "id": "1364c320-1536-43ba-850c-c0d8b51b5134",
     "text": "A circle has a radius of 6 units. What is the length of an arc with a central angle of 60 degrees?",
     "options": [
-      "$3\\pi$",
-      "$\\pi$",
-      "$6\\pi$",
-      "$2\\pi$"
+      "3π",
+      "π",
+      "6π",
+      "2π"
     ],
     "correctIndex": 3,
-    "explanation": "Arc length is $s=2\\pi r\\cdot\\frac{\\theta}{360^\\circ}=2\\pi(6)\\cdot\\frac{60}{360}=12\\pi\\cdot\\frac{1}{6}=2\\pi$ units.",
+    "explanation": "Arc length is s=2π r·(θ/360°)=2π(6)·(60/360)=12π·(1/6)=2π units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20811,13 +20811,13 @@
     "id": "718d1aba-fefe-46bc-894f-4d81f0111be8",
     "text": "A circle has a radius of 8 units. What is the area of a sector with a central angle of 90 degrees?",
     "options": [
-      "$16\\pi$",
-      "$8\\pi$",
-      "$64\\pi$",
-      "$32\\pi$"
+      "16π",
+      "8π",
+      "64π",
+      "32π"
     ],
     "correctIndex": 0,
-    "explanation": "Sector area is $A=\\pi r^2\\cdot\\frac{\\theta}{360^\\circ}=\\pi(8)^2\\cdot\\frac{90}{360}=64\\pi\\cdot\\frac{1}{4}=16\\pi$ square units.",
+    "explanation": "Sector area is A=π r²·(θ/360°)=π(8)²·(90/360)=64π·(1/4)=16π square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20827,7 +20827,7 @@
   },
   {
     "id": "ba456b21-5609-43e8-ae19-2e56d383141f",
-    "text": "The equation of a circle is $(x-3)^2+(y+2)^2=25$. What is the radius of the circle?",
+    "text": "The equation of a circle is (x-3)²+(y+2)²=25. What is the radius of the circle?",
     "options": [
       "5",
       "25",
@@ -20835,7 +20835,7 @@
       "3"
     ],
     "correctIndex": 0,
-    "explanation": "The standard form is $(x-h)^2+(y-k)^2=r^2$, so $r^2=25$ and $r=\\sqrt{25}=5$ units.",
+    "explanation": "The standard form is (x-h)²+(y-k)²=r², so r²=25 and r=√(25)=5 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20845,15 +20845,15 @@
   },
   {
     "id": "a034ef89-8f49-46ad-b58c-14a714401840",
-    "text": "The equation of a circle is $(x-3)^2+(y+2)^2=25$. What is the center of the circle?",
+    "text": "The equation of a circle is (x-3)²+(y+2)²=25. What is the center of the circle?",
     "options": [
-      "$(3, 2)$",
-      "$(3, -2)$",
-      "$(-3, 2)$",
-      "$(-3, -2)$"
+      "(3, 2)",
+      "(3, -2)",
+      "(-3, 2)",
+      "(-3, -2)"
     ],
     "correctIndex": 1,
-    "explanation": "In $(x-h)^2+(y-k)^2=r^2$ the center is $(h,k)$. Here $h=3$ and $k=-2$, so the center is $(3,-2)$.",
+    "explanation": "In (x-h)²+(y-k)²=r² the center is (h,k). Here h=3 and k=-2, so the center is (3,-2).",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20871,7 +20871,7 @@
       "8"
     ],
     "correctIndex": 2,
-    "explanation": "The scale factor is $12\\div 4=3$, so the corresponding height is $6\\times 3=18$ units.",
+    "explanation": "The scale factor is 12÷ 4=3, so the corresponding height is 6× 3=18 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20884,12 +20884,12 @@
     "text": "In a right triangle, one acute angle measures 30 degrees and the hypotenuse has length 10 units. What is the length of the side opposite the 30-degree angle?",
     "options": [
       "10",
-      "$5\\sqrt{3}$",
+      "5√(3)",
       "5",
-      "$10\\sqrt{3}$"
+      "10√(3)"
     ],
     "correctIndex": 2,
-    "explanation": "$\\sin 30^\\circ=\\frac{\\text{opposite}}{10}=\\frac{1}{2}$, so the opposite side is $10\\times\\frac{1}{2}=5$ units.",
+    "explanation": "sin 30°=(opposite/10)=(1/2), so the opposite side is 10×(1/2)=5 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20901,13 +20901,13 @@
     "id": "4ec8831e-4f4a-4b6f-8519-a9df9cc1f3e5",
     "text": "In a right triangle, one acute angle measures 60 degrees and the hypotenuse has length 14 units. What is the length of the side adjacent to the 60-degree angle?",
     "options": [
-      "$7\\sqrt{3}$",
-      "$14\\sqrt{3}$",
+      "7√(3)",
+      "14√(3)",
       "7",
       "14"
     ],
     "correctIndex": 2,
-    "explanation": "$\\cos 60^\\circ=\\frac{\\text{adjacent}}{14}=\\frac{1}{2}$, so the adjacent side is $14\\times\\frac{1}{2}=7$ units.",
+    "explanation": "cos 60°=(adjacent/14)=(1/2), so the adjacent side is 14×(1/2)=7 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20919,13 +20919,13 @@
     "id": "6255041c-2270-4a4d-abff-380771019ba1",
     "text": "In a right triangle, one acute angle measures 45 degrees and the side adjacent to that angle has length 9 units. What is the length of the side opposite that angle?",
     "options": [
-      "$9\\sqrt{2}$",
+      "9√(2)",
       "9",
       "18",
-      "$\\frac{9}{2}$"
+      "(9/2)"
     ],
     "correctIndex": 1,
-    "explanation": "$\\tan 45^\\circ=\\frac{\\text{opposite}}{9}=1$, so the opposite side is $9\\times 1=9$ units.",
+    "explanation": "tan 45°=(opposite/9)=1, so the opposite side is 9× 1=9 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20943,7 +20943,7 @@
       "180°"
     ],
     "correctIndex": 1,
-    "explanation": "The interior-angle sum of an $n$-gon is $(n-2)\\times 180^\\circ$. For $n=5$, it is $(5-2)\\times 180^\\circ=3\\times 180^\\circ=540^\\circ$.",
+    "explanation": "The interior-angle sum of an n-gon is (n-2)× 180°. For n=5, it is (5-2)× 180°=3× 180°=540°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20961,7 +20961,7 @@
       "70°"
     ],
     "correctIndex": 3,
-    "explanation": "Same-side interior angles are supplementary, so the other angle is $180^\\circ-110^\\circ=70^\\circ$.",
+    "explanation": "Same-side interior angles are supplementary, so the other angle is 180°-110°=70°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20979,7 +20979,7 @@
       "70°"
     ],
     "correctIndex": 3,
-    "explanation": "An exterior angle equals the sum of the two remote interior angles, so the other remote angle is $120^\\circ-50^\\circ=70^\\circ$.",
+    "explanation": "An exterior angle equals the sum of the two remote interior angles, so the other remote angle is 120°-50°=70°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -20991,13 +20991,13 @@
     "id": "6d6720d6-cace-4013-a559-2b3c5b3eddc2",
     "text": "A right circular cylinder has a radius of 2 units and a height of 6 units. What is the total surface area of the cylinder, including both circular bases?",
     "options": [
-      "$16\\pi$",
-      "$48\\pi$",
-      "$24\\pi$",
-      "$32\\pi$"
+      "16π",
+      "48π",
+      "24π",
+      "32π"
     ],
     "correctIndex": 3,
-    "explanation": "Total surface area is $2\\pi r(r+h)=2\\pi(2)(2+6)=4\\pi(8)=32\\pi$ square units.",
+    "explanation": "Total surface area is 2π r(r+h)=2π(2)(2+6)=4π(8)=32π square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21009,13 +21009,13 @@
     "id": "38916b6c-685b-4a1f-bea7-b3805b33c0eb",
     "text": "A sphere has a radius of 5 units. What is the surface area of the sphere?",
     "options": [
-      "$100\\pi$",
-      "$50\\pi$",
-      "$25\\pi$",
-      "$125\\pi$"
+      "100π",
+      "50π",
+      "25π",
+      "125π"
     ],
     "correctIndex": 0,
-    "explanation": "Surface area is $A=4\\pi r^2=4\\pi(5)^2=4\\pi(25)=100\\pi$ square units.",
+    "explanation": "Surface area is A=4π r²=4π(5)²=4π(25)=100π square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21025,7 +21025,7 @@
   },
   {
     "id": "90d983d4-850d-418c-82b3-32972e571928",
-    "text": "What is the distance between the points $(0, 0)$ and $(6, 8)$ in the coordinate plane?",
+    "text": "What is the distance between the points (0, 0) and (6, 8) in the coordinate plane?",
     "options": [
       "14",
       "12",
@@ -21033,7 +21033,7 @@
       "10"
     ],
     "correctIndex": 3,
-    "explanation": "By the distance formula, $d=\\sqrt{(6-0)^2+(8-0)^2}=\\sqrt{36+64}=\\sqrt{100}=10$ units.",
+    "explanation": "By the distance formula, d=√((6-0)²+(8-0)²)=√(36+64)=√(100)=10 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21051,7 +21051,7 @@
       "108°"
     ],
     "correctIndex": 1,
-    "explanation": "The interior-angle sum is $(6-2)\\times 180^\\circ=720^\\circ$. Dividing by 6 equal angles gives $720^\\circ\\div 6=120^\\circ$.",
+    "explanation": "The interior-angle sum is (6-2)× 180°=720°. Dividing by 6 equal angles gives 720°÷ 6=120°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21069,7 +21069,7 @@
       "120"
     ],
     "correctIndex": 3,
-    "explanation": "The volume is $V=\\text{length}\\times\\text{width}\\times\\text{height}=4\\times 5\\times 6=120$ cubic units.",
+    "explanation": "The volume is V=length×width×height=4× 5× 6=120 cubic units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21087,7 +21087,7 @@
       "160°"
     ],
     "correctIndex": 2,
-    "explanation": "An inscribed angle is half the measure of its intercepted arc, and the central angle equals the arc measure, so the inscribed angle is $80^\\circ\\div 2=40^\\circ$.",
+    "explanation": "An inscribed angle is half the measure of its intercepted arc, and the central angle equals the arc measure, so the inscribed angle is 80°÷ 2=40°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21105,7 +21105,7 @@
       "140°"
     ],
     "correctIndex": 0,
-    "explanation": "The base angles are equal and sum with the vertex angle to 180 degrees, so each base angle is $(180^\\circ-40^\\circ)\\div 2=70^\\circ$.",
+    "explanation": "The base angles are equal and sum with the vertex angle to 180 degrees, so each base angle is (180°-40°)÷ 2=70°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21123,7 +21123,7 @@
       "34"
     ],
     "correctIndex": 0,
-    "explanation": "The area is $A=\\frac{1}{2}\\times 8\\times 15=60$ square units. (The hypotenuse is 17 units, but it is not needed for the area.)",
+    "explanation": "The area is A=(1/2)× 8× 15=60 square units. (The hypotenuse is 17 units, but it is not needed for the area.)",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21135,13 +21135,13 @@
     "id": "551287dc-a41c-4f63-a31c-93ad784904e9",
     "text": "A circle has a diameter of 14 units. What is the area of the circle?",
     "options": [
-      "$49\\pi$",
-      "$14\\pi$",
-      "$28\\pi$",
-      "$196\\pi$"
+      "49π",
+      "14π",
+      "28π",
+      "196π"
     ],
     "correctIndex": 0,
-    "explanation": "The radius is $14\\div 2=7$ units, so the area is $A=\\pi r^2=\\pi(7)^2=49\\pi$ square units.",
+    "explanation": "The radius is 14÷ 2=7 units, so the area is A=π r²=π(7)²=49π square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Medium",
@@ -21151,7 +21151,7 @@
   },
   {
     "id": "9f5bd2cc-07b5-4528-8707-08ef7bf39538",
-    "text": "In a right triangle, the side opposite angle $A$ has length 5 units and the hypotenuse has length 10 units. What is the measure of angle $A$?",
+    "text": "In a right triangle, the side opposite angle A has length 5 units and the hypotenuse has length 10 units. What is the measure of angle A?",
     "options": [
       "30°",
       "60°",
@@ -21159,7 +21159,7 @@
       "45°"
     ],
     "correctIndex": 0,
-    "explanation": "$\\sin A=\\frac{5}{10}=\\frac{1}{2}$, and $\\sin 30^\\circ=\\frac{1}{2}$, so angle $A$ measures $30^\\circ$.",
+    "explanation": "sin A=(5/10)=(1/2), and sin 30°=(1/2), so angle A measures 30°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21169,15 +21169,15 @@
   },
   {
     "id": "84ad6ef9-7aee-4539-b0fc-63208731bc17",
-    "text": "The equation of a circle is $x^2+y^2-6x+4y-12=0$. What is the radius of the circle?",
+    "text": "The equation of a circle is x²+y²-6x+4y-12=0. What is the radius of the circle?",
     "options": [
       "3",
       "4",
-      "$\\sqrt{13}$",
+      "√(13)",
       "5"
     ],
     "correctIndex": 3,
-    "explanation": "Complete the square: $x^2-6x+9+y^2+4y+4=12+9+4$, so $(x-3)^2+(y+2)^2=25$. Hence $r^2=25$ and $r=5$ units.",
+    "explanation": "Complete the square: x²-6x+9+y²+4y+4=12+9+4, so (x-3)²+(y+2)²=25. Hence r²=25 and r=5 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21187,7 +21187,7 @@
   },
   {
     "id": "8b5a9738-6fbe-4ffb-985a-7b44aec4ef0d",
-    "text": "A circle has a radius of 8 units. An arc of the circle has length $4\\pi$ units. What is the measure, in degrees, of the central angle of the arc?",
+    "text": "A circle has a radius of 8 units. An arc of the circle has length 4π units. What is the measure, in degrees, of the central angle of the arc?",
     "options": [
       "90°",
       "180°",
@@ -21195,7 +21195,7 @@
       "45°"
     ],
     "correctIndex": 0,
-    "explanation": "Arc length is $s=r\\theta$ with $\\theta$ in radians, so $\\theta=\\frac{4\\pi}{8}=\\frac{\\pi}{2}$ radians, which is $90^\\circ$.",
+    "explanation": "Arc length is s=rθ with θ in radians, so θ=(4π/8)=(π/2) radians, which is 90°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21213,7 +21213,7 @@
       "10"
     ],
     "correctIndex": 0,
-    "explanation": "The scale factor is $25\\div 5=5$, so the shorter leg is $3\\times 5=15$ units.",
+    "explanation": "The scale factor is 25÷ 5=5, so the shorter leg is 3× 5=15 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21225,13 +21225,13 @@
     "id": "d8d94f04-5a90-4d1a-a021-40cd755429f0",
     "text": "A surveyor stands 20 meters from the base of a vertical tower and measures the angle of elevation to the top of the tower to be 30 degrees. What is the height of the tower, in meters?",
     "options": [
-      "$20\\sqrt{3}$",
+      "20√(3)",
       "20",
-      "$\\frac{20\\sqrt{3}}{3}$",
-      "$10\\sqrt{3}$"
+      "(20√(3)/3)",
+      "10√(3)"
     ],
     "correctIndex": 2,
-    "explanation": "$\\tan 30^\\circ=\\frac{\\text{height}}{20}=\\frac{1}{\\sqrt{3}}$, so the height is $\\frac{20}{\\sqrt{3}}=\\frac{20\\sqrt{3}}{3}$ meters.",
+    "explanation": "tan 30°=(height/20)=(1/√(3)), so the height is (20/√(3))=(20√(3)/3) meters.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21249,7 +21249,7 @@
       "10"
     ],
     "correctIndex": 0,
-    "explanation": "The exterior angles of any polygon sum to 360 degrees, so the number of sides is $360^\\circ\\div 30^\\circ=12$.",
+    "explanation": "The exterior angles of any polygon sum to 360 degrees, so the number of sides is 360°÷ 30°=12.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21267,7 +21267,7 @@
       "4"
     ],
     "correctIndex": 1,
-    "explanation": "Volume is proportional to $r^3$, so doubling $r$ multiplies the volume by $2^3=8$.",
+    "explanation": "Volume is proportional to r³, so doubling r multiplies the volume by 2³=8.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21285,7 +21285,7 @@
       "20"
     ],
     "correctIndex": 3,
-    "explanation": "The area is $A=\\frac{1}{2}ab\\sin C=\\frac{1}{2}(8)(10)\\sin 30^\\circ=40\\times\\frac{1}{2}=20$ square units.",
+    "explanation": "The area is A=(1/2)absin C=(1/2)(8)(10)sin 30°=40×(1/2)=20 square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21303,7 +21303,7 @@
       "42"
     ],
     "correctIndex": 1,
-    "explanation": "The horizontal overhang on each side is $(18-10)\\div 2=4$ units, so each non-parallel side is $\\sqrt{4^2+3^2}=\\sqrt{25}=5$ units. The perimeter is $10+18+5+5=38$ units.",
+    "explanation": "The horizontal overhang on each side is (18-10)÷ 2=4 units, so each non-parallel side is √(4²+3²)=√(25)=5 units. The perimeter is 10+18+5+5=38 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21321,7 +21321,7 @@
       "70°"
     ],
     "correctIndex": 3,
-    "explanation": "An inscribed angle is half the measure of its intercepted arc, so it is $140^\\circ\\div 2=70^\\circ$.",
+    "explanation": "An inscribed angle is half the measure of its intercepted arc, so it is 140°÷ 2=70°.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21333,13 +21333,13 @@
     "id": "78a80921-4d20-46bc-bd0c-1bf8068685e2",
     "text": "A right circular cone has a slant height of 13 units and a radius of 5 units. What is the volume of the cone?",
     "options": [
-      "$130\\pi$",
-      "$60\\pi$",
-      "$100\\pi$",
-      "$65\\pi$"
+      "130π",
+      "60π",
+      "100π",
+      "65π"
     ],
     "correctIndex": 2,
-    "explanation": "First find the height: $h=\\sqrt{13^2-5^2}=\\sqrt{169-25}=\\sqrt{144}=12$ units. Then $V=\\frac{1}{3}\\pi r^2h=\\frac{1}{3}\\pi(25)(12)=100\\pi$ cubic units.",
+    "explanation": "First find the height: h=√(13²-5²)=√(169-25)=√(144)=12 units. Then V=(1/3)π r²h=(1/3)π(25)(12)=100π cubic units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21351,13 +21351,13 @@
     "id": "00efbbf3-04bc-421b-a525-86a6ac58cab4",
     "text": "A square has a side length of 10 units. A circle is inscribed in the square, touching all four sides. What is the area of the region inside the square but outside the circle?",
     "options": [
-      "$25\\pi$",
-      "$100-50\\pi$",
-      "$100-10\\pi$",
-      "$100-25\\pi$"
+      "25π",
+      "100-50π",
+      "100-10π",
+      "100-25π"
     ],
     "correctIndex": 3,
-    "explanation": "The square has area $10^2=100$. The inscribed circle has radius $10\\div 2=5$, so its area is $\\pi(5)^2=25\\pi$. The shaded region is $100-25\\pi$ square units.",
+    "explanation": "The square has area 10²=100. The inscribed circle has radius 10÷ 2=5, so its area is π(5)²=25π. The shaded region is 100-25π square units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21367,15 +21367,15 @@
   },
   {
     "id": "6e211ce7-c38e-4db6-a700-acfaa1ea5bc9",
-    "text": "In a right triangle, one acute angle measures 60 degrees and the side opposite that angle has length $6\\sqrt{3}$ units. What is the length of the hypotenuse?",
+    "text": "In a right triangle, one acute angle measures 60 degrees and the side opposite that angle has length 6√(3) units. What is the length of the hypotenuse?",
     "options": [
       "6",
-      "$6\\sqrt{2}$",
+      "6√(2)",
       "12",
       "18"
     ],
     "correctIndex": 2,
-    "explanation": "$\\sin 60^\\circ=\\frac{6\\sqrt{3}}{\\text{hypotenuse}}=\\frac{\\sqrt{3}}{2}$, so the hypotenuse is $6\\sqrt{3}\\div\\frac{\\sqrt{3}}{2}=12$ units.",
+    "explanation": "sin 60°=(6√(3)/hypotenuse)=(√(3)/2), so the hypotenuse is 6√(3)÷(√(3)/2)=12 units.",
     "subject": "Math",
     "topic": "Geometry & Trigonometry",
     "difficulty": "Hard",
@@ -21385,7 +21385,7 @@
   },
   {
     "id": "0a9146f3-ffad-4b24-a5ab-79e3412ffadb",
-    "text": "Let $f(x) = x^2 - 5x + 6$. What is the value of $f(4)$?",
+    "text": "Let f(x) = x² - 5x + 6. What is the value of f(4)?",
     "options": [
       "2",
       "-2",
@@ -21393,7 +21393,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "Substitute $x = 4$: $f(4) = 4^2 - 5(4) + 6 = 16 - 20 + 6 = 2$.",
+    "explanation": "Substitute x = 4: f(4) = 4² - 5(4) + 6 = 16 - 20 + 6 = 2.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21403,15 +21403,15 @@
   },
   {
     "id": "fc6375ff-cd7f-4e0b-b20a-1f410a80a621",
-    "text": "What are the solutions to the equation $x^2 + 7x + 12 = 0$?",
+    "text": "What are the solutions to the equation x² + 7x + 12 = 0?",
     "options": [
-      "$x = -3$ and $x = -4$",
-      "$x = 3$ and $x = 4$",
-      "$x = -3$ and $x = 4$",
-      "$x = 3$ and $x = -4$"
+      "x = -3 and x = -4",
+      "x = 3 and x = 4",
+      "x = -3 and x = 4",
+      "x = 3 and x = -4"
     ],
     "correctIndex": 0,
-    "explanation": "Factor: $x^2 + 7x + 12 = (x + 3)(x + 4)$, since $3 + 4 = 7$ and $3 \\cdot 4 = 12$. Setting each factor equal to zero gives $x = -3$ and $x = -4$.",
+    "explanation": "Factor: x² + 7x + 12 = (x + 3)(x + 4), since 3 + 4 = 7 and 3 · 4 = 12. Setting each factor equal to zero gives x = -3 and x = -4.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21421,15 +21421,15 @@
   },
   {
     "id": "86b3403b-dfdb-425b-81fe-11830032ffc5",
-    "text": "What is the vertex of the parabola given by $y = x^2 - 6x + 5$?",
+    "text": "What is the vertex of the parabola given by y = x² - 6x + 5?",
     "options": [
-      "$(-3, -4)$",
-      "$(3, -4)$",
-      "$(3, 14)$",
-      "$(-3, 4)$"
+      "(-3, -4)",
+      "(3, -4)",
+      "(3, 14)",
+      "(-3, 4)"
     ],
     "correctIndex": 1,
-    "explanation": "The $x$-coordinate of the vertex is $-b/(2a) = -(-6)/(2 \\cdot 1) = 3$. Then $y = 3^2 - 6(3) + 5 = 9 - 18 + 5 = -4$, so the vertex is $(3, -4)$.",
+    "explanation": "The x-coordinate of the vertex is -b/(2a) = -(-6)/(2 · 1) = 3. Then y = 3² - 6(3) + 5 = 9 - 18 + 5 = -4, so the vertex is (3, -4).",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21439,15 +21439,15 @@
   },
   {
     "id": "66bf77b1-22e3-43a7-b8da-4a2a0d16772f",
-    "text": "Which of the following is equivalent to $(x + 3)(x - 5)$?",
+    "text": "Which of the following is equivalent to (x + 3)(x - 5)?",
     "options": [
-      "$x^2 - 8x - 15$",
-      "$x^2 + 2x - 15$",
-      "$x^2 - 2x + 15$",
-      "$x^2 - 2x - 15$"
+      "x² - 8x - 15",
+      "x² + 2x - 15",
+      "x² - 2x + 15",
+      "x² - 2x - 15"
     ],
     "correctIndex": 3,
-    "explanation": "Expand: $(x + 3)(x - 5) = x^2 - 5x + 3x - 15 = x^2 - 2x - 15$.",
+    "explanation": "Expand: (x + 3)(x - 5) = x² - 5x + 3x - 15 = x² - 2x - 15.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21457,7 +21457,7 @@
   },
   {
     "id": "8ef90b99-f8ce-48bc-ad74-8306b26ab80f",
-    "text": "What is the value of $x$ that satisfies $2^x = 32$?",
+    "text": "What is the value of x that satisfies 2ˣ = 32?",
     "options": [
       "16",
       "4",
@@ -21465,7 +21465,7 @@
       "6"
     ],
     "correctIndex": 2,
-    "explanation": "Write 32 as a power of 2: $32 = 2^5$. So $2^x = 2^5$, and therefore $x = 5$.",
+    "explanation": "Write 32 as a power of 2: 32 = 2⁵. So 2ˣ = 2⁵, and therefore x = 5.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21475,7 +21475,7 @@
   },
   {
     "id": "480f7ba9-6bc8-4fa1-b834-285b6befca53",
-    "text": "Let $f(x) = x^2 + 1$ and $g(x) = 2x - 1$. What is the value of $f(g(2))$?",
+    "text": "Let f(x) = x² + 1 and g(x) = 2x - 1. What is the value of f(g(2))?",
     "options": [
       "5",
       "17",
@@ -21483,7 +21483,7 @@
       "4"
     ],
     "correctIndex": 2,
-    "explanation": "First $g(2) = 2(2) - 1 = 3$. Then $f(3) = 3^2 + 1 = 10$.",
+    "explanation": "First g(2) = 2(2) - 1 = 3. Then f(3) = 3² + 1 = 10.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21493,15 +21493,15 @@
   },
   {
     "id": "69f125e8-0892-462f-bbca-0829d0714a9e",
-    "text": "What are the solutions to the equation $x^2 - 9 = 0$?",
+    "text": "What are the solutions to the equation x² - 9 = 0?",
     "options": [
-      "$x = 9$ and $x = -9$",
-      "$x = 3$ only",
-      "$x = 0$ and $x = 9$",
-      "$x = 3$ and $x = -3$"
+      "x = 9 and x = -9",
+      "x = 3 only",
+      "x = 0 and x = 9",
+      "x = 3 and x = -3"
     ],
     "correctIndex": 3,
-    "explanation": "Factor as a difference of squares: $x^2 - 9 = (x - 3)(x + 3) = 0$, so $x = 3$ or $x = -3$.",
+    "explanation": "Factor as a difference of squares: x² - 9 = (x - 3)(x + 3) = 0, so x = 3 or x = -3.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21511,15 +21511,15 @@
   },
   {
     "id": "8dd7dded-c57e-41dc-83c1-258fb7c8fbaa",
-    "text": "For $x \\ne 2$, which expression is equivalent to $\\frac{x^2 - 4}{x - 2}$?",
+    "text": "For x ≠ 2, which expression is equivalent to (x² - 4/x - 2)?",
     "options": [
-      "$x^2 + 2$",
-      "$x + 2$",
-      "$x - 2$",
-      "$x + 4$"
+      "x² + 2",
+      "x + 2",
+      "x - 2",
+      "x + 4"
     ],
     "correctIndex": 1,
-    "explanation": "Factor the numerator: $x^2 - 4 = (x - 2)(x + 2)$. Cancelling the factor $x - 2$ (which is nonzero) leaves $x + 2$.",
+    "explanation": "Factor the numerator: x² - 4 = (x - 2)(x + 2). Cancelling the factor x - 2 (which is nonzero) leaves x + 2.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21529,7 +21529,7 @@
   },
   {
     "id": "cbbbbba7-5011-46ba-8e6c-fe3e990b158b",
-    "text": "If $y = 3^x$, what is the value of $y$ when $x = 3$?",
+    "text": "If y = 3ˣ, what is the value of y when x = 3?",
     "options": [
       "27",
       "81",
@@ -21537,7 +21537,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "Substitute $x = 3$: $y = 3^3 = 3 \\cdot 3 \\cdot 3 = 27$.",
+    "explanation": "Substitute x = 3: y = 3³ = 3 · 3 · 3 = 27.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21547,7 +21547,7 @@
   },
   {
     "id": "ca136a27-f4d1-4a3e-929b-a56076244826",
-    "text": "How many distinct real solutions does the equation $x^2 + 4x + 4 = 0$ have?",
+    "text": "How many distinct real solutions does the equation x² + 4x + 4 = 0 have?",
     "options": [
       "2",
       "Infinitely many",
@@ -21555,7 +21555,7 @@
       "1"
     ],
     "correctIndex": 3,
-    "explanation": "The discriminant is $b^2 - 4ac = 4^2 - 4(1)(4) = 16 - 16 = 0$. A discriminant of 0 means one distinct (double) real solution; indeed $x^2 + 4x + 4 = (x + 2)^2$, so $x = -2$.",
+    "explanation": "The discriminant is b² - 4ac = 4² - 4(1)(4) = 16 - 16 = 0. A discriminant of 0 means one distinct (double) real solution; indeed x² + 4x + 4 = (x + 2)², so x = -2.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Easy",
@@ -21565,15 +21565,15 @@
   },
   {
     "id": "97216f53-40af-4092-8745-b7380ee3bb0c",
-    "text": "What is the vertex of the parabola given by $y = x^2 + 8x + 15$?",
+    "text": "What is the vertex of the parabola given by y = x² + 8x + 15?",
     "options": [
-      "$(4, 47)$",
-      "$(4, -1)$",
-      "$(-4, -1)$",
-      "$(-4, 15)$"
+      "(4, 47)",
+      "(4, -1)",
+      "(-4, -1)",
+      "(-4, 15)"
     ],
     "correctIndex": 2,
-    "explanation": "The $x$-coordinate of the vertex is $-b/(2a) = -8/2 = -4$. Then $y = (-4)^2 + 8(-4) + 15 = 16 - 32 + 15 = -1$, so the vertex is $(-4, -1)$.",
+    "explanation": "The x-coordinate of the vertex is -b/(2a) = -8/2 = -4. Then y = (-4)² + 8(-4) + 15 = 16 - 32 + 15 = -1, so the vertex is (-4, -1).",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21583,7 +21583,7 @@
   },
   {
     "id": "f3f45d7a-57e2-4886-afca-0345556f32c4",
-    "text": "What is the larger solution to the equation $x^2 - 5x - 14 = 0$?",
+    "text": "What is the larger solution to the equation x² - 5x - 14 = 0?",
     "options": [
       "-2",
       "14",
@@ -21591,7 +21591,7 @@
       "2"
     ],
     "correctIndex": 2,
-    "explanation": "Factor: $x^2 - 5x - 14 = (x - 7)(x + 2)$, since $-7 + 2 = -5$ and $(-7)(2) = -14$. The solutions are $x = 7$ and $x = -2$; the larger is 7.",
+    "explanation": "Factor: x² - 5x - 14 = (x - 7)(x + 2), since -7 + 2 = -5 and (-7)(2) = -14. The solutions are x = 7 and x = -2; the larger is 7.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21601,7 +21601,7 @@
   },
   {
     "id": "288b2ed5-510d-4b17-9102-e658a2875e82",
-    "text": "What is the sum of the solutions to the equation $2x^2 - 8x + 6 = 0$?",
+    "text": "What is the sum of the solutions to the equation 2x² - 8x + 6 = 0?",
     "options": [
       "-4",
       "8",
@@ -21609,7 +21609,7 @@
       "3"
     ],
     "correctIndex": 2,
-    "explanation": "For $ax^2 + bx + c = 0$, the sum of the roots is $-b/a$. Here $-(-8)/2 = 8/2 = 4$. (Check: dividing by 2 gives $x^2 - 4x + 3 = (x-1)(x-3)$, roots 1 and 3, sum 4.)",
+    "explanation": "For ax² + bx + c = 0, the sum of the roots is -b/a. Here -(-8)/2 = 8/2 = 4. (Check: dividing by 2 gives x² - 4x + 3 = (x-1)(x-3), roots 1 and 3, sum 4.)",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21619,15 +21619,15 @@
   },
   {
     "id": "afb03b8f-8514-4360-afe3-1e5126217993",
-    "text": "For $x \\ne 2$, which expression is equivalent to $\\frac{x^2 - 5x + 6}{x - 2}$?",
+    "text": "For x ≠ 2, which expression is equivalent to (x² - 5x + 6/x - 2)?",
     "options": [
-      "$x + 3$",
-      "$x - 3$",
-      "$x^2 - 3$",
-      "$x - 2$"
+      "x + 3",
+      "x - 3",
+      "x² - 3",
+      "x - 2"
     ],
     "correctIndex": 1,
-    "explanation": "Factor the numerator: $x^2 - 5x + 6 = (x - 2)(x - 3)$. Cancelling $x - 2$ leaves $x - 3$.",
+    "explanation": "Factor the numerator: x² - 5x + 6 = (x - 2)(x - 3). Cancelling x - 2 leaves x - 3.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21637,7 +21637,7 @@
   },
   {
     "id": "152d3302-51f9-4d8c-838a-522e8caadebd",
-    "text": "What is the value of $x$ that satisfies $3^{2x} = 81$?",
+    "text": "What is the value of x that satisfies 3²ˣ = 81?",
     "options": [
       "8",
       "2",
@@ -21645,7 +21645,7 @@
       "4"
     ],
     "correctIndex": 1,
-    "explanation": "Write 81 as a power of 3: $81 = 3^4$. So $3^{2x} = 3^4$, giving $2x = 4$ and $x = 2$.",
+    "explanation": "Write 81 as a power of 3: 81 = 3⁴. So 3²ˣ = 3⁴, giving 2x = 4 and x = 2.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21655,7 +21655,7 @@
   },
   {
     "id": "d2066136-5aeb-4ab8-86a0-4ba746d6013e",
-    "text": "Let $f(x) = 2x + 3$. For what value of $x$ is $f(x) = 11$?",
+    "text": "Let f(x) = 2x + 3. For what value of x is f(x) = 11?",
     "options": [
       "8",
       "7",
@@ -21663,7 +21663,7 @@
       "4"
     ],
     "correctIndex": 3,
-    "explanation": "Set $2x + 3 = 11$. Subtracting 3 gives $2x = 8$, so $x = 4$.",
+    "explanation": "Set 2x + 3 = 11. Subtracting 3 gives 2x = 8, so x = 4.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21673,7 +21673,7 @@
   },
   {
     "id": "2537be5c-f8a7-4c9d-b7a3-948db9c8fc3f",
-    "text": "Let $f(x) = x^2 - 3$ and $g(x) = x + 2$. What is the value of $g(f(3))$?",
+    "text": "Let f(x) = x² - 3 and g(x) = x + 2. What is the value of g(f(3))?",
     "options": [
       "6",
       "11",
@@ -21681,7 +21681,7 @@
       "8"
     ],
     "correctIndex": 3,
-    "explanation": "First $f(3) = 3^2 - 3 = 6$. Then $g(6) = 6 + 2 = 8$.",
+    "explanation": "First f(3) = 3² - 3 = 6. Then g(6) = 6 + 2 = 8.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21691,7 +21691,7 @@
   },
   {
     "id": "c46dce2d-fa28-4797-a72f-a1e3d52321d9",
-    "text": "The graphs of $y = x^2$ and $y = 2x + 3$ intersect at two points. What is the $x$-coordinate of the intersection point in the first quadrant?",
+    "text": "The graphs of y = x² and y = 2x + 3 intersect at two points. What is the x-coordinate of the intersection point in the first quadrant?",
     "options": [
       "1",
       "-1",
@@ -21699,7 +21699,7 @@
       "2"
     ],
     "correctIndex": 2,
-    "explanation": "Set x² = 2x + 3, so x² - 2x - 3 = 0, or (x - 3)(x + 1) = 0. In the first quadrant, x must be positive, so x = 3.",
+    "explanation": "Set the expressions equal: x² = 2x + 3, so x² - 2x - 3 = 0, or (x - 3)(x + 1) = 0. Thus x = 3 or x = -1. The first-quadrant point has positive x, so x = 3 (where y = 9). So the answer is 3.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21709,7 +21709,7 @@
   },
   {
     "id": "a19d311c-233f-4777-92e9-7360fc558871",
-    "text": "How many real solutions does the equation $x^2 - 3x + 5 = 0$ have?",
+    "text": "How many real solutions does the equation x² - 3x + 5 = 0 have?",
     "options": [
       "2",
       "0",
@@ -21717,7 +21717,7 @@
       "Infinitely many"
     ],
     "correctIndex": 1,
-    "explanation": "The discriminant is $b^2 - 4ac = (-3)^2 - 4(1)(5) = 9 - 20 = -11$. A negative discriminant means no real solutions.",
+    "explanation": "The discriminant is b² - 4ac = (-3)² - 4(1)(5) = 9 - 20 = -11. A negative discriminant means no real solutions.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21727,7 +21727,7 @@
   },
   {
     "id": "a6a6b437-4b5a-4d12-b7d3-97e1310a0e10",
-    "text": "What is the value of $x$ that satisfies $5^{x+1} = 125$?",
+    "text": "What is the value of x that satisfies 5ˣ⁺¹ = 125?",
     "options": [
       "1",
       "3",
@@ -21735,7 +21735,7 @@
       "5"
     ],
     "correctIndex": 2,
-    "explanation": "Write 125 as a power of 5: $125 = 5^3$. So $5^{x+1} = 5^3$, giving $x + 1 = 3$ and $x = 2$.",
+    "explanation": "Write 125 as a power of 5: 125 = 5³. So 5ˣ⁺¹ = 5³, giving x + 1 = 3 and x = 2.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21745,15 +21745,15 @@
   },
   {
     "id": "eb097c4c-c27a-4c47-8e31-1000d0cc1f99",
-    "text": "Let $p(x) = x^3 - 4x^2 + 5x - 2$. Which of the following is a factor of $p(x)$?",
+    "text": "Let p(x) = x³ - 4x² + 5x - 2. Which of the following is a factor of p(x)?",
     "options": [
-      "$x + 1$",
-      "$x - 3$",
-      "$x - 2$",
-      "$x + 2$"
+      "x + 1",
+      "x - 3",
+      "x - 2",
+      "x + 2"
     ],
     "correctIndex": 2,
-    "explanation": "Evaluate at $x = 2$: $p(2) = 8 - 4(4) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0$. Since $p(2) = 0$, the Factor Theorem says $x - 2$ is a factor. (The others give $p(-2) = -36$, $p(3) = 4$, $p(-1) = -12$.)",
+    "explanation": "Evaluate at x = 2: p(2) = 8 - 4(4) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0. Since p(2) = 0, the Factor Theorem says x - 2 is a factor. (The others give p(-2) = -36, p(3) = 4, p(-1) = -12.)",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21763,15 +21763,15 @@
   },
   {
     "id": "fb7cd4d2-1768-49ad-812a-870f22bc58ca",
-    "text": "Which of the following is equivalent to $(2x + 1)(x - 4)$?",
+    "text": "Which of the following is equivalent to (2x + 1)(x - 4)?",
     "options": [
-      "$2x^2 - 9x - 4$",
-      "$2x^2 - 7x + 4$",
-      "$2x^2 + 7x - 4$",
-      "$2x^2 - 7x - 4$"
+      "2x² - 9x - 4",
+      "2x² - 7x + 4",
+      "2x² + 7x - 4",
+      "2x² - 7x - 4"
     ],
     "correctIndex": 3,
-    "explanation": "Expand: $(2x + 1)(x - 4) = 2x^2 - 8x + x - 4 = 2x^2 - 7x - 4$.",
+    "explanation": "Expand: (2x + 1)(x - 4) = 2x² - 8x + x - 4 = 2x² - 7x - 4.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21781,7 +21781,7 @@
   },
   {
     "id": "8509944c-ba78-462e-a5a3-b057dbd4e6eb",
-    "text": "What is the product of the solutions to the equation $x^2 - 3x - 10 = 0$?",
+    "text": "What is the product of the solutions to the equation x² - 3x - 10 = 0?",
     "options": [
       "3",
       "10",
@@ -21789,7 +21789,7 @@
       "-10"
     ],
     "correctIndex": 3,
-    "explanation": "For $ax^2 + bx + c = 0$, the product of the roots is $c/a$. Here $c/a = -10/1 = -10$. (Check: the equation factors as $(x - 5)(x + 2) = 0$, roots 5 and $-2$, product $-10$.)",
+    "explanation": "For ax² + bx + c = 0, the product of the roots is c/a. Here c/a = -10/1 = -10. (Check: the equation factors as (x - 5)(x + 2) = 0, roots 5 and -2, product -10.)",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21799,15 +21799,15 @@
   },
   {
     "id": "bcc6881b-3cc3-433d-8d2e-c3279df280ad",
-    "text": "Let $f(x) = x^2 - 2x$. Which expression is equivalent to $f(a + 1)$ in terms of $a$?",
+    "text": "Let f(x) = x² - 2x. Which expression is equivalent to f(a + 1) in terms of a?",
     "options": [
-      "$a^2 + 1$",
-      "$a^2 - 2a - 1$",
-      "$a^2 - 1$",
-      "$a^2 + 2a - 1$"
+      "a² + 1",
+      "a² - 2a - 1",
+      "a² - 1",
+      "a² + 2a - 1"
     ],
     "correctIndex": 2,
-    "explanation": "Substitute: $f(a+1) = (a+1)^2 - 2(a+1) = (a^2 + 2a + 1) - 2a - 2 = a^2 - 1$.",
+    "explanation": "Substitute: f(a+1) = (a+1)² - 2(a+1) = (a² + 2a + 1) - 2a - 2 = a² - 1.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21817,7 +21817,7 @@
   },
   {
     "id": "f880ac6f-5a88-4bae-a09c-36a9504093c3",
-    "text": "What is the value of $x$ that satisfies $\\frac{x}{x + 1} = \\frac{2}{3}$?",
+    "text": "What is the value of x that satisfies (x/x + 1) = (2/3)?",
     "options": [
       "-2",
       "2",
@@ -21825,7 +21825,7 @@
       "3"
     ],
     "correctIndex": 1,
-    "explanation": "Cross-multiply: $3x = 2(x + 1)$, so $3x = 2x + 2$ and $x = 2$. Check: $2/(2+1) = 2/3$.",
+    "explanation": "Cross-multiply: 3x = 2(x + 1), so 3x = 2x + 2 and x = 2. Check: 2/(2+1) = 2/3.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21835,7 +21835,7 @@
   },
   {
     "id": "e6a1fcc9-4d1c-43bc-bab1-e093e619ed4d",
-    "text": "What is the value of $x$ that satisfies $\\left(\\frac{1}{2}\\right)^x = \\frac{1}{16}$?",
+    "text": "What is the value of x that satisfies ((1/2))ˣ = (1/16)?",
     "options": [
       "2",
       "4",
@@ -21843,7 +21843,7 @@
       "-4"
     ],
     "correctIndex": 1,
-    "explanation": "Write $1/16$ as a power of $1/2$: $(1/2)^4 = 1/16$. So $x = 4$.",
+    "explanation": "Write 1/16 as a power of 1/2: (1/2)⁴ = 1/16. So x = 4.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21853,7 +21853,7 @@
   },
   {
     "id": "32920fca-ab90-48ac-a914-55c1952561d4",
-    "text": "For what value of $k$ does the equation $x^2 + 6x + k = 0$ have exactly one distinct real solution?",
+    "text": "For what value of k does the equation x² + 6x + k = 0 have exactly one distinct real solution?",
     "options": [
       "6",
       "36",
@@ -21861,7 +21861,7 @@
       "9"
     ],
     "correctIndex": 3,
-    "explanation": "Exactly one distinct real solution requires discriminant zero: $b^2 - 4ac = 36 - 4k = 0$, so $4k = 36$ and $k = 9$. Then the equation is $(x + 3)^2 = 0$.",
+    "explanation": "Exactly one distinct real solution requires discriminant zero: b² - 4ac = 36 - 4k = 0, so 4k = 36 and k = 9. Then the equation is (x + 3)² = 0.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21871,7 +21871,7 @@
   },
   {
     "id": "7be428c2-c320-4f3b-b16f-070f44047e31",
-    "text": "If $x + y = 5$ and $xy = 6$, what is the value of $x^2 + y^2$?",
+    "text": "If x + y = 5 and xy = 6, what is the value of x² + y²?",
     "options": [
       "19",
       "37",
@@ -21879,7 +21879,7 @@
       "13"
     ],
     "correctIndex": 3,
-    "explanation": "Use $(x + y)^2 = x^2 + 2xy + y^2$. So $x^2 + y^2 = (x + y)^2 - 2xy = 5^2 - 2(6) = 25 - 12 = 13$.",
+    "explanation": "Use (x + y)² = x² + 2xy + y². So x² + y² = (x + y)² - 2xy = 5² - 2(6) = 25 - 12 = 13.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21889,7 +21889,7 @@
   },
   {
     "id": "73675deb-8a34-4b70-ac26-15cc2f249ea5",
-    "text": "What is the maximum value of the function $f(x) = -x^2 + 4x + 1$?",
+    "text": "What is the maximum value of the function f(x) = -x² + 4x + 1?",
     "options": [
       "5",
       "4",
@@ -21897,7 +21897,7 @@
       "9"
     ],
     "correctIndex": 0,
-    "explanation": "The vertex is at $x = -b/(2a) = -4/(2 \\cdot -1) = 2$. Then $f(2) = -4 + 8 + 1 = 5$. Since the parabola opens downward, 5 is the maximum value.",
+    "explanation": "The vertex is at x = -b/(2a) = -4/(2 · -1) = 2. Then f(2) = -4 + 8 + 1 = 5. Since the parabola opens downward, 5 is the maximum value.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21907,7 +21907,7 @@
   },
   {
     "id": "2fd6741b-4ed5-431a-a93f-480fd7c016c4",
-    "text": "Let $f(x) = 3x - 2$ and $g(x) = x^2$. What is the value of $f(g(2))$?",
+    "text": "Let f(x) = 3x - 2 and g(x) = x². What is the value of f(g(2))?",
     "options": [
       "10",
       "34",
@@ -21915,7 +21915,7 @@
       "4"
     ],
     "correctIndex": 0,
-    "explanation": "First $g(2) = 2^2 = 4$. Then $f(4) = 3(4) - 2 = 10$.",
+    "explanation": "First g(2) = 2² = 4. Then f(4) = 3(4) - 2 = 10.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Medium",
@@ -21925,7 +21925,7 @@
   },
   {
     "id": "3112633b-b013-446b-963d-048fd2bc88b3",
-    "text": "If $x_1$ and $x_2$ are the solutions to $x^2 - 5x + 3 = 0$, what is the value of $x_1^2 + x_2^2$?",
+    "text": "If x₁ and x₂ are the solutions to x² - 5x + 3 = 0, what is the value of x₁² + x₂²?",
     "options": [
       "25",
       "13",
@@ -21933,7 +21933,7 @@
       "19"
     ],
     "correctIndex": 3,
-    "explanation": "By Vieta's formulas, $x_1 + x_2 = 5$ and $x_1 x_2 = 3$. Then $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 25 - 6 = 19$.",
+    "explanation": "By Vieta's formulas, x₁ + x₂ = 5 and x₁ x₂ = 3. Then x₁² + x₂² = (x₁ + x₂)² - 2x₁ x₂ = 25 - 6 = 19.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -21943,7 +21943,7 @@
   },
   {
     "id": "c75b4f22-b0fa-4e74-a9be-d6217159d8e1",
-    "text": "What is the value of $x$ that satisfies $2^x + 2^{x+1} = 24$?",
+    "text": "What is the value of x that satisfies 2ˣ + 2ˣ⁺¹ = 24?",
     "options": [
       "2",
       "5",
@@ -21951,7 +21951,7 @@
       "4"
     ],
     "correctIndex": 2,
-    "explanation": "Factor: $2^x + 2 \\cdot 2^x = 3 \\cdot 2^x = 24$, so $2^x = 8 = 2^3$ and $x = 3$.",
+    "explanation": "Factor: 2ˣ + 2 · 2ˣ = 3 · 2ˣ = 24, so 2ˣ = 8 = 2³ and x = 3.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -21961,7 +21961,7 @@
   },
   {
     "id": "117a324e-982e-4aaf-8cab-c7cbc4f452ab",
-    "text": "If $x^2 + y^2 = 25$ and $x + y = 7$, what is the value of $xy$?",
+    "text": "If x² + y² = 25 and x + y = 7, what is the value of xy?",
     "options": [
       "12",
       "24",
@@ -21969,7 +21969,7 @@
       "6"
     ],
     "correctIndex": 0,
-    "explanation": "Square the second equation: $(x + y)^2 = x^2 + 2xy + y^2 = 49$. Substituting $x^2 + y^2 = 25$ gives $25 + 2xy = 49$, so $2xy = 24$ and $xy = 12$.",
+    "explanation": "Square the second equation: (x + y)² = x² + 2xy + y² = 49. Substituting x² + y² = 25 gives 25 + 2xy = 49, so 2xy = 24 and xy = 12.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -21979,7 +21979,7 @@
   },
   {
     "id": "d4869251-e21e-46fc-815e-b86af4f526c9",
-    "text": "When $x^3 - 2x^2 + 3x - 4$ is divided by $x - 1$, what is the remainder?",
+    "text": "When x³ - 2x² + 3x - 4 is divided by x - 1, what is the remainder?",
     "options": [
       "-2",
       "2",
@@ -21987,7 +21987,7 @@
       "-4"
     ],
     "correctIndex": 0,
-    "explanation": "By the Remainder Theorem, the remainder is $p(1)$ where $p(x) = x^3 - 2x^2 + 3x - 4$. So $p(1) = 1 - 2 + 3 - 4 = -2$.",
+    "explanation": "By the Remainder Theorem, the remainder is p(1) where p(x) = x³ - 2x² + 3x - 4. So p(1) = 1 - 2 + 3 - 4 = -2.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -21997,7 +21997,7 @@
   },
   {
     "id": "0adc07cb-c6f4-41f2-a225-82fa4e2188d9",
-    "text": "What is the value of $x$ that satisfies $9^x - 3^x - 6 = 0$?",
+    "text": "What is the value of x that satisfies 9ˣ - 3ˣ - 6 = 0?",
     "options": [
       "1",
       "2",
@@ -22005,7 +22005,7 @@
       "3"
     ],
     "correctIndex": 0,
-    "explanation": "Let $t = 3^x$, so $9^x = t^2$. The equation becomes $t^2 - t - 6 = 0$, or $(t - 3)(t + 2) = 0$. Since $t = 3^x > 0$, $t = 3$, so $3^x = 3$ and $x = 1$.",
+    "explanation": "Let t = 3ˣ, so 9ˣ = t². The equation becomes t² - t - 6 = 0, or (t - 3)(t + 2) = 0. Since t = 3ˣ > 0, t = 3, so 3ˣ = 3 and x = 1.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -22015,7 +22015,7 @@
   },
   {
     "id": "98087893-49c1-4a91-aeaa-9581550b5463",
-    "text": "What is the sum of all solutions to the equation $4^x - 5 \\cdot 2^x + 4 = 0$?",
+    "text": "What is the sum of all solutions to the equation 4ˣ - 5 · 2ˣ + 4 = 0?",
     "options": [
       "1",
       "2",
@@ -22023,7 +22023,7 @@
       "5"
     ],
     "correctIndex": 1,
-    "explanation": "Let $t = 2^x$, so $4^x = t^2$. Then $t^2 - 5t + 4 = 0$, or $(t - 1)(t - 4) = 0$. So $2^x = 1$ gives $x = 0$, and $2^x = 4$ gives $x = 2$. The sum of the solutions is $0 + 2 = 2$.",
+    "explanation": "Let t = 2ˣ, so 4ˣ = t². Then t² - 5t + 4 = 0, or (t - 1)(t - 4) = 0. So 2ˣ = 1 gives x = 0, and 2ˣ = 4 gives x = 2. The sum of the solutions is 0 + 2 = 2.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -22033,7 +22033,7 @@
   },
   {
     "id": "dd8ee0c0-e081-4478-bd1d-b0119daad696",
-    "text": "The graphs of $y = x^2$ and $x + y = 6$ intersect at two points. What is the larger $y$-coordinate of these intersection points?",
+    "text": "The graphs of y = x² and x + y = 6 intersect at two points. What is the larger y-coordinate of these intersection points?",
     "options": [
       "36",
       "9",
@@ -22041,7 +22041,7 @@
       "6"
     ],
     "correctIndex": 1,
-    "explanation": "Substitute $y = 6 - x$ into $y = x^2$: $x^2 = 6 - x$, so $x^2 + x - 6 = 0$, or $(x + 3)(x - 2) = 0$. Thus $x = -3$ or $x = 2$. The corresponding $y$-values are $y = 6 - (-3) = 9$ and $y = 6 - 2 = 4$; the larger is 9.",
+    "explanation": "Substitute y = 6 - x into y = x²: x² = 6 - x, so x² + x - 6 = 0, or (x + 3)(x - 2) = 0. Thus x = -3 or x = 2. The corresponding y-values are y = 6 - (-3) = 9 and y = 6 - 2 = 4; the larger is 9.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -22051,7 +22051,7 @@
   },
   {
     "id": "8b5bb6dc-1460-41b0-8f35-e839d6cdea9b",
-    "text": "For what value of $k$ do the two solutions to $x^2 - 4x + k = 0$ differ by 2?",
+    "text": "For what value of k do the two solutions to x² - 4x + k = 0 differ by 2?",
     "options": [
       "0",
       "3",
@@ -22059,7 +22059,7 @@
       "4"
     ],
     "correctIndex": 1,
-    "explanation": "Let the roots be $r$ and $s$. Then $r + s = 4$ and $rs = k$. Since $(r - s)^2 = (r + s)^2 - 4rs$, we have $2^2 = 16 - 4k$, so $4k = 12$ and $k = 3$. (Check: $x^2 - 4x + 3 = (x-1)(x-3)$, roots 1 and 3, difference 2.)",
+    "explanation": "Let the roots be r and s. Then r + s = 4 and rs = k. Since (r - s)² = (r + s)² - 4rs, we have 2² = 16 - 4k, so 4k = 12 and k = 3. (Check: x² - 4x + 3 = (x-1)(x-3), roots 1 and 3, difference 2.)",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -22077,7 +22077,7 @@
       "16,000"
     ],
     "correctIndex": 0,
-    "explanation": "After 12 hours there are $12/3 = 4$ doubling periods. The population is $2{,}000 \\cdot 2^4 = 2{,}000 \\cdot 16 = 32{,}000$.",
+    "explanation": "After 12 hours there are 12/3 = 4 doubling periods. The population is 2,000 · 2⁴ = 2,000 · 16 = 32,000.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
@@ -22087,7 +22087,7 @@
   },
   {
     "id": "b5742a69-817d-43ae-9e67-55ae8a44aebc",
-    "text": "For what value of $a$ is the polynomial $x^3 - 2x^2 + ax + 6$ divisible by $x + 3$?",
+    "text": "For what value of a is the polynomial x³ - 2x² + ax + 6 divisible by x + 3?",
     "options": [
       "-13",
       "5",
@@ -22095,7 +22095,7 @@
       "13"
     ],
     "correctIndex": 0,
-    "explanation": "Divisibility by $x + 3$ requires $p(-3) = 0$, where $p(x) = x^3 - 2x^2 + ax + 6$. So $(-3)^3 - 2(-3)^2 + a(-3) + 6 = -27 - 18 - 3a + 6 = -39 - 3a = 0$, giving $a = -13$.",
+    "explanation": "Divisibility by x + 3 requires p(-3) = 0, where p(x) = x³ - 2x² + ax + 6. So (-3)³ - 2(-3)² + a(-3) + 6 = -27 - 18 - 3a + 6 = -39 - 3a = 0, giving a = -13.",
     "subject": "Math",
     "topic": "Advanced Math",
     "difficulty": "Hard",
