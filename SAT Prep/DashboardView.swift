@@ -5,6 +5,7 @@ import StoreKit
 
 struct DashboardView: View {
     @EnvironmentObject var appState: AppState
+    @Environment(\.openURL) private var openURL
     @State private var activeQuiz: PracticeView.QuizConfig? = nil
     
     // Interactive sheet triggers
@@ -180,6 +181,45 @@ struct DashboardView: View {
                                        subtitle: "Head to Practice to start your first quiz!")
                             .padding(.horizontal)
                     }
+
+                    // An optional, privacy-preserving path to celebrate a personal or
+                    // academic milestone. No student data is sent to Wishboard.
+                    Button {
+                        guard let url = URL(string: "https://www.thewishboard.com/WishboardCreate?utm_source=satprepbytes&utm_medium=ios_app&utm_campaign=milestone_card&ref=satprepbytes&context=sat-milestone") else { return }
+                        openURL(url)
+                    } label: {
+                        HStack(spacing: 14) {
+                            Image(systemName: "gift.fill")
+                                .font(.title2)
+                                .foregroundStyle(.purple)
+                                .frame(width: 44, height: 44)
+                                .background(Circle().fill(Color.purple.opacity(0.12)))
+
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text("Celebrate a milestone")
+                                    .font(.subheadline.bold())
+                                    .foregroundStyle(.primary)
+                                Text("Create a shared board for a birthday, graduation, thank-you, or any big moment.")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                                    .fixedSize(horizontal: false, vertical: true)
+                            }
+
+                            Spacer(minLength: 4)
+                            Image(systemName: "arrow.up.right")
+                                .font(.subheadline.weight(.semibold))
+                                .foregroundStyle(.purple)
+                        }
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 14).fill(Color.purple.opacity(0.08)))
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 14)
+                                .stroke(Color.purple.opacity(0.18), lineWidth: 1)
+                        )
+                        .padding(.horizontal)
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityLabel("Create a Wishboard to celebrate a milestone")
 
                     // Rate App Card
                     Button {
